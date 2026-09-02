@@ -1,0 +1,6 @@
+# Tagged files staged for upload — local only, never committed
+daily/
+# exiftool backups
+*_original
+__pycache__/
+*.pyc

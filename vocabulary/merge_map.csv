@@ -1,0 +1,42 @@
+from,to
+horse,Horses
+mine,Mines
+mines,Mines
+mountain,Mountains
+city,Cities
+wagon,Wagons
+car,Cars
+building,Buildings
+desert,Desert (deduped from deserts)
+man,Men
+panoramic,Panorama
+crowd,Crowds
+culvert,Culverts
+cesspool,Cesspools
+outhouse,Outhouses / Privies
+family,Families
+farm,Farming
+flooding,Flood
+train,Trains
+railroad,Railroads
+railroads,Railroads
+railway,Railroads
+railroad station,Train Station
+rail,Railroad Tracks
+tracks,Railroad Tracks
+denver,Denver & Rio Grande Railroad
+denver and rio grande,Denver & Rio Grande Railroad
+rio grande,Denver & Rio Grande Railroad
+sewage,Sewage Disposal
+disposal,Sewage Disposal
+sewer,Sewers
+drawing,Drawing / Sketch
+sketch,Drawing / Sketch
+dress,1910s Fashion
+dwellings,Houses
+smoke,Steam / Smoke
+steam,Steam / Smoke
+salt lake,"Salt Lake City, UT"
+caliente,"Caliente, NV"
+goldfield,"Goldfield, NV"
+san pedro,"San Pedro, CA"
