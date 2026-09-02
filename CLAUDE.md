@@ -43,22 +43,48 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 
 ## Known state
 
-As of the last sync: 248 rows, 111 still needing metadata. The sheet's own
-status columns have drifted (more rows marked in Lightroom than marked
-downloaded) — `audit` reports the real state from disk.
+As of 2026-09-02, read from the .xlsx export (see warning below):
+
+- **732 image rows** in the `NEW -Image_Source_Reference` tab, 35 archives
+- **465 still need metadata attached**
+- 709 rows carry a catalog ID; 707 are unique; 23 rows have none and are
+  stubbed `NEEDS-ID-nn` pending a real ID
+
+`In Lightroom = Yes` with `Downloaded` blank is **correct, not drift** — a
+number of images were already in Lightroom before this project began, so they
+were never downloaded as part of it. Do not "reconcile" those rows.
+
+## Reading the Google Sheet — important
+
+Do NOT read the master sheet through Drive's text/markdown conversion. It
+silently truncates: it reported 248 rows when the sheet actually has 732.
+Always export the real spreadsheet and parse it:
+
+```
+download_file_content(fileId, exportMimeType=
+  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+```
+
+then decode the base64 and read it with openpyxl. Row counts from any other
+path are not trustworthy.
+
+## Naming
+
+`Image ID` in Airtable is the **catalog ID verbatim** — that is the production's
+naming convention for every image and it stays short (median 9 characters).
+Do not build long composite names for it. The longer
+`ARCHIVE_catalogid_caption` form is used only for TIF filenames on disk, where
+the archive prefix is a deliberate second layer of provenance.
 
 ## Airtable base (tracking)
 
 `Las Vegas Documentary — Archival Images`
 - base `appD7Xn4PafIb2a6I`, table `Images` `tbln0l7r7Vhm51jxH`
-- 248 records, migrated from the Google Sheet on 2026-09-02
 
-Fields: Image ID (primary), Sequence, Category, Script Page, Archive,
-Catalog ID, Caption, Source URL, Thumbnail, Keywords, Downloaded,
+Fields: Image ID (primary, = catalog ID), Sequence, Category, Script Page,
+Archive, Catalog ID, Caption, Source URL, Thumbnail, Keywords, Downloaded,
 In Lightroom, Metadata Attached, Editor Notes.
 
-**Sequence is provisional.** It is derived from the current draft script and
-must be regenerated when the script is locked. **Category is stable** and does
-not depend on the script — it is what the editor should group by until then.
-`manifest/editor_manifest.csv` is the git-side mirror; regenerate Sequence
-from it rather than renumbering by hand.
+**Sequence is provisional** — derived from the current draft script, regenerate
+when the script locks. **Category is stable** and is what the editor groups by
+in the meantime. `manifest/editor_manifest.csv` is the git-side mirror.

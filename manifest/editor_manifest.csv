@@ -1,249 +1,734 @@
 sequence,image_id,category,script_pages,page_sort,archive,catalog_id,title_caption,source_url,keywords,downloaded,in_lightroom,metadata_attached
-1,ALAMY_MC38R7_Railroad-workers-Northern-Pacific-pose-outsi,People & Crowds,P.7-9,7,Alamy,MC38R7,"Railroad workers - Northern Pacific pose outside railroad car housing, ca. 1910",https://www.alamy.com/workers-for-the-northern-pacific-pose-outside-of-their-railroad-car-housing-ca-1910-image179552331.html,Workers; Railroad Workers; Railroads; Railroad Car,Yes,Yes,
-2,UNLV_snv002500_First-train-arrives-from-LA-in-Las-Vegas-cro,People & Crowds,P.7,7,UNLV Special Collections,snv002500,"First train arrives from LA in Las Vegas, crowd of people",https://special.library.unlv.edu/ark%3A/62930/d1fn1165b,"People; Crowds; Trains; Las Vegas, NV; Los Angeles, CA",Yes,Yes,
-3,UTHS_39222001684096_Interior-ticket-counter-with-people-SLC-1908,People & Crowds,P.7-11,7,Utah Historical Society,39222001684096,"Interior ticket counter with people, SLC, 1908",https://collections.lib.utah.edu/ark:/87278/s68g90jd,People; Ticket Counter; Building Interior; Denver & Rio Grande; ticket counter,,Yes,
-4,UTHS_39222001684088_Interior-ticket-counter-with-people-SLC-1906,People & Crowds,P.7-11,7,Utah Historical Society,39222001684088,"Interior ticket counter with people, SLC, 1906",https://collections.lib.utah.edu/ark:/87278/s6d79r8r,People; Ticket Counter; Building Interior,,Yes,
-5,UTHS_39222001686224_Women-with-parasols-sticking-out-of-train-wi,People & Crowds,P.7-11,7,Utah Historical Society,39222001686224,"Women with parasols sticking out of train window, 1909",https://collections.lib.utah.edu/ark:/87278/s6hh6zvd,"Crowd at the Saltair Depot, June 29, 1909.",,Yes,
-6,UTHS_17638_Men-and-little-boy-posed-by-train-1908,People & Crowds,P.7-11,7,Utah Historical Society,17638,"Men and little boy posed by train, 1908",https://collections.lib.utah.edu/ark:/87278/s6v99qw4,Men; Trains,Yes,Yes,Yes
-7,UTHS_22257_SLC-LA-Limited-train-1905-more-steam,Trains & Railroads — General,P.7-11,7,Utah Historical Society,22257,"SLC, LA Limited train, 1905 (more steam)",https://collections.lib.utah.edu/ark:/87278/s6sf34nf,"Trains; Los Angeles, CA; Steam / Smoke",Yes,Yes,Yes
-8,UTHS_39222001650972-206SPLASLUtahTick_SP-LA-SL-RR-ticket-office-exterior-Utah,Trains & Railroads — Stations & Travel,P.7-11,7,Utah Historical Society,39222001650972 / 206SPLASLUtahTicketOffice10,"SP LA SL RR ticket office exterior, Utah",https://collections.lib.utah.edu/ark:/87278/s6bv7r2w,"San Pedro, Los Angeles and  Salt Lake Railroad window.",,,
-9,UTHS_39222001650899_SP-LA-SL-train-and-men-exterior-station-SLC,Uncategorized,P.7-11,7,Utah Historical Society,39222001650899,"SP LA SL train and men, exterior station, SLC, 1910",https://collections.lib.utah.edu/ark:/87278/s6cv4s68,"At the Union Pacific Depot in Salt Lake City, August, 1910. Man on the right, Frank Dearman. Gift of: Robert W. Edwards.",,Yes,
-10,UTHS_22256_SLC-LA-Limited-train-1905,Uncategorized,P.7-11,7,Utah Historical Society,22256,"SLC, LA Limited train, 1905",https://collections.lib.utah.edu/ark:/87278/s6x63wd7,"Union Pacific Railroad 22256 Los Angeles Limited. Awaiting for arrival, Dec. 19, 1905. Shipler Photograph #2004",Yes,Yes,Yes
-11,UNLV_pho006190_Delphine-Squires-with-daughters-1900-to-1905,People & Crowds,P.9-11,9,UNLV Special Collections,pho006190,Delphine Squires with daughters (1900 to 1905),https://special.library.unlv.edu/ark:/62930/d1ns0kx6q,"Children; Charles “Pop” Squires; Delphine Squires; Los Angeles, CA; Squires; delphine square; family; children; farm",Yes,Yes,
-12,USC_CHS-2136_La-Grande-Depot-Los-Angeles,Trains & Railroads — General,P.9-11,9,USC Digital Library,CHS-2136,"La Grande Depot, Los Angeles",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZSBF6HLA&PN=1&DocRID=2A3BF1LXBZH,"Railroad Depot; Los Angeles, CA",Yes,Yes,Yes
-13,UNLV_pho004752_Squires-family-at-his-mine-Mt-Charleston-191,Uncategorized,P.9-17 (loose),9,UNLV Special Collections,pho004752,"Squires family at his mine, Mt. Charleston, 1912",https://special.library.unlv.edu/ark%3A/62930/d1qr4nq4p,,Yes,Yes,Yes
-14,HUNT_photCL-486-030_Union-League-building-Los-Angeles-1957-low-p,Commerce & Buildings,P.11 (loose),11,Huntington Library,photCL 486 (030),"Union League building, Los Angeles (1957 - low priority)",https://hdl.huntington.org/digital/collection/p15150coll2/id/6210,"Union League Club; Los Angeles, CA",Yes,Yes,Yes
-15,NYPL_G91F370-004F_Union-League-Club-Philadelphia-smoking-room,Commerce & Buildings,P.11 (loose),11,New York Public Library,G91F370_004F,"Union League Club (Philadelphia), smoking room",https://digitalcollections.nypl.org/items/daa17960-c567-012f-fafd-58d385a7bc34,"Union League Club; New York City, NY",,Yes,
-16,NYPL_723882F_Wall-St-Panic-1907,Events & Disasters,P.11 (loose),11,New York Public Library,723882F,"Wall St. Panic, 1907",https://digitalcollections.nypl.org/items/0bca26c0-c554-012f-2667-58d385a7bc34,"Financial Panic (Wall St., 1907); New York City, NY; Wall Street, NY",Yes,Yes,
-17,ALAMY_RYM9T9_SP-LA-SL-Railroad-Depot-Riverside-California,Trains & Railroads — General,P.11,11,Alamy,RYM9T9,"SP LA SL Railroad Depot, Riverside, California, 1905",https://www.alamy.com/san-pedro-los-angeles-salt-lake-railroad-depot-riverside-california-1905-california-riverside-the-san-pedro-los-angeles-salt-lake-ry-united-states-of-america-image240777273.html,"Railroads; Railroad Depot; Los Angeles, CA; Riverside, CA",Yes,Yes,Yes
-18,USC_CHS-33079_Train-crossing-Santa-Ana-river-Riverside-190,Trains & Railroads — General,P.11,11,USC Digital Library,CHS-33079,"Train crossing Santa Ana river, Riverside, 1904",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61RCFP5&PN=25&DocRID=2A3BF1YIGB0,"Trains; Riverside, CA; Santa Ana River, CA; arch bridge; bridge; crossing",,Yes,Yes
-19,HUNT_photCL-470-007_LA-Street-scenes-1905-Squires-before-LV,Urban & Street Scenes,P.11,11,Huntington Library,photCL 470 (007),"LA Street scenes, 1905 (Squires before LV)",https://hdl.huntington.org/digital/collection/p15150coll2/id/4217,"Street Scene; Charles “Pop” Squires; Los Angeles, CA; ca; hope; panorama; street scene",Yes,Yes,Yes
-20,HUNT_photCL-Pierce-00059_LA-Street-scenes-1905,Urban & Street Scenes,P.11,11,Huntington Library,photCL Pierce 00059,"LA Street scenes, 1905",https://hdl.huntington.org/digital/collection/p15150coll2/id/3469,"Street Scene; Los Angeles, CA; LA; Bank; Building; California",Yes,Yes,Yes
-21,HUNT_photCL-Pierce-00062_LA-Street-scenes-1905,Urban & Street Scenes,P.11,11,Huntington Library,photCL Pierce 00062,"LA Street scenes, 1905",https://hdl.huntington.org/digital/collection/p15150coll2/id/3470,"Street Scene; Los Angeles, CA; YMCA; architecture; california; carriage; commercial; pedestrians",Yes,Yes,Yes
-22,HUNT_photCL-470-002_LA-Street-scenes-1905-gallery-upload,Urban & Street Scenes,P.11,11,Huntington Library,photCL 470 (002),"LA Street scenes, 1905 (gallery upload)",https://hdl.huntington.org/digital/collection/p15150coll2/id/4229,"Aerial View; Los Angeles, CA; aerial; balloon; city; los angeles; panorama; town",Yes,Yes,Yes
-23,USC_CHS-5711-CHS-5712_1914-Union-League-club-in-downtown-panorama,Urban & Street Scenes,P.11 (loose),11,USC Digital Library,CHS-5711/CHS-5712,1914 Union League club in downtown panorama,https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61RZE5O&PN=2&DocRID=2A3BF1QAVOR,Union League Club; Downtown; Panorama,Yes,Yes,
-24,USC_CHS-5711_1914-Union-League-club-in-downtown-panorama,Urban & Street Scenes,P.11 (loose),11,USC Digital Library,CHS-5711,1914 Union League club in downtown panorama - different angle,https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ6SGSZGA&PN=2&DocRID=2A3BF1QA2YD,Union League Club; Downtown; Panorama,Yes,Yes,Yes
-25,UNLV_pho019942_Camping-drinking-beer-group-smiling,Recreation & Leisure,"P.13-14, P.163-165",13,UNLV Special Collections,pho019942,"Camping, drinking beer, group smiling",https://special.library.unlv.edu/ark%3A/62930/d1w950s5n,,Yes,Yes,Yes
-26,WMHU_Couple-and-dog-in-tent-by-creek-near-Las-Veg,Uncategorized,P.13-14,13,Western Mining History / UNLV,,Couple and dog in tent by creek (near Las Vegas Springs),https://www.stgeorgeutah.com/opinion/las-vegas-springs-preserve-day-water-and-railroad-meets-sin-city/article_75a7444d-72a1-5b34-b053-55d70c4021d4.html,,,,
-27,UNLV_Pho019940_Johnnie-Horden-and-others-on-Las-Vegas-Creek,Urban & Street Scenes,P.13-14,13,UNLV Special Collections,Pho019940,Johnnie Horden and others on Las Vegas Creek,https://special.library.unlv.edu/ark%3A/62930/d14q7qv1c,,Yes,Yes,Yes
-28,OV_Squires-and-Brown-in-group-source-page-image,Uncategorized,P.14-17,14,Over 50 Vegas,,"Squires and Brown in group (source page, image not yet located)",https://over50vegas.com/Pop_Squires_Observations.html,,,,
-29,RHS_Reno-Mill-Lumber-Company-headquarters-near-t,Trains & Railroads — General,P.17-21,17,Reno Historical Society,,"Reno Mill & Lumber Company headquarters near the railroad tracks, Reno, Nevada (undated, pre-1913) -- pile of lumber and RR tracks in foreground",https://renohistorical.org/items/show/31,,Yes,,Yes
-30,UNLV_pho017607_Westlake-family-grocery,People & Crowds,"P.19, P.55",19,UNLV Special Collections,pho017607,"Westlake family, grocery",https://special.library.unlv.edu/ark%3A/62930/d1zg6gb2w,Families; Grocery Store; Westlake Family,Yes,Yes,
-31,UTHS_29904_Train-station-crowd-of-men-in-hats-1910-SLC,People & Crowds,P.19-23,19,Utah Historical Society,29904,"Train station, crowd of men in hats, 1910, SLC",https://collections.lib.utah.edu/ark:/87278/s6x06mxq,Crowds; Men; Trains; Train Station; 1910s Fashion,Yes,Yes,Yes
-32,UTHS_29905_Train-station-waiting-room-group-of-men-outs,Trains & Railroads — General,P.19-23,19,Utah Historical Society,29905,"Train station waiting room, group of men outside, 1910, SLC",https://collections.lib.utah.edu/ark:/87278/s6s75w7v,Western Pacific Railroad opening at the new Denver & Rio Grande Western Railroad Depot.,Yes,Yes,Yes
-33,UTHS_29902_Crowd-of-men-and-women-with-baggage-waiting,Trains & Railroads — Stations & Travel,P.19-23,19,Utah Historical Society,29902,"Crowd of men and women with baggage waiting for train, 1910",https://collections.lib.utah.edu/ark:/87278/s65d95pn,First trains out of Salt Lake at the new Denver & Rio Grande Western,Yes,Yes,Yes
-34,UTHS_29903_Crowd-of-men-and-women-with-baggage-facing-a,Trains & Railroads — Stations & Travel,P.19-23,19,Utah Historical Society,29903,"Crowd of men and women with baggage, facing away from train, 1910",https://collections.lib.utah.edu/ark:/87278/s61n8f0s,First trains out of the new Denver & Rio Grande Western Railroad Depot,Yes,Yes,Yes
-35,UTHS_22585_RR-dining-car-interior-people-dressed-up-190,Trains & Railroads — Stations & Travel,P.19-23,19,Utah Historical Society,22585,"RR dining car interior, people dressed up, 1905-6 (Peter Buol as cook)",https://collections.lib.utah.edu/ark:/87278/s6r50076,"San Pedro, Los Angeles and Salt Lake dining car, June, 1905",Yes,Yes,Yes
-36,UNLV_pho017608_Group-of-people-with-mail-cart,People & Crowds,P.23,23,UNLV Special Collections,pho017608,Group of people with mail cart,https://special.library.unlv.edu/ark%3A/62930/d1tt4fx12,People,Yes,Yes,
-37,PSCPI_Peter-Buol-s-Insurance-Co-building-with-sign,Urban & Street Scenes,P.26,26,Private Source (Cragin-Pike Insurance),,Peter Buol's Insurance Co. building with sign,https://roughnotes.com/looking-back-looking-ahead-2/,,,,
-38,UNLV_Pho004751_Big-Springs,Horses & Animals,P.30-38,30,UNLV Special Collections,Pho004751,Big Springs,https://special.library.unlv.edu/ark%3A/62930/d1vd6p460,Horses; Automobile; Big Spring; Trees; Springs,Yes,Yes,
-39,LOC_3c37464_Eva-wells-1910-low-priority,Ranching & Farming,P.30-38,30,Library of Congress,3c37464,"Eva wells, 1910 (low priority)",https://www.loc.gov/pictures/item/2007662551/,,Yes,Yes,Yes
-40,UNLV_Snv001051_Tonopah-mine-1908,Mining,P.38-42,38,UNLV Special Collections,Snv001051,"Tonopah mine, 1908",https://special.library.unlv.edu/ark:/62930/d16w96p9w,"Mines; Tonopah, NV",Yes,Yes,Yes
-41,UNLV_Pho018532_8-men-at-Rawhide-mine,People & Crowds,P.38-42,38,UNLV Special Collections,Pho018532,8 men at Rawhide mine,https://special.library.unlv.edu/ark%3A/62930/d14x54m01,Men; Mines,Yes,Yes,
-42,UTHS_39222001456750_Stagecoach-with-men-Ely-NV-1906,People & Crowds,P.38-42,38,Utah Historical Society,39222001456750,"Stagecoach with men, Ely NV, 1906",https://collections.lib.utah.edu/ark:/87278/s6sb4gh4,"Men; Stagecoach; Ely, NV",Yes,Yes,Yes
-43,UNLV_Snv000203_Goldfield-mine-1908-series,Mining,P.39,39,UNLV Special Collections,Snv000203,"Goldfield mine, 1908 (series)",https://special.library.unlv.edu/ark%3A/62930/d1qn5zr5p,"Mines; Goldfield, NV",Yes,Yes,
-44,UNLV_Pho018544_Goldfield-mine-1908,Mining,P.39,39,UNLV Special Collections,Pho018544,"Goldfield mine, 1908",https://special.library.unlv.edu/ark%3A/62930/d1m03z18g,"Mines; Goldfield, NV",Yes,Yes,
-45,UNLV_Snv000194_Goldfield-wide-view,Uncategorized,P.39,39,UNLV Special Collections,Snv000194,"Goldfield, wide view",https://special.library.unlv.edu/ark%3A/62930/d1mw28t9k,"Goldfield, NV",Yes,Yes,
-46,UNLV_Pho023339_Ely-building-boom,Uncategorized,P.40,40,UNLV Special Collections,Pho023339,"Ely, building boom",https://special.library.unlv.edu/ark%3A/62930/d1mw28m0j,"Ely, NV",Yes,Yes,
-47,UNLV_Pho014500_3-men-at-Frenchman-mine-incl-Earl-Rockwell,People & Crowds,P.41,41,UNLV Special Collections,Pho014500,3 men at Frenchman mine (incl. Earl Rockwell),https://special.library.unlv.edu/ark%3A/62930/d13t9d84z,Men; Mines; Earl Rockwell,Yes,Yes,
-48,UNLV_pho024853_Beckley-family-various-negative,People & Crowds,P.46,46,UNLV Special Collections,pho024853,"Beckley family, various (negative)",https://special.library.unlv.edu/ark%3A/62930/d1tb0z194,Families; Beckley Family,Yes,Yes,
-49,UNLV_Pho024864-003_Beckley-family-various,People & Crowds,P.46,46,UNLV Special Collections,Pho024864-003,"Beckley family, various",https://special.library.unlv.edu/node/342440,Families; Beckley Family; album; dress; family; people; women,Yes,Yes,
-50,UNLV_Pho024864_Beckley-family-various,People & Crowds,P.46,46,UNLV Special Collections,Pho024864,"Beckley family, various",https://special.library.unlv.edu/node/342441,Families; Beckley Family,Yes,Yes,
-51,UNLV_Pho024781_Will-Beckley-inside-store-1908-hats,Urban & Street Scenes,P.46,46,UNLV Special Collections,Pho024781,"Will Beckley inside store, 1908 (hats)",https://special.library.unlv.edu/ark%3A/62930/d1445hj8m,Will Beckley; Beckley Family; 1910s Fashion,Yes,Yes,
-52,ALAMY_GDFDXG_Outhouses-Bodie-ghost-town,Sanitation & Utilities,P.49-51,49,Alamy,GDFDXG,"Outhouses, Bodie ghost town",https://www.alamy.com/stock-photo-bodie-ghost-town-intentional-noise-added-for-vintage-look-111592952.html,"Outhouses / Privies; Bodie, CA",Yes,Yes,
-53,ALAMY_DEAWCA_Outhouses-Sacramento-CA-company-housing,Sanitation & Utilities,P.49-51,49,Alamy,DEAWCA,"Outhouses, Sacramento CA - company housing",https://www.alamy.com/in-sacramento-california-fifty-to-sixty-families-pay-1-per-month-for-image60475754.html,"Outhouses / Privies; Sacramento, CA",Yes,Yes,
-54,ALAMY_DHCE5Y_Privy-outdoor-toilet-company-housing-project,Sanitation & Utilities,P.49-51,49,Alamy,DHCE5Y,"Privy/outdoor toilet, company housing project",https://www.alamy.com/a-privy-or-outdoor-toilet-located-in-the-company-housing-project-of-image62354823.html,Outhouses / Privies,Yes,Yes,
-55,ALAMY_2C74JDE_Cesspool-aerial-view-Germany-for-reference,Sanitation & Utilities,P.49-51,49,Alamy,2C74JDE,"Cesspool - aerial view (Germany, for reference)",https://www.alamy.com/cesspool-above-and-setting-pond-04072020-aerial-view-germany-schleswig-holstein-image365822618.html,Cesspools; Aerial View,Yes,Yes,
-56,ALAMY_2NHY7BE_Sewer-hole-in-dirt-with-ladder-cesspool-sewe,Sanitation & Utilities,"P.49-51, P.124-128",49,Alamy,2NHY7BE,Sewer hole in dirt with ladder (cesspool/sewer construction),https://www.alamy.com/digging-a-deep-round-hole-with-sewer-line-drain-pipe-outlet-for-a-brick-or-concrete-septic-tank-sewer-cesspool-and-manhole-installation-image527358706.html,Sewers; Sewer Construction; Cesspools,Yes,Yes,
-57,ALAMY_2M18K9B_Drainage-ditches-Southborough-Mass-1899,Sanitation & Utilities,P.49-51,49,Alamy,2M18K9B,"Drainage ditches - Southborough, Mass., 1899",https://www.alamy.com/sudbury-department-angellico-swamp-drainage-ditches-junction-of-a-and-c-lines-southborough-mass-dec-7-1899-waterworks-reservoirs-water-distribution-structures-swamps-construction-sites-watershed-sanitary-improvement-image499906103.html,,Yes,Yes,Yes
-58,NYPL_1583588_Outhouses-1902,Sanitation & Utilities,P.49-51,49,New York Public Library,1583588,"Outhouses, 1902",https://digitalcollections.nypl.org/items/106ecd60-c6e9-012f-8823-58d385a7bc34,"Outhouses / Privies; New York City, NY",,Yes,
-59,NYPL_1583589_Outhouses-1902,Sanitation & Utilities,P.49-51,49,New York Public Library,1583589,"Outhouses, 1902",https://digitalcollections.nypl.org/items/1150ac60-c6e9-012f-af26-58d385a7bc34,"Outhouses / Privies; New York City, NY",,Yes,
-60,NYPL_1583597_Outhouses-1902,Sanitation & Utilities,P.49-51,49,New York Public Library,1583597,"Outhouses, 1902",https://digitalcollections.nypl.org/items/13f071b0-c6e9-012f-bdf5-58d385a7bc34,"Outhouses / Privies; New York City, NY",Yes,Yes,
-61,NYPL_1576447_Outhouses-1902,Sanitation & Utilities,P.49-51,49,New York Public Library,1576447,"Outhouses, 1902",https://digitalcollections.nypl.org/items/14967590-c6e9-012f-83e9-58d385a7bc34,"Outhouses / Privies; New York City, NY",Yes,Yes,
-62,NYPL_58647476_Outhouses-TIF-format-available,Sanitation & Utilities,P.49-51,49,New York Public Library,58647476,Outhouses (TIF format available),https://digitalcollections.nypl.org/items/b33b8580-b977-0138-427d-3ff929dd87e1,"Outhouses / Privies; New York City, NY",Yes,Yes,
-63,ALAMY_Shovel-in-dirt-cesspool-reference,Uncategorized,P.49-51,49,Alamy,,Shovel in dirt (cesspool reference),https://www.alamy.com/simple-shovel-with-a-wooden-handle-is-stuck-in-a-dry-ground-in-an-unfinished-pit-image263985930.html,,,,
-64,ALAMY_105170989_Sanitation-ring-metal-mold-cesspool-cover-re,Uncategorized,P.49-51,49,Alamy,105170989,Sanitation ring/metal mold (cesspool cover reference),https://www.alamy.com/stock-photo-detail-of-a-sanitation-ring-and-metal-mold-105170989.html,,,,
-65,ALAMY_130432734_Bucket-and-cesspool-looking-hole,Uncategorized,P.49-51,49,Alamy,130432734,Bucket and cesspool-looking hole,https://www.alamy.com/stock-photo-a-golden-bucket-hanging-above-a-little-fountain-made-of-stone-130432734.html,,,,
-66,ALAMY_Dirty-water-sewer-channel,Uncategorized,P.49-51,49,Alamy,,Dirty water / sewer channel,https://www.alamy.com/this-is-the-sewer-channel-of-almost-dead-clusters-of-dead-organic-matter-muddy-water-dim-reflection-of-the-sun-image729420866.html,,,,
-67,ALAMY_Filled-cesspool-typhus-fever-reference-figur,Uncategorized,P.49-51,49,Alamy,,Filled cesspool (typhus fever reference figure),https://www.alamy.com/typhus-fever-with-particular-reference-to-the-serbian-epidemic-fig-1-filled-cesspool-image338447909.html,,,,
-68,ALAMY_M7WDBN_Horse-wagons-full-of-garbage-Dump-story,Horses & Animals,P.51,51,Alamy,M7WDBN,Horse wagons full of garbage - Dump story,https://www.alamy.com/stock-photo-the-image-titled-dump-story-appears-to-depict-a-scene-possibly-involving-176965593.html,Horses,Yes,Yes,
-69,ALAMY_2RGMMJ1_Interior-grocery-store-DGS-Store-Wash-DC-ca,Commerce & Buildings,P.55,55,Alamy,2RGMMJ1,"Interior grocery store (DGS Store, Wash DC, ca. 1910s)",https://www.alamy.com/interior-of-dgs-store-wash-dc-ca-1910s-image561021497.html,Grocery Store; Building Interior,Yes,Yes,
-70,UNLV_Ward-s-Mesquite-Cash-Grocery-Store-1908-cale,Commerce & Buildings,P.55,55,UNLV Special Collections (not digitized),,"Ward's Mesquite Cash Grocery Store, 1908 (calendar image) - NOT DIGITIZED",https://special.library.unlv.edu/node/309947,,,,
-71,UNLV_pho016723_Mesquite-grocery-and-other-shops,Uncategorized,P.55,55,UNLV Special Collections,pho016723,Mesquite grocery and other shops,https://special.library.unlv.edu/ark%3A/62930/d16d5pf1b,,Yes,Yes,Yes
-72,BAHM_Fire-Department-honor-guard-Bartlesville-OK,Events & Disasters,P.56-61,56,Bartlesville Area History Museum,,"Fire Department honor guard, Bartlesville OK",https://www.cityofbartlesville.org/fire-department-launches-honor-guard-marks-112-years-service/,,,,
-73,NVHS_CC-00324_Fire-Department-Carson-City-1890s,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00324,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/D655425C-6567-42AC-857F-461836246857,"Fire; Fire Department; Carson City, NV",Yes,Yes,Yes
-74,NVHS_CC-00323_Fire-Department-Carson-City-1890s,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00323,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/A6CFEA42-32E1-4A6D-A655-810133204835,,Yes,Yes,Yes
-75,NVHS_CC-00802_Fire-Department-Carson-City-1890s,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00802,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/A43CF197-32FF-4384-BB2A-307042705340,"Fire; Fire Department; Carson City, NV",Yes,Yes,Yes
-76,UNLV_pho028106_First-grammar-school-1905-10,Education,P.58-59,58,UNLV Special Collections,pho028106,"First grammar school, 1905-10",https://special.library.unlv.edu/ark%3A/62930/d16d5pk14,Grammar School; Schoolchildren,Yes,Yes,
-77,UNLV_pho025881_School-class-1915,Education,P.58-59,58,UNLV Special Collections,pho025881,"School class, 1915",https://special.library.unlv.edu/ark%3A/62930/d16t0kt56,School Class; Schoolchildren,Yes,Yes,
-78,UNLV_snv001117_Las-Vegas-School-1910-kids-and-teachers-outs,Education,P.58-59,58,UNLV Special Collections,snv001117,"Las Vegas School, 1910, kids and teachers outside",https://special.library.unlv.edu/ark%3A/62930/d1g44j48c,,Yes,Yes,Yes
-79,USC_CHS-5553_Curfew-bell-1907-laws,Landscape & Terrain,P.58-59,58,USC Digital Library,CHS-5553,Curfew bell (1907 laws),https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61I5OBW&PN=2&DocRID=2A3BF1C66CC,bell; mount; riverside; mountain; rubidoux,Yes,Yes,Yes
-80,UNLV_pho025987_Methodist-Church-curfew-bell-reference,Uncategorized,P.58-59,58,UNLV Special Collections,pho025987,Methodist Church (curfew bell reference),http://n2t.net/ark:/62930/d1mw2cc2m,,Yes,Yes,Yes
-81,UNLV_pho013444_Photograph-of-a-wagon-hauling-freight-in-Eld,Urban & Street Scenes,"P.58 — New WorkFlow (wagons, Eldorado Canyon)",58,UNLV Special Collections,pho013444,"Photograph of a wagon hauling freight in Eldorado Canyon, circa 1911-1915 [Elbert Edwards Photograph Collection]",https://special.library.unlv.edu/ark:/62930/d1j678z5t,,Yes,Yes,Yes
-82,UNLV_pho019916_Pioche-Nevada-1906-street-scene-Bank-of-Pioc,Commerce & Buildings,P.71-77,71,UNLV Special Collections,pho019916,"Pioche, Nevada, 1906 (street scene, Bank of Pioche)",http://n2t.net/ark:/62930/d17p8tj02,"Banks; Pioche, NV",Yes,Yes,Yes
-83,NVHS_CH-00740_On-the-way-somewhere-with-a-horse-and-buggy,Horses & Animals,P.71-77,71,Nevada Historical Society,CH-00740,On the way somewhere with a horse and buggy,https://nevadahistory.pastperfectonline.com/photo/1542E8D7-33D9-4AFC-8177-601402307910,Horses; Horse & Buggy,Yes,Yes,Yes
-84,NVHS_ESM-01420_On-the-way-somewhere-with-a-horse-and-buggy,Horses & Animals,P.71-77,71,Nevada Historical Society,ESM-01420,On the way somewhere with a horse and buggy,https://nevadahistory.pastperfectonline.com/photo/CF5CE2EF-8060-4F99-A419-115366004210,Horses; Horse & Buggy,Yes,,Yes
-85,NVHS_CH-00090_Family-with-buggy-and-house-en-route-to-Pioc,People & Crowds,P.71-77,71,Nevada Historical Society,CH-00090,"Family with buggy and house, en route to Pioche",https://nevadahistory.pastperfectonline.com/photo/B79044F6-00C2-48EF-8802-623642261290,"Families; Horse & Buggy; Pioche, NV",Yes,Yes,Yes
-86,UNLV_pho006890_Exterior-view-of-the-Las-Vegas-Trading-Compa,Uncategorized,"P.71 — New WorkFlow (Las Vegas construction, 1905-1915)",71,UNLV Special Collections,pho006890,"Exterior view of the Las Vegas Trading Company, advertising lumber, lime, cement, etc., with a horse coach in front, 1905 -- second Squires photo album page 9 image 4 [Charles P. Squires Photograph Collection]. CORRECTED 2026-08-27: previous title on this row (""Las Vegas Trading Co. / Thomas building"") was close but imprecise -- confirmed exact title/details via UNLV item page.",https://special.library.unlv.edu/ark:/62930/d16q1sh0k,,Yes,Yes,
-87,UNLV_pho014336_Street-construction-1909-to-1910,Uncategorized,"P.71 — New WorkFlow (Las Vegas construction, 1905-1915)",71,UNLV Special Collections,pho014336,Street construction (1909 to 1910),https://special.library.unlv.edu/ark:/62930/d1gt5fh7v,,Yes,Yes,Yes
-88,UNLV_Pho023008_Pioche-panorama-distant,Urban & Street Scenes,P.71-77,71,UNLV Special Collections,Pho023008,"Pioche panorama, distant",https://special.library.unlv.edu/ark%3A/62930/d14j0b341,"Panorama; Pioche, NV",Yes,Yes,
-89,UNLV_Pho023927_Panorama-of-mountains-and-Pioche-in-the-dist,Landscape & Terrain,P.72,72,UNLV Special Collections,Pho023927,Panorama of mountains and Pioche in the distance,https://special.library.unlv.edu/ark%3A/62930/d1sj19x4n,"Mountains; Panorama; Pioche, NV",Yes,Yes,
-90,UNLV_Pho023916_Pioche,Uncategorized,P.72,72,UNLV Special Collections,Pho023916,Pioche,https://special.library.unlv.edu/ark%3A/62930/d16q1sp4r,"Pioche, NV",Yes,Yes,
-91,UNLV_Pho023372_Photograph-of-Pioche-dirt-roads,Landscape & Terrain,P.73,73,UNLV Special Collections,Pho023372,"Photograph of Pioche, dirt roads",https://special.library.unlv.edu/ark%3A/62930/d1c53f65m,"Road; Pioche, NV",Yes,Yes,
-92,UNLV_Pho023917_Pioche,Uncategorized,P.73,73,UNLV Special Collections,Pho023917,Pioche,https://special.library.unlv.edu/ark%3A/62930/d12z12w00,"Pioche, NV",Yes,Yes,
-93,UNLV_Snv000951_Pioche-with-wagon-and-horses,Horses & Animals,P.74,74,UNLV Special Collections,Snv000951,Pioche with wagon and horses,https://special.library.unlv.edu/ark%3A/62930/d1fx74c3w,"Horses; Pioche, NV",Yes,Yes,
-94,UNLV_Pho017849_On-the-way-to-Caliente,Uncategorized,P.74,74,UNLV Special Collections,Pho017849,On the way to Caliente,https://special.library.unlv.edu/ark%3A/62930/d1gb1xm27,"Caliente, NV",Yes,Yes,
-95,UNLV_pho009778_Searchlight-mine,Mining,P.84-85,84,UNLV Special Collections,pho009778,Searchlight mine,https://special.library.unlv.edu/ark%3A/62930/d1p26q47w,"Mines; Searchlight, NV",Yes,Yes,Yes
-96,WMH_pho023812-001_Postcard-of-Searchlight-NV-1907-front-low-pr,Uncategorized,P.84-85,84,Western Mining History,pho023812-001,"Postcard of Searchlight, NV, 1907 (front) - low priority",https://westernmininghistory.com/gallery-image/41441/,"Searchlight, NV; Postcard",Yes,Yes,Yes
-97,WMH_Searchlight-mining-images-low-priority,Uncategorized,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41440/,,,,
-98,WMH_Searchlight-mining-images-low-priority,Uncategorized,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41444/,,,,
-99,WMH_Searchlight-mining-images-low-priority,Uncategorized,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41446/,,,,
-100,UNLV_pho016862_Techatticup-Mine,Mining,P.85,85,UNLV Special Collections,pho016862,Techatticup Mine,https://special.library.unlv.edu/ark%3A/62930/d17p8th0m,Mines,Yes,Yes,Yes
-101,CHM_Banks-in-Chicago-LaSalle-Street,Commerce & Buildings,P.87-90,87,Chicago History Museum,,"Banks in Chicago, LaSalle Street",https://images.chicagohistory.org/search/?searchQuery=bank+lasalle+1910,,,,
-102,CHM_DN-0008569_Five-men-with-two-carts-holding-bags-at-the,Uncategorized,P.87-90,87,Chicago History Museum,DN-0008569,"Five men with two carts holding bags at the entrance to the Union Trust Bank vault, Tribune Building (Madison & Dearborn), Chicago, 1910",https://images.chicagohistory.org/asset/704/,,Yes,Yes,Yes
-103,CHM_Chicago-street-scene,Urban & Street Scenes,P.87-90,87,Chicago History Museum,,Chicago street scene,https://images.chicagohistory.org/asset/31985/,,,,
-104,UNLV_hln000496_Grading-for-a-rail-line-1906-Kiel-Ranch-hors,Horses & Animals,P.90-92,90,UNLV Special Collections,hln000496,"Grading for a rail line, 1906, Kiel Ranch (horses, equipment)",https://special.library.unlv.edu/ark%3A/62930/d1ft8hj31,,Yes,Yes,
-105,UTHS_22586_SP-LA-SL-Railroad-cooks-pose-outside-rail-ca,People & Crowds,P.90-92,90,Utah Historical Society,22586,SP LA SL Railroad cooks pose outside rail car,https://collections.lib.utah.edu/ark:/87278/s6mc97gg,,Yes,Yes,Yes
-106,UTHS_21339_RR-shops-construction-1905-foundation-worker,People & Crowds,P.90-92,90,Utah Historical Society,21339,"RR shops construction, 1905, foundation/workers/tracks, Idaho",https://collections.lib.utah.edu/ark:/87278/s6pk0qgj,"San Pedro, Los Angeles and Salt Lake dining car with waiters, May, 1905. Shipler Photog. # 1525.",Yes,Yes,Yes
-107,UPRM_Railroad-office-1905,Trains & Railroads — Construction & Infrastructure,P.90,90,Union Pacific Railroad Museum,,"Railroad office, 1905",https://unionpacific.canto.com/v/UnionPacificCollection/library?keyword=nevada,,,,
-108,UTHS_511_Bamberger-Railroad-Cable-Gang-Lagoon-Summer,Trains & Railroads — Construction & Infrastructure,P.90-92,90,Utah Historical Society,511,"Bamberger Railroad -- Cable Gang, Lagoon, Summer 1909 (Bamberger Railroad P.1)",https://collections.lib.utah.edu/ark:/87278/s6418cwb,"Taken at the old main entrance of Lagoon, Summer 1909. Electrical cable crew of Bamberger Electric",Yes,Yes,Yes
-109,UTHS_22584_Empty-dining-car,Trains & Railroads — Stations & Travel,P.90-92,90,Utah Historical Society,22584,Empty dining car,https://collections.lib.utah.edu/ark:/87278/s6vx0qzt,"San Pedro, Los Angeles and Salt Lake train (1st to L.A.) dining car",Yes,Yes,Yes
-110,LOC_pan-6a13942_Wide-shot-of-Las-Vegas-1910-RR-machine-shops,Uncategorized,"P.90-92, P.163",90,Library of Congress,pan.6a13942,"Wide shot of Las Vegas, 1910, RR machine shops in progress",https://www.loc.gov/pictures/resource/pan.6a13942/,,Yes,Yes,Yes
-111,UTHS_523_Workmen-on-tracks-1900,Uncategorized,P.90-92,90,Utah Historical Society,523,"Workmen on tracks, 1900",https://collections.lib.utah.edu/ark:/87278/s68d1c1h,"Central Pacific Railroad grade and bridge over Bear River at Corinne, looking east.",Yes,Yes,Yes
-112,UTHS_27871_Bamberger-Line-property-April-21-1907-Bamber,Uncategorized,P.90-92,90,Utah Historical Society,27871,"Bamberger Line property, April 21, 1907 (Bamberger Railroad P.15)",https://collections.lib.utah.edu/ark:/87278/s6bg44vt,"Bamberger Line property, April 21, 1907. Shipler Commercial Photography #2814.",Yes,Yes,Yes
-113,UNLV_pho025998_Clark-County-Courthouse-temporary-building-1,Government & Politics,P.108-112,108,UNLV Special Collections,pho025998,"Clark County Courthouse (temporary building, 1909)",https://special.library.unlv.edu/ark%3A/62930/d1bg2m77h,,,Yes,
-114,UNLV_pho019878_County-commissioners-Harmon-Ronnow-others-ca,Urban & Street Scenes,P.108-112,108,UNLV Special Collections,pho019878,"County commissioners (Harmon, Ronnow, others), ca. 1912-1914",https://special.library.unlv.edu/ark%3A/62930/d1513v09k,County Commissioners; Charles Ronnow; Harmon,Yes,Yes,
-115,UNLV_pho019880_Caliente-School-Ronnow-children,People & Crowds,P.112-119,112,UNLV Special Collections,pho019880,Caliente School (Ronnow children),https://special.library.unlv.edu/ark%3A/62930/d1wm13z3r,"Children; Schoolchildren; Charles Ronnow; Caliente, NV",Yes,Yes,
-116,UNLV_pho025511_Charles-Ronnow-Ed-Clark-s-business-partner,Urban & Street Scenes,"P.119, P.38-42",119,UNLV Special Collections,pho025511,Charles Ronnow (Ed Clark's business partner),https://special.library.unlv.edu/ark%3A/62930/d1zw1900m,Ed Clark; Charles Ronnow,Yes,Yes,
-117,SFPL_DPW-35_San-Francisco-sewers-with-construction-worke,People & Crowds,P.124-128,124,San Francisco Public Library,DPW-35,"San Francisco sewers with construction workers, 1910",https://digitalsf.org/record/6559,"Workers; Construction Workers; Sewers; San Francisco, CA",Yes,Yes,Yes
-118,ALAMY_2EJ3T8R_Water-supply-system-diagram-drawing-1900s,Sanitation & Utilities,P.124-128,124,Alamy,2EJ3T8R,"Water supply system diagram/drawing, 1900s",https://www.alamy.com/vintage-plans-of-building-system-of-drainage-and-water-supply-essential-to-proper-sanitation-1900s-image406987191.html,,Yes,Yes,Yes
-119,DC_45_Sewer-construction,Sanitation & Utilities,P.124-128,124,Digital Commonwealth,45,Sewer construction,https://www.digitalcommonwealth.org/search/commonwealth:xw42p9010,Sewers; Sewer Construction,Yes,Yes,Yes
-120,SFPL_DPW-46_San-Francisco-sewers-1910-being-built,Sanitation & Utilities,P.124-128,124,San Francisco Public Library,DPW-46,"San Francisco sewers, 1910, being built",https://digitalsf.org/record/6563,,Yes,Yes,Yes
-121,TUDC_AHAPZ202108000145_Sewer-construction,Sanitation & Utilities,P.124-128,124,Temple University Digital Collections,AHAPZ202108000145,Sewer construction,https://digital.library.temple.edu/digital/collection/p245801coll13/id/4540,Sewers; Sewer Construction,,Yes,
-122,UNLV_hln000124_Men-laying-sewer-pipe-Boulder-City-ca-1931,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000124,"Men laying sewer pipe, Boulder City, ca. 1931",https://special.library.unlv.edu/ark%3A/62930/d1p846v6x,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
-123,UNLV_hln000338_Men-laying-sewer-pipe-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000338,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d16t0kw0p,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
-124,UNLV_hln000340_Men-laying-sewer-pipe-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000340,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1zc7vt5h,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
-125,UNLV_hln000313_Men-laying-sewer-pipe-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000313,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1fj2dc3h,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
-126,UNLV_hln000423_Men-laying-sewer-pipe-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000423,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1nv9d94q,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
-127,UNLV_pho005819_Sewer-construction-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,pho005819,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1g15xg59,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
-128,UNLV_Pho023137_Sewer-construction-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,Pho023137,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1qn5zh42,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
-129,UNLV_pho023136_Sewer-construction-Boulder-City,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,pho023136,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1vd6p97q,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
-130,UTHS_2714859_Corrugated-pipe-siphon-1910,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2714859,"Corrugated pipe siphon, 1910",https://collections.lib.utah.edu/ark:/87278/s6zc6tmp,Corrugated Pipe Siphon,Yes,Yes,Yes
-131,UTHS_2669736_Water-supply-in-concrete-reservoir-1905,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2669736,"Water supply in concrete reservoir, 1905",https://collections.lib.utah.edu/ark:/87278/s6afswsn,,,Yes,
-132,UTHS_2714874_Water-supply-in-concrete-reservoir-with-mate,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2714874,"Water supply in concrete reservoir, with materials list",https://collections.lib.utah.edu/ark:/87278/s648tkc4,Water Tank / Reservoir; Water Supply; Concrete Reservoir,,Yes,
-133,UTHS_429744_Sewer-water-supply-plans,Sanitation & Utilities,P.124-128,124,Utah Historical Society,429744,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429744,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
-134,UTHS_429746_Sewer-water-supply-plans,Sanitation & Utilities,P.124-128,124,Utah Historical Society,429746,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429746,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
-135,UTHS_429753_Sewer-water-supply-plans,Sanitation & Utilities,P.124-128,124,Utah Historical Society,429753,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429753,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
-136,UTHS_429758_Sewer-water-supply-plans,Sanitation & Utilities,P.124-128,124,Utah Historical Society,429758,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429758,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
-137,UTHS_2714858_Double-coal-house-for-company-dwellings,Trains & Railroads — Construction & Infrastructure,P.124-128,124,Utah Historical Society,2714858,Double coal house for company dwellings,https://collections.lib.utah.edu/ark:/87278/s6rby25h,Coal House,Yes,Yes,Yes
-138,ALAMY_2M2JKTF_Culvert-Malden-Mass-1904,Uncategorized,P.124-128,124,Alamy,2M2JKTF,"Culvert - Malden, Mass., 1904",https://www.alamy.com/distribution-department-spot-pond-brook-winter-street-culvert-northerly-end-malden-mass-apr-30-1904-waterworks-brooks-watershed-sanitary-improvement-image500740703.html,,Yes,Yes,Yes
-139,ALAMY_2M2JKRR_Culvert-drainage-area-Melrose-Mass-1904,Uncategorized,P.124-128,124,Alamy,2M2JKRR,"Culvert / drainage area - Melrose, Mass., 1904",https://www.alamy.com/distribution-department-spot-pond-brook-wyoming-avenue-culvert-westerly-end-melrose-mass-apr-30-1904-waterworks-brooks-watershed-sanitary-improvement-image500740683.html,,Yes,Yes,Yes
-140,UTHS_573_Denver-and-Rio-Grande-Western-RR-east-bound,Uncategorized,P.124-128,124,Utah Historical Society,573,"Denver and Rio Grande Western RR, east-bound train #6 crossing Soldier Summit, 1910 (D&RGW R.R. P.7)",https://collections.lib.utah.edu/ark:/87278/s6pk1zvr,"Denver and Rio Grande Western RR, east-bound train #6, crossing the divide at Soldier Summit,",Yes,Yes,Yes
-141,NVHS_CH-00542_Flood-washout-1910-cheat-Fallon-flood-1907,Events & Disasters,P.129-136,129,Nevada Historical Society,CH-00542,"Flood/washout, 1910 (cheat - Fallon flood 1907)",https://nevadahistory.pastperfectonline.com/photo/85F34D11-5B34-4A66-9A83-368651104515,Flood; Washout,,Yes,
-142,UNLV_pho031617_Cracked-mud-from-Meadow-Valley-Wash-flood,Events & Disasters,P.129-133,129,UNLV Special Collections,pho031617,Cracked mud from Meadow Valley Wash flood,https://special.library.unlv.edu/ark%3A/62930/d1cn6zb43,,Yes,Yes,Yes
-143,UNLV_hln000245_Flooding-in-Carp-NV-1905,Events & Disasters,P.129-133,129,UNLV Special Collections,hln000245,"Flooding in Carp, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d10r9q359,,Yes,Yes,
-144,UNLV_hln000246_Flood-damaged-tracks-in-Stine-NV-1905,Events & Disasters,P.129-133,129,UNLV Special Collections,hln000246,"Flood, damaged tracks in Stine, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1w090g0m,,Yes,Yes,
-145,UNLV_Hln000247_Flood-damage-in-Stine-NV-1905,Events & Disasters,P.129-133,129,UNLV Special Collections,Hln000247,"Flood damage in Stine, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1r788n8t,,Yes,Yes,
-146,UNLV_Flash-flood-in-Stine-NV-1905-NOT-DIGITIZED-s,Events & Disasters,P.129-133,129,UNLV Special Collections (not digitized),,"Flash flood in Stine, NV, 1905 - NOT DIGITIZED (some found digitized separately)",https://special.library.unlv.edu/node/85232,,,,
-147,UPRM_1938-flood-same-location-as-earlier-flood-ph,Events & Disasters,P.129-136,129,Union Pacific Railroad Museum,,"1938 flood, same location as earlier flood photos (tracks and mud)",https://unionpacific.canto.com/v/UnionPacificCollection/library?keyword=FLOOD,,,,
-148,UNLV_hln000264_Flooding-in-desert-1950s-windblown-tree,Landscape & Terrain,P.129-133 (loose),129,UNLV Special Collections,hln000264,"Flooding in desert, 1950s, windblown tree",https://special.library.unlv.edu/ark%3A/62930/d1jm26f7g,,Yes,Yes,
-149,UONR_NC96-22-79-5_Reno-quiet-residential-street,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,NC96_22_79_5,"Reno, quiet residential street",https://unr.dgicloud.com/node/48971,"Street Scene; Residential Street; Reno, NV",,Yes,
-150,UONR_campphotoscollection-5367_Downtown-Reno,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,campphotoscollection:5367,Downtown Reno,https://unr.dgicloud.com/node/3206,,Yes,Yes,Yes
-151,UONR_campphotoscollection-5365_Downtown-Reno-a-few-people,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,campphotoscollection:5365,"Downtown Reno, a few people",https://unr.dgicloud.com/node/11156,,Yes,Yes,Yes
-152,UNLV_People-at-Old-Ranch-1911-NOT-DIGITIZED,People & Crowds,P.148-151,148,UNLV Special Collections (not digitized),,"People at Old Ranch, 1911 - NOT DIGITIZED",https://special.library.unlv.edu/node/279355,,,,
-153,UNLV_pho017706_Harvest-at-J-I-Earl-farm-Bunkerville-NV-1905,Ranching & Farming,P.148-151,148,UNLV Special Collections,pho017706,"Harvest at J.I. Earl farm, Bunkerville, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1pk07521,,Yes,Yes,Yes
-154,UNLV_Bordoli-ranch-1910-NOT-DIGITIZED,Ranching & Farming,P.148-151,148,UNLV Special Collections (not digitized),,"Bordoli ranch, 1910 - NOT DIGITIZED",https://special.library.unlv.edu/node/50090,,,,
-155,UNLV_Man-on-a-horse-at-Bill-Morgan-s-Old-Ranch-19,Ranching & Farming,P.148-151,148,UNLV Special Collections (not digitized),,"Man on a horse at Bill Morgan's Old Ranch, 1910 - NOT DIGITIZED",https://special.library.unlv.edu/node/279361,,,,
-156,LOC_1a34194_Crates-of-peaches,Agriculture,P.151-152,151,Library of Congress,1a34194,Crates of peaches,https://www.loc.gov/pictures/resource/fsac.1a34194/,,Yes,Yes,Yes
-157,USC_CHS-1130_Picking-strawberries-in-California-1910-Flor,Agriculture,P.151,151,USC Digital Library,CHS-1130,"Picking strawberries in California, 1910 (Florence Boyer)",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ64A78J3&PN=1&DocRID=2A3BF16BONA,Strawberry Picking; Florence Boyer,Yes,Yes,Yes
-158,UNLV_pho004895_McGriff-Ranch-early-1900s-people-and-house,People & Crowds,P.151,151,UNLV Special Collections,pho004895,"McGriff Ranch, early 1900s, people and house",https://special.library.unlv.edu/ark%3A/62930/d1wp9t64s,,Yes,Yes,Yes
-159,UNLV_pho014397_McGriff-Ranch-early-1900s-man,Ranching & Farming,P.151,151,UNLV Special Collections,pho014397,"McGriff Ranch, early 1900s, man",https://special.library.unlv.edu/ark%3A/62930/d1901zj18,,Yes,Yes,Yes
-160,UNLV_pho004794_Greenhouse-at-McGriff-Ranch,Ranching & Farming,P.151,151,UNLV Special Collections,pho004794,Greenhouse at McGriff Ranch,https://special.library.unlv.edu/ark%3A/62930/d1f47gt3x,,Yes,Yes,Yes
-161,UNLV_pho004793_Olive-Lake-at-well-on-McGriff-Ranch-Las-Vega,Ranching & Farming,P.151,151,UNLV Special Collections,pho004793,"Olive Lake at well on McGriff Ranch, Las Vegas",https://special.library.unlv.edu/ark%3A/62930/d1js9h75x,,Yes,Yes,Yes
-162,UNLV_Peach-orchard-McGriff-property-1912-NOT-DIGI,Ranching & Farming,P.151,151,UNLV Special Collections (not digitized),,"Peach orchard, McGriff property, 1912 - NOT DIGITIZED",https://special.library.unlv.edu/node/751123,,,,
-163,UNLV_pho023728_Country-doctor-in-wagon-Nevada-1880-1910,Uncategorized,P.151,151,UNLV Special Collections,pho023728,"Country doctor in wagon, Nevada, 1880-1910",https://special.library.unlv.edu/ark%3A/62930/d1h41js9j,,Yes,Yes,Yes
-164,UNLV_pho019885_Della-McGriff-with-man-on-the-ranch-1910s,Urban & Street Scenes,P.151,151,UNLV Special Collections,pho019885,"Della McGriff with man on the ranch, 1910s",https://special.library.unlv.edu/ark%3A/62930/d17s7hx3c,,Yes,,Yes
-165,UNLV_Pho016224_Mrs-Park-on-her-porch-with-dog,Urban & Street Scenes,P.160,160,UNLV Special Collections,Pho016224,Mrs. Park on her porch with dog,https://special.library.unlv.edu/ark%3A/62930/d1445hg0v,,Yes,,
-166,FIPA_1112_Restaurant-kitchen-for-Overland-Fire,Commerce & Buildings,P.163-165,163,Found Image Press (Amazon),1112,"Restaurant kitchen, for Overland Fire",https://www.amazon.com/dp/B0C2JFVWB4,Restaurant; Restaurant Kitchen; Fire,,,
-167,UNLV_Pho033937-014_Smiling-woman-on-a-picnic,People & Crowds,P.163-165,163,UNLV Special Collections,Pho033937-014,Smiling woman on a picnic,https://special.library.unlv.edu/ark%3A/62930/d1154hn5j,Women; Picnicking; Album; Park Families; Picnic; Woman; Smiling; Ice plant; Garden of the Gods,Yes,Yes,
-168,UNLV_pho017618_Von-Tobel-and-Beckley-families-picnicking,Urban & Street Scenes,P.163-165,163,UNLV Special Collections,pho017618,Von Tobel and Beckley families picnicking,https://special.library.unlv.edu/ark%3A/62930/d1j960d4h,Families; Picnicking; Beckley Family; Von Tobel Family,Yes,Yes,
-169,LOC_2012646311_Mary-s-Dance-Hall-Goldfield-Nevada-1907,Commerce & Buildings,,9999,Library of Congress,2012646311,"Mary's Dance Hall, Goldfield, Nevada, 1907",https://lccn.loc.gov/2012646311,,Yes,Yes,Yes
-170,NMFA_L87-1-2383-10_Spokane-1910-grocery-store,Commerce & Buildings,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.2383-10,"Spokane, 1910, grocery store",https://ferrisarchives.northwestmuseum.org/Item/Index/3657,,Yes,Yes,Yes
-171,NMFA_L87-1-2384-10_Spokane-1910-fancy-couple-in-a-restaurant,Commerce & Buildings,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.2384-10,"Spokane, 1910, fancy couple in a restaurant",https://ferrisarchives.northwestmuseum.org/Item/Index/3658,,Yes,Yes,Yes
-172,IACR_csfcp-000063_Goldfield-Rawhide-NV-1904-1909-photo-album-i,Events & Disasters,,9999,Internet Archive / California Revealed,csfcp_000063,Goldfield-Rawhide NV 1904-1909 photo album (incl. 1905 and 1908 fire photos),https://archive.org/details/csfcp_000063,,,,
-173,PSRC_Postcards-of-a-flood-1910-Nevada-different-p,Events & Disasters,(ignore per sheet note),9999,Private Source (robertgavora.com),,"Postcards of a flood 1910, Nevada (different place - ignore for Squires project)",https://www.robertgavora.com/pages/books/54905/result-reese-river-nevada-flood-1910-nevada-central-railway-seven-photographic-postcards,,,,
-174,LOC_2016864143_Tasker-Oddie-Governor-of-Nevada-portrait-191,Government & Politics,,9999,Library of Congress,2016864143,"Tasker Oddie, Governor of Nevada, portrait, 1912, Standing",https://lccn.loc.gov/2016864143,,Yes,Yes,Yes
-175,LOCH_nv0072_Old-Lincoln-County-Courthouse-Million-Dollar,Government & Politics,,9999,Library of Congress (HABS),nv0072,"Old Lincoln County Courthouse (Million Dollar Courthouse), Pioche, NV",https://www.loc.gov/item/nv0072/,,Yes,Yes,Yes
-176,TONOPAH_TNV006_Nye-County-Courthouse-Tonopah-NV-1910,Government & Politics,,9999,Town of Tonopah,TNV006,"Nye County Courthouse, Tonopah, NV, 1910",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-177,UNLV_pho018500_Aerial-photograph-of-Pioche-Nevada-1870-1889,Government & Politics,,9999,UNLV Special Collections,pho018500,"Aerial photograph of Pioche, Nevada, 1870-1889 (Million Dollar Courthouse visible)",http://n2t.net/ark:/62930/d1445hg77,,Yes,Yes,Yes
-178,UNLV_pho019911_Governor-Emmett-D-Boyle-of-Nevada-signing-re,Government & Politics,,9999,UNLV Special Collections,pho019911,"Governor Emmett D. Boyle of Nevada signing resolution for the Nineteenth Amendment, 1920 February 07",http://n2t.net/ark:/62930/d1wd3q561,,Yes,Yes,Yes
-179,WIKI_177247046_Denver-S-Dickerson-Governor-of-Nevada-portra,Government & Politics,,9999,Wikimedia Commons,177247046,"Denver S. Dickerson, Governor of Nevada, portrait, c. 1908-1910","https://commons.wikimedia.org/wiki/File:Denver_S._Dickerson,_c._1908-1910.jpg",,Yes,,Yes
-180,UNLV_pho033930-002_People-in-a-wagon-in-the-woods-Mt-Charleston,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930-002,"People in a wagon in the woods, Mt. Charleston",https://special.library.unlv.edu/ark%3A/62930/d1028sc3g,"People; Mt. Charleston, NV; Horses; Camping; Mt. Charleston; Family; Wagon; Wilson and Park Families; Woods",Yes,Yes,
-181,UNLV_pho033930_Wilson-and-Park-families-camping-near-Mt-Cha,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930,Wilson and Park families camping near Mt. Charleston (Album 4),https://special.library.unlv.edu/ark%3A/62930/d11834f8d,,,Yes,
-182,UNLV_pho033930-003_Woman-near-the-tent,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930-003,Woman near the tent,https://special.library.unlv.edu/ark%3A/62930/d1v982r0f,Women; Camping,Yes,,
-183,UNLV_hln000066_Photograph-of-people-camped-on-the-Colorado,People & Crowds,,9999,UNLV Special Collections,hln000066,"Photograph of people camped on the Colorado River in the Vegas Wash, 1910",https://special.library.unlv.edu/ark:/62930/d18g8jh0j,,Yes,Yes,Yes
-184,UNLV_pho026753_Basic-Magnesium-future-plant-site-context-ne,Ranching & Farming,,9999,UNLV Special Collections,pho026753,Basic Magnesium future plant site (context: near Stewart Ranch imagery search) (1942-03-26),https://special.library.unlv.edu/ark:/62930/d1sf27,,Yes,Yes,Yes
-185,UNLV_pho007059_Stewart-Ranch-Las-Vegas-transparency-1900-to,Ranching & Farming,,9999,UNLV Special Collections,pho007059,"Stewart Ranch, Las Vegas, transparency (1900 to 1939)",https://special.library.unlv.edu/ark:/62930/d1cf9j65w,,Yes,Yes,Yes
-186,UNLV_pho007102_Stewart-Ranch-Las-Vegas-postcard-1900-to-193,Ranching & Farming,,9999,UNLV Special Collections,pho007102,"Stewart Ranch, Las Vegas, postcard (1900 to 1939)",https://special.library.unlv.edu/ark:/62930/d1tb0xv61,,Yes,Yes,Yes
-187,UNLV_hln000072_Photograph-of-riders-near-the-Vegas-Creek-at,Ranching & Farming,,9999,UNLV Special Collections,hln000072,"Photograph of riders near the Vegas Creek at the Stewart Ranch camp in Las Vegas, circa 1905-1906",https://special.library.unlv.edu/ark:/62930/d1h12z678,,Yes,Yes,Yes
-188,UNLV_hln000023_Photograph-of-first-artesian-well-in-Las-Veg,Ranching & Farming,,9999,UNLV Special Collections,hln000023,"Photograph of first artesian well in Las Vegas Valley on Taylor Ranch, with group of men, before 1910",https://special.library.unlv.edu/ark:/62930/d1tm7507m,,Yes,Yes,Yes
-189,UNLV_hln000024_Photograph-of-first-artesian-well-in-Las-Veg,Ranching & Farming,,9999,UNLV Special Collections,hln000024,"Photograph of first artesian well in Las Vegas Valley on Taylor Ranch, Clark County, before 1910",https://special.library.unlv.edu/ark:/62930/d1pv6f63g,,Yes,Yes,Yes
-190,UTHS_2646098_Steel-oil-tank,Trains & Railroads — Construction & Infrastructure,"general ref, no clear page",9999,Utah Historical Society,2646098,Steel oil tank,https://collections.lib.utah.edu/ark:/87278/s647memz,,,Yes,
-191,TONOPAH_TNV001_Drilling-competition-Tonopah-Railroad-Carniv,Trains & Railroads — General,,9999,Town of Tonopah,TNV001,"Drilling competition, Tonopah Railroad Carnival, 1904",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-192,CHSUDL_CHS-20325_View-of-the-Chollar-mine-dump-in-Gold-Hill-N,Uncategorized,,9999,California Historical Society / USC Digital Library,CHS-20325,"View of the Chollar mine dump in Gold Hill, Nevada, ca. 1900 (re-downloaded at higher resolution, 1200x964)",https://digitallibrary.usc.edu/asset-management/2A3BF14KCN8?FR_=1&W=1092&H=597,,Yes,Yes,Yes
-193,CHSUDL_CHS-258_Los-Angeles-Times-Building-First-St-and-Broa,Uncategorized,,9999,California Historical Society / USC Digital Library,CHS-258,"Los Angeles Times Building, First St. and Broadway, ca. 1905 (low-res only)",https://doi.org/10.25549/chs-m958,,Yes,Yes,Yes
-194,LOC_2013647219_Telephone-operator-at-work-switchboard-c-192,Uncategorized,,9999,Library of Congress,2013647219,"Telephone operator at work (switchboard), c. 1922",https://lccn.loc.gov/2013647219,,Yes,Yes,Yes
-195,LOC_2016860954_Tasker-Oddie-Senator-portrait,Uncategorized,,9999,Library of Congress,2016860954,"Tasker Oddie, Senator, portrait",https://lccn.loc.gov/2016860954,,Yes,Yes,Yes
-196,LOC_2014696545_Gov-Oddie-at-USS-Nevada-launching-July-11-19,Uncategorized,,9999,Library of Congress,2014696545,"Gov. Oddie at USS Nevada launching, July 11, 1914 (exposure a)",https://loc.gov/pictures/resource/ggbain.16569/,,Yes,Yes,Yes
-197,LOC_2014696546_Gov-Oddie-at-USS-Nevada-launching-July-11-19,Uncategorized,,9999,Library of Congress,2014696546,"Gov. Oddie at USS Nevada launching, July 11, 1914 (exposure b)",https://lccn.loc.gov/2014696546,,Yes,Yes,Yes
-198,LOC_2007662543_Alfalfa-fields-Las-Vegas-Nevada-1910,Uncategorized,,9999,Library of Congress,2007662543,"Alfalfa fields, Las Vegas, Nevada, 1910",https://lccn.loc.gov/2007662543,,Yes,Yes,Yes
-199,LOC_2003665483_Reading-room-10-cent-lodging-house-Bowery-NY,Uncategorized,,9999,Library of Congress,2003665483,"Reading room, 10-cent lodging house, Bowery, NYC, c. 1908",https://lccn.loc.gov/2003665483,,Yes,Yes,Yes
-200,LOC_00694311_Sunset-Limited-Southern-Pacific-Ry-Edison-fi,Uncategorized,,9999,Library of Congress,00694311,"Sunset Limited, Southern Pacific Ry (Edison film, video), 1898",https://lccn.loc.gov/00694311,,,Yes,
-201,LOC_00694263_Overland-Express-arriving-at-Helena-Mont-Edi,Uncategorized,,9999,Library of Congress,00694263,"Overland Express arriving at Helena, Mont (Edison film, video), 1897",https://lccn.loc.gov/00694263,,,Yes,
-202,LOC_00694211_Freight-train-Edison-film-video-1898,Uncategorized,,9999,Library of Congress,00694211,"Freight train (Edison film, video), 1898",https://lccn.loc.gov/00694211,,,Yes,
-203,LOCCA_sn86076141-1910-01-01_Las-Vegas-Age-newspaper-front-page-January-1,Uncategorized,,9999,Library of Congress (Chronicling America),sn86076141_1910-01-01,"Las Vegas Age newspaper, front page, January 1, 1910",https://www.loc.gov/resource/sn86076141/1910-01-01/ed-1/?sp=1,,Yes,Yes,Yes
-204,TONOPAH_TNV005_Nevada-California-Power-Company-facility-190,Uncategorized,,9999,Town of Tonopah,TNV005,"Nevada-California Power Company facility, 1906",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-205,TONOPAH_TNV002_Double-jack-drilling-contest-Tonopah-July-4,Uncategorized,,9999,Town of Tonopah,TNV002,"Double-jack drilling contest, Tonopah, July 4, 1903",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-206,TONOPAH_TNV003_Railroad-Days-celebration-Tonopah-1904,Uncategorized,,9999,Town of Tonopah,TNV003,"Railroad Days celebration, Tonopah, 1904",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-207,TONOPAH_TNV004_Boxing-match-Tonopah-Athletic-Club-1900s,Uncategorized,,9999,Town of Tonopah,TNV004,"Boxing match, Tonopah Athletic Club, 1900s",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
-208,UNLV_pho019907_Clara-Beatty-former-director-of-the-Nevada-S,Uncategorized,,9999,UNLV Special Collections,pho019907,"Clara Beatty, former director of the Nevada State Historical Society, undated",http://n2t.net/ark:/62930/d1df6k73z,,,,
-209,UNLV_pho019908_Eva-Stewart-undated,Uncategorized,,9999,UNLV Special Collections,pho019908,"Eva Stewart, undated",http://n2t.net/ark:/62930/d18p5vf09,,,,
-210,UNLV_pho019909_Mrs-Clarence-Mackay-undated,Uncategorized,,9999,UNLV Special Collections,pho019909,"Mrs. Clarence Mackay, undated",http://n2t.net/ark:/62930/d14x54m6x,,,,
-211,UNLV_pho019910_U-S-Senator-William-A-Clark-from-Montana-und,Uncategorized,,9999,UNLV Special Collections,pho019910,"U.S. Senator William A. Clark from Montana, undated",http://n2t.net/ark:/62930/d1154dt1m,,Yes,Yes,Yes
-212,UNLV_pho019912_Anne-Martin-campaign-for-U-S-Senate-approxim,Uncategorized,,9999,UNLV Special Collections,pho019912,"Anne Martin campaign for U.S. Senate, approximately 1918-1920",http://n2t.net/ark:/62930/d1rn30c3r,,Yes,Yes,Yes
-213,UNLV_pho019913_Groundbreaking-ceremony-Al-Coradetti-Rodney,Uncategorized,,9999,UNLV Special Collections,pho019913,"Groundbreaking ceremony: Al Coradetti, Rodney Colton, Ira Earl, Frank Gusewelle (county/city commissioners), undated",http://n2t.net/ark:/62930/d1n00zz1c,,,,
-214,UNLV_pho019915_Pioche-Nevada-1885,Uncategorized,,9999,UNLV Special Collections,pho019915,"Pioche, Nevada, 1885",http://n2t.net/ark:/62930/d1cf9jb46,,,,
-215,UNLV_pho019918_Helen-Hackett-Rose-Valley-School-Lincoln-Cou,Uncategorized,,9999,UNLV Special Collections,pho019918,"Helen Hackett, Rose Valley School, Lincoln County, Nevada, 1931",http://n2t.net/ark:/62930/d1057cx1c,,,,
-216,UNLV_pho023005_Bullionville-Pioche-Railroad-Grade-in-Condor,Uncategorized,,9999,UNLV Special Collections,pho023005,"Bullionville & Pioche Railroad Grade in Condor Canyon, Nevada, 1915-1917",http://n2t.net/ark:/62930/d1hq3s43n,,Yes,Yes,Yes
-217,UNLV_snv002550_McWilliams-Townsite-group-of-men-outside-bus,Uncategorized,,9999,UNLV Special Collections,snv002550,"McWilliams' Townsite, group of men outside businesses (1905)",https://special.library.unlv.edu/ark:/62930/d17s7j68s,,Yes,Yes,Yes
-218,UNLV_snv002501_Wagon-train-16-horse-team-passing-Las-Vegas,Uncategorized,,9999,UNLV Special Collections,snv002501,Wagon train / 16-horse team passing Las Vegas Bank & Trust (1905),https://special.library.unlv.edu/ark:/62930/d19w09d16,,Yes,Yes,Yes
-219,UNLV_pho004764_Film-transparency-of-a-Las-Vegas-and-Tonopah,Uncategorized,,9999,UNLV Special Collections,pho004764,"Film transparency of a Las Vegas and Tonopah Railroad Company train car, Las Vegas, circa early 1900s",https://special.library.unlv.edu/ark:/62930/d15q4rk8r,,Yes,Yes,Yes
-220,UNLV_pho006891_Building-big-tent-temp-depot-1905,Uncategorized,,9999,UNLV Special Collections,pho006891,Building big tent / temp depot (1905),https://special.library.unlv.edu/ark:/62930/d12z12p7p,,,Yes,
-221,UNLV_pho006181_Squires-WARNING-search-hit-resolves-to-1984,Uncategorized,,9999,UNLV Special Collections,pho006181,"Squires (WARNING: search hit resolves to 1984-1986, likely wrong item, verify manually) (1984 to 1986)",https://special.library.unlv.edu/ark:/62930/d1th8bn05,,Yes,Yes,Yes
-222,UNLV_pho006296_Bank-W-E-Hawkins-Store-1900-to-1915,Uncategorized,,9999,UNLV Special Collections,pho006296,Bank / W.E. Hawkins Store (1900 to 1915),https://special.library.unlv.edu/ark:/62930/d13b5w77d,,Yes,Yes,Yes
-223,UNLV_pho017616_Von-Tobel-inspecting-supply-wagon-Unknown-ye,Uncategorized,,9999,UNLV Special Collections,pho017616,Von Tobel inspecting supply wagon (Unknown year in the decade of the 1900s),https://special.library.unlv.edu/ark:/62930/d1st7f136,,Yes,Yes,Yes
-224,UNLV_pho004120_Street-w-construction-1910,Uncategorized,,9999,UNLV Special Collections,pho004120,Street w/ construction (1910),https://special.library.unlv.edu/ark:/62930/d1pz51k90,,Yes,Yes,Yes
-225,WIKI_82003220_Brann-Boardinghouse-Tonopah-NV-built-1906,Uncategorized,,9999,Wikimedia Commons,82003220,"Brann Boardinghouse, Tonopah, NV, built 1906",https://en.wikipedia.org/wiki/Brann_Boardinghouse,,Yes,,Yes
-226,WIKI_83001121_Nortonia-Boarding-House-Reno-NV,Uncategorized,,9999,Wikimedia Commons,83001121,"Nortonia Boarding House, Reno, NV",https://en.wikipedia.org/wiki/Nortonia_Boarding_House,,Yes,,Yes
-227,WIKI_17527202_Southern-Nevada-Consolidated-Telephone-Teleg,Uncategorized,,9999,Wikimedia Commons,17527202,"Southern Nevada Consolidated Telephone-Telegraph Co. Building, Goldfield, NV, 1906","https://commons.wikimedia.org/wiki/File:Southern_Nevada_Consolidated_Telephone-Telegraph_Company_Building,_Goldfield,_Nevada.jpg",,Yes,,Yes
-228,LOC_2012648308_Goldfield-Nevada-street-scene-c-1907,Urban & Street Scenes,,9999,Library of Congress,2012648308,"Goldfield, Nevada street scene, c. 1907",http://hdl.loc.gov/loc.pnp/cph.3a15639,,Yes,Yes,Yes
-229,NYPL_800387_NYC-street-scene-1910,Urban & Street Scenes,"general ref, no clear page",9999,New York Public Library,800387,"NYC street scene, 1910",https://digitalcollections.nypl.org/items/91e81af0-c559-012f-8b4b-58d385a7bc34,"Street Scene; New York City, NY",Yes,Yes,
-230,NMFA_L87-1-5321X-10_Spokane-1910-city-view,Urban & Street Scenes,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.5321X-10,"Spokane, 1910, city view",https://ferrisarchives.northwestmuseum.org/Item/Index/3699,,Yes,Yes,Yes
-231,NMFA_L87-1-5637X-10_Spokane-1910-city-view-with-big-bank,Urban & Street Scenes,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.5637X-10,"Spokane, 1910, city view with big bank",https://ferrisarchives.northwestmuseum.org/Item/Index/3702,,Yes,Yes,
-232,SFPL_AAA-7143_Union-Square-San-Francisco-circa-1910-San-Fr,Urban & Street Scenes,"general ref, no clear page",9999,San Francisco Public Library,AAA-7143,"Union Square, San Francisco, circa 1910 [San Francisco Subjects Photograph Collection, SFP 162]",https://digitalsf.org/record/17191,"Downtown; San Francisco, CA",Yes,Yes,Yes
-233,SFPL_AAB-6085_Intersection-of-Sutter-Sansome-and-Market-St,Urban & Street Scenes,,9999,San Francisco Public Library,AAB-6085,"Intersection of Sutter, Sansome and Market Streets, San Francisco, March 28, 1910 [San Francisco Subjects Photograph Collection, SFP 162]",https://digitalsf.org/record/23966,"Downtown; San Francisco, CA",Yes,Yes,Yes
-234,UNLV_pho019906_Photograph-of-Tonopah-Nevada-1906-aerial-vie,Urban & Street Scenes,,9999,UNLV Special Collections,pho019906,"Photograph of Tonopah, Nevada, 1906 (aerial view including red light district)",http://n2t.net/ark:/62930/d1j67916m,,Yes,Yes,Yes
-235,UNLV_pho019905_Delamar-Nevada-1907-panorama,Urban & Street Scenes,,9999,UNLV Special Collections,pho019905,"Delamar, Nevada, 1907 (panorama)",http://n2t.net/ark:/62930/d1nv99f9p,,Yes,Yes,Yes
-236,UNLV_pho019917_Pioche-Nevada-1906-street-scene-Clark-s-Plac,Urban & Street Scenes,,9999,UNLV Special Collections,pho019917,"Pioche, Nevada, 1906 (street scene, Clark's Place)",http://n2t.net/ark:/62930/d13x83q56,,Yes,Yes,Yes
-237,UNLV_pho025802_Peter-Buol-1911-to-1913,Urban & Street Scenes,,9999,UNLV Special Collections,pho025802,Peter Buol (1911 to 1913),https://special.library.unlv.edu/ark:/62930/d1mk65f9t,,,Yes,Yes
-238,UNLV_hln000094_Gushing-well-Unknown-year-in-the-decade-of-t,Urban & Street Scenes,,9999,UNLV Special Collections,hln000094,Gushing well (Unknown year in the decade of the 1900s (year approximate)),https://special.library.unlv.edu/ark:/62930/d14j0dw83,,Yes,Yes,Yes
-239,UNLV_hln000062_Photograph-of-people-at-Las-Vegas-Spring-bef,Urban & Street Scenes,,9999,UNLV Special Collections,hln000062,"Photograph of people at Las Vegas Spring, before 1915",https://special.library.unlv.edu/ark:/62930/d1sf2qb3v,,Yes,Yes,Yes
-240,UNLV_hln000003_Photograph-of-bridge-over-Vegas-Creek-Las-Ve,Urban & Street Scenes,,9999,UNLV Special Collections,hln000003,"Photograph of bridge over Vegas Creek, Las Vegas, circa 1900",https://special.library.unlv.edu/ark:/62930/d1610zr3z,,Yes,Yes,Yes
-241,UNLV_hln000040_Well-in-stream-1911-to-1949,Urban & Street Scenes,,9999,UNLV Special Collections,hln000040,Well in stream (1911 to 1949),https://special.library.unlv.edu/ark:/62930/d1mw2cd5h,,,,
-242,UNLV_hln000221_Photograph-of-a-drill-rig-putting-down-the-h,Urban & Street Scenes,,9999,UNLV Special Collections,hln000221,"Photograph of a drill rig putting down the hole for the first well in the Las Vegas Heights District, circa 1907",https://special.library.unlv.edu/ark:/62930/d13n23d35,,Yes,Yes,Yes
-243,UNLV_hln000239_Photograph-of-artesian-well-in-Paradise-Vall,Urban & Street Scenes,,9999,UNLV Special Collections,hln000239,"Photograph of artesian well in Paradise Valley, before 1920",https://special.library.unlv.edu/ark:/62930/d1s759j63,,Yes,Yes,Yes
-244,UNLV_hln000039_Well-women-open-start-to-1920,Urban & Street Scenes,,9999,UNLV Special Collections,hln000039,"Well, women (open start to 1920)",https://special.library.unlv.edu/ark:/62930/d1rn33685,,,Yes,
-245,UNLV_pho013038_Ed-Clark-age-25-Forwarding-Company-1904-to-1,Urban & Street Scenes,,9999,UNLV Special Collections,pho013038,Ed Clark age 25 / Forwarding Company (1904 to 1906),https://special.library.unlv.edu/ark:/62930/d1vm4300k,,Yes,Yes,Yes
-246,UNLV_pho020567_Postcard-of-Tonopah-Belmont-Development-Comp,Urban & Street Scenes,,9999,UNLV Special Collections,pho020567,"Postcard of Tonopah Belmont Development Company's mine and mill, Tonopah (Nev.), September 18, 1912",https://special.library.unlv.edu/ark:/62930/d1ht2gg9z,,Yes,Yes,Yes
-247,UNLV_Leon-Rockwell-on-the-Colorado-River-1907-NOT,Urban & Street Scenes,"general ref, no clear page",9999,UNLV Special Collections (not digitized),,"Leon Rockwell on the Colorado River, 1907 - NOT DIGITIZED",https://special.library.unlv.edu/node/279368,,,,
-248,WIKI_8473926_Street-scenery-Goldfield-NV,Urban & Street Scenes,,9999,Wikimedia Commons,8473926,"Street scenery, Goldfield, NV",https://commons.wikimedia.org/wiki/File:Goldfield_NV_-_street_scenery.jpg,,Yes,,Yes
+1,pho007141,Uncategorized,"P.4-5, P.51-54",4,UNLV Special Collections,pho007141,"Photograph of McWilliamstown, circa 1904 -- in what would become Las Vegas [Stewart (Helen J.) Photographs]",https://special.library.unlv.edu/ark:/62930/d1s756k2c,,Yes,Yes,Yes
+2,MC38R7,People & Crowds,P.7-9,7,Alamy,MC38R7,"Railroad workers - Northern Pacific pose outside railroad car housing, ca. 1910",https://www.alamy.com/workers-for-the-northern-pacific-pose-outside-of-their-railroad-car-housing-ca-1910-image179552331.html,Workers; Railroad Workers; Railroads; Railroad Car,Yes,Yes,
+3,snv002500,People & Crowds,P.7,7,UNLV Special Collections,snv002500,"First train arrives from LA in Las Vegas, crowd of people",https://special.library.unlv.edu/ark%3A/62930/d1fn1165b,"People; Crowds; Trains; Las Vegas, NV; Los Angeles, CA",Yes,Yes,
+4,39222001684088.0,People & Crowds,P.7-11,7,Utah Historical Society,39222001684088.0,"Interior ticket counter with people, SLC, 1906",https://collections.lib.utah.edu/ark:/87278/s6d79r8r,People; Ticket Counter; Building Interior,,Yes,
+5,39222001686224.0,People & Crowds,P.7-11,7,Utah Historical Society,39222001686224.0,"Women with parasols sticking out of train window, 1909",https://collections.lib.utah.edu/ark:/87278/s6hh6zvd,"Crowd at the Saltair Depot, June 29, 1909.",,Yes,
+6,17638.0,People & Crowds,P.7-11,7,Utah Historical Society,17638.0,"Men and little boy posed by train, 1908",https://collections.lib.utah.edu/ark:/87278/s6v99qw4,Men; Trains,Yes,Yes,Yes
+7,22257.0,Trains & Railroads — General,P.7-11,7,Utah Historical Society,22257.0,"SLC, LA Limited train, 1905 (more steam)",https://collections.lib.utah.edu/ark:/87278/s6sf34nf,"Trains; Los Angeles, CA; Steam / Smoke",Yes,Yes,Yes
+8,39222001650899.0,Trains & Railroads — General,P.7-11,7,Utah Historical Society,39222001650899.0,"SP LA SL train and men, exterior station, SLC, 1910",https://collections.lib.utah.edu/ark:/87278/s6cv4s68,"At the Union Pacific Depot in Salt Lake City, August, 1910. Man on the right, Frank Dearman. Gift of: Robert W. Edwards.",,Yes,
+9,22256.0,Trains & Railroads — General,P.7-11,7,Utah Historical Society,22256.0,"SLC, LA Limited train, 1905",https://collections.lib.utah.edu/ark:/87278/s6x63wd7,"Union Pacific Railroad 22256 Los Angeles Limited. Awaiting for arrival, Dec. 19, 1905. Shipler Photograph #2004",Yes,Yes,Yes
+10,29430.0,Trains & Railroads — General,P.7-11,7,Utah Historical Society,29430.0,"Man sleeping in train car, 1913",https://collections.lib.utah.edu/ark:/87278/s6f19723,,Yes,Yes,Yes
+11,39222001684096.0,Trains & Railroads — Stations & Travel,P.7-11,7,Utah Historical Society,39222001684096.0,"Interior ticket counter with people, SLC, 1908",https://collections.lib.utah.edu/ark:/87278/s68g90jd,People; Ticket Counter; Building Interior; Denver & Rio Grande; ticket counter,,Yes,
+12,39222001650972 / 206SPLASLUtahTicketOffice10,Trains & Railroads — Stations & Travel,P.7-11,7,Utah Historical Society,39222001650972 / 206SPLASLUtahTicketOffice10,"SP LA SL RR ticket office exterior, Utah",https://collections.lib.utah.edu/ark:/87278/s6bv7r2w,"San Pedro, Los Angeles and 
+Salt Lake Railroad window.",,,
+13,pho006190,People & Crowds,P.9-11,9,UNLV Special Collections,pho006190,Delphine Squires with daughters (1900 to 1905),https://special.library.unlv.edu/ark:/62930/d1ns0kx6q,"Children; Charles “Pop” Squires; Delphine Squires; Los Angeles, CA; Squires; delphine square; family; children; farm",Yes,Yes,
+14,pho004752,People & Crowds,P.9-17 (loose),9,UNLV Special Collections,pho004752,"Squires family at his mine, Mt. Charleston, 1912",https://special.library.unlv.edu/ark%3A/62930/d1qr4nq4p,,Yes,Yes,Yes
+15,CHS-2136,Trains & Railroads — General,P.9-11,9,USC Digital Library,CHS-2136,"La Grande Depot, Los Angeles",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZSBF6HLA&PN=1&DocRID=2A3BF1LXBZH,"Railroad Depot; Los Angeles, CA",Yes,Yes,Yes
+16,16322.0,Trains & Railroads — General,P.9-11,9,Utah Historical Society,16322.0,Rio Grande Western Railroad P.29,https://collections.lib.utah.edu/ark:/87278/s6jm3tfk,"Castle Gate, Utah",Yes,Yes,Yes
+17,photCL 486 (030),Commerce & Buildings,P.11 (loose),11,Huntington Library,photCL 486 (030),"Union League building, Los Angeles (1957 - low priority)",https://hdl.huntington.org/digital/collection/p15150coll2/id/6210,"Union League Club; Los Angeles, CA",Yes,Yes,Yes
+18,G91F370_004F,Commerce & Buildings,P.11 (loose),11,New York Public Library,G91F370_004F,"Union League Club (Philadelphia), smoking room",https://digitalcollections.nypl.org/items/daa17960-c567-012f-fafd-58d385a7bc34,"Union League Club; New York City, NY",,Yes,
+19,723882F,Events & Disasters,P.11 (loose),11,New York Public Library,723882F,"Wall St. Panic, 1907",https://digitalcollections.nypl.org/items/0bca26c0-c554-012f-2667-58d385a7bc34,"Financial Panic (Wall St., 1907); New York City, NY; Wall Street, NY",Yes,Yes,
+20,22582.0,People & Crowds,P.11-13,11,Utah Historical Society,22582.0,"TRAIN - Crowds of people, some dressed up, 5/1/1905",https://collections.lib.utah.edu/ark:/87278/s64b38sz,,Yes,Yes,Yes
+21,22583.0,People & Crowds,P.11-13,11,Utah Historical Society,22583.0,"Crowds of people, some dressed up, 5/1/1905",https://collections.lib.utah.edu/ark:/87278/s60k2j16,,Yes,Yes,Yes
+22,RYM9T9,Trains & Railroads — General,P.11,11,Alamy,RYM9T9,"SP LA SL Railroad Depot, Riverside, California, 1905",https://www.alamy.com/san-pedro-los-angeles-salt-lake-railroad-depot-riverside-california-1905-california-riverside-the-san-pedro-los-angeles-salt-lake-ry-united-states-of-america-image240777273.html,"Railroads; Railroad Depot; Los Angeles, CA; Riverside, CA",Yes,Yes,Yes
+23,pho014116-006,Trains & Railroads — General,"Yes -- script table row 11 (~1:04:00, ""workers joined by savvy businessmen"" narration): ""Pho014116-006-02 people w/train LR"" (top photo on this album page, group at S.P.L.A.&S.L. boxcars)",11,UNLV Special Collections,pho014116-006,"Photograph album 2, Charles P. Squires Collection, page 6, circa 1910-1920 -- album page with 3 photos: group with horse wagon in front of San Pedro Los Angeles & Salt Lake Railroad boxcars; stone building in desert with woman in doorway; row of weathered shacks",https://special.library.unlv.edu/node/329255,,Yes,Yes,Yes
+24,CHS-33079,Trains & Railroads — General,P.11,11,USC Digital Library,CHS-33079,"Train crossing Santa Ana river, Riverside, 1904",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61RCFP5&PN=25&DocRID=2A3BF1YIGB0,"Trains; Riverside, CA; Santa Ana River, CA; arch bridge; bridge; crossing",,Yes,Yes
+25,photCL 470 (007),Urban & Street Scenes,P.11,11,Huntington Library,photCL 470 (007),"LA Street scenes, 1905 (Squires before LV)",https://hdl.huntington.org/digital/collection/p15150coll2/id/4217,"Street Scene; Charles “Pop” Squires; Los Angeles, CA; ca; hope; panorama; street scene",Yes,Yes,Yes
+26,photCL Pierce 00059,Urban & Street Scenes,P.11,11,Huntington Library,photCL Pierce 00059,"LA Street scenes, 1905",https://hdl.huntington.org/digital/collection/p15150coll2/id/3469,"Street Scene; Los Angeles, CA; LA; Bank; Building; California",Yes,Yes,Yes
+27,photCL Pierce 00062,Urban & Street Scenes,P.11,11,Huntington Library,photCL Pierce 00062,"LA Street scenes, 1905",https://hdl.huntington.org/digital/collection/p15150coll2/id/3470,"Street Scene; Los Angeles, CA; YMCA; architecture; california; carriage; commercial; pedestrians",Yes,Yes,Yes
+28,photCL 470 (002),Urban & Street Scenes,P.11,11,Huntington Library,photCL 470 (002),"LA Street scenes, 1905 (gallery upload)",https://hdl.huntington.org/digital/collection/p15150coll2/id/4229,"Aerial View; Los Angeles, CA; aerial; balloon; city; los angeles; panorama; town",Yes,Yes,Yes
+29,CHS-5711/CHS-5712,Urban & Street Scenes,P.11 (loose),11,USC Digital Library,CHS-5711/CHS-5712,1914 Union League club in downtown panorama,https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61RZE5O&PN=2&DocRID=2A3BF1QAVOR,Union League Club; Downtown; Panorama,Yes,Yes,
+30,CHS-5711,Urban & Street Scenes,P.11 (loose),11,USC Digital Library,CHS-5711,1914 Union League club in downtown panorama - different angle,https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ6SGSZGA&PN=2&DocRID=2A3BF1QA2YD,Union League Club; Downtown; Panorama,Yes,Yes,Yes
+31,pho019942,Recreation & Leisure,"P.13-14, P.163-165",13,UNLV Special Collections,pho019942,"Camping, drinking beer, group smiling",https://special.library.unlv.edu/ark%3A/62930/d1w950s5n,Camping,Yes,Yes,Yes
+32,NEEDS-ID-12,Uncategorized,P.13-14,13,Western Mining History / UNLV,,Couple and dog in tent by creek (near Las Vegas Springs),https://www.stgeorgeutah.com/opinion/las-vegas-springs-preserve-day-water-and-railroad-meets-sin-city/article_75a7444d-72a1-5b34-b053-55d70c4021d4.html,,,,
+33,Pho019940,Urban & Street Scenes,P.13-14,13,UNLV Special Collections,Pho019940,Johnnie Horden and others on Las Vegas Creek,https://special.library.unlv.edu/ark%3A/62930/d14q7qv1c,"Johnnie Horden; Las Vegas, NV; Las Vegas Creek, NV",Yes,Yes,Yes
+34,NEEDS-ID-16,Uncategorized,P.14-17,14,Over 50 Vegas,,"Squires and Brown in group (source page, image not yet located)",https://over50vegas.com/Pop_Squires_Observations.html,,,,
+35,NEEDS-ID-03,Trains & Railroads — General,P.17-21,17,Reno Historical Society,,"Reno Mill & Lumber Company headquarters near the railroad tracks, Reno, Nevada (undated, pre-1913) -- pile of lumber and RR tracks in foreground",https://renohistorical.org/items/show/31,,Yes,,Yes
+36,pho017607,People & Crowds,"P.19, P.55",19,UNLV Special Collections,pho017607,"Westlake family, grocery",https://special.library.unlv.edu/ark%3A/62930/d1zg6gb2w,Families; Grocery Store; Westlake Family,Yes,Yes,
+37,29904.0,People & Crowds,P.19-23,19,Utah Historical Society,29904.0,"Train station, crowd of men in hats, 1910, SLC",https://collections.lib.utah.edu/ark:/87278/s6x06mxq,Crowds; Men; Trains; Train Station; 1910s Fashion,Yes,Yes,Yes
+38,29902.0,People & Crowds,P.19-23,19,Utah Historical Society,29902.0,"Crowd of men and women with baggage waiting for train, 1910",https://collections.lib.utah.edu/ark:/87278/s65d95pn,First trains out of Salt Lake at the new Denver & Rio Grande Western,Yes,Yes,Yes
+39,29903.0,People & Crowds,P.19-23,19,Utah Historical Society,29903.0,"Crowd of men and women with baggage, facing away from train, 1910",https://collections.lib.utah.edu/ark:/87278/s61n8f0s,First trains out of the new Denver & Rio Grande Western Railroad Depot,Yes,Yes,Yes
+40,29905.0,Trains & Railroads — General,P.19-23,19,Utah Historical Society,29905.0,"Train station waiting room, group of men outside, 1910, SLC",https://collections.lib.utah.edu/ark:/87278/s6s75w7v,Western Pacific Railroad opening at the new Denver & Rio Grande Western Railroad Depot.,Yes,Yes,Yes
+41,22585.0,Trains & Railroads — Stations & Travel,P.19-23,19,Utah Historical Society,22585.0,"RR dining car interior, people dressed up, 1905-6 (Peter Buol as cook)",https://collections.lib.utah.edu/ark:/87278/s6r50076,"San Pedro, Los Angeles and Salt Lake dining car, June, 1905",Yes,Yes,Yes
+42,pho017608,People & Crowds,P.23,23,UNLV Special Collections,pho017608,Group of people with mail cart,https://special.library.unlv.edu/ark%3A/62930/d1tt4fx12,People,Yes,Yes,
+43,NEEDS-ID-01,Urban & Street Scenes,P.26,26,Private Source (Cragin-Pike Insurance),,Peter Buol's Insurance Co. building with sign,https://roughnotes.com/looking-back-looking-ahead-2/,,,,
+44,Pho004751,Horses & Animals,P.30-38,30,UNLV Special Collections,Pho004751,Big Springs,https://special.library.unlv.edu/ark%3A/62930/d1vd6p460,Horses; Automobile; Big Spring; Trees; Springs,Yes,Yes,
+45,3c37464,Ranching & Farming,P.30-38,30,Library of Congress,3c37464,"Eva wells, 1910 (low priority)",https://www.loc.gov/pictures/item/2007662551/,,Yes,Yes,Yes
+46,Snv001051,Mining,P.38-42,38,UNLV Special Collections,Snv001051,"Tonopah mine, 1908",https://special.library.unlv.edu/ark:/62930/d16w96p9w,"Mines; Tonopah, NV",Yes,Yes,Yes
+47,Pho018532,People & Crowds,P.38-42,38,UNLV Special Collections,Pho018532,8 men at Rawhide mine,https://special.library.unlv.edu/ark%3A/62930/d14x54m01,Men; Mines,Yes,Yes,
+48,39222001456750.0,People & Crowds,P.38-42,38,Utah Historical Society,39222001456750.0,"Stagecoach with men, Ely NV, 1906",https://collections.lib.utah.edu/ark:/87278/s6sb4gh4,"Men; Stagecoach; Ely, NV",Yes,Yes,Yes
+49,Snv000203,Mining,P.39,39,UNLV Special Collections,Snv000203,"Goldfield mine, 1908 (series)",https://special.library.unlv.edu/ark%3A/62930/d1qn5zr5p,"Mines; Goldfield, NV",Yes,Yes,
+50,Pho018544,Mining,P.39,39,UNLV Special Collections,Pho018544,"Goldfield mine, 1908",https://special.library.unlv.edu/ark%3A/62930/d1m03z18g,"Mines; Goldfield, NV",Yes,Yes,
+51,Snv000194,Uncategorized,P.39,39,UNLV Special Collections,Snv000194,"Goldfield, wide view",https://special.library.unlv.edu/ark%3A/62930/d1mw28t9k,"Goldfield, NV",Yes,Yes,
+52,Pho023339,Uncategorized,P.40,40,UNLV Special Collections,Pho023339,"Ely, building boom",https://special.library.unlv.edu/ark%3A/62930/d1mw28m0j,"Ely, NV",Yes,Yes,
+53,map000278,"Maps, Newspapers & Documents","Not obvious -- see note, may support P.41 context but is a map not a photo",41,UNLV Special Collections,map000278,"Map of the Goldfield Mining District, Nye and Esmeralda Counties, Nevada, 1905",https://special.library.unlv.edu/ark:/62930/d1h12vp3c,,Yes,Yes,Yes
+54,Pho014500,People & Crowds,P.41,41,UNLV Special Collections,Pho014500,3 men at Frenchman mine (incl. Earl Rockwell),https://special.library.unlv.edu/ark%3A/62930/d13t9d84z,Men; Mines; Earl Rockwell,Yes,Yes,
+55,pho016483,Trains & Railroads — General,"P.41 — New WorkFlow (gold rush 1905, people arriving)",41,UNLV Special Collections,pho016483,"Crowd at a railroad station in Las Vegas, approximately 1905-1930 -- Governor Campbell of Arizona identified in crowd but not pinpointed [Fred and Maurine Wilson Photograph Collection]",http://n2t.net/ark:/62930/d1np1wn1s,,Yes,Yes,Yes
+56,snv000021,Trains & Railroads — General,P.41 — New WorkFlow (gold rush boom-town imagery),41,UNLV Special Collections,snv000021,"Pack trains and buggies crossing the desert, approximately 1901-1905 [Tonopah and Goldfield Mining Photograph Collection]",https://special.library.unlv.edu/node/54162,,Yes,Yes,Yes
+57,snv000207,Trains & Railroads — General,P.41 — New WorkFlow (gold rush boom-town imagery),41,UNLV Special Collections,snv000207,"Photograph of Mohawk Mine and Tonopah Goldfield Train, Goldfield (Nev.), early 1900s [C. A. Earle Rinker Photograph Collection of Goldfield, Nevada]",http://n2t.net/ark:/62930/d1bc3tb1s,,Yes,Yes,Yes
+58,pho007073,Horses & Animals,P.42-43,42,UNLV Special Collections,pho007073,"Transparency of freight team near Las Vegas, June 1906 [Stewart (Helen J.) Photographs (PH-00104)]",http://n2t.net/ark:/62930/d1k06x13g,Horses; Mules; Freight Hauling,Yes,Yes,Yes
+59,pho007072,Horses & Animals,P.42-43,42,UNLV Special Collections,pho007072,"Transparency of mule freight team, circa 1890s-1910s [Stewart (Helen J.) Photographs (PH-00104)]",http://n2t.net/ark:/62930/d1pr7mt7w,Horses; Mules; Freight Hauling; Caravan; Transparency,Yes,Yes,Yes
+60,pho007216,Horses & Animals,P.42-43,42,UNLV Special Collections,pho007216,"Photograph of mule freight team, circa 1890s-1910s [Stewart (Helen J.) Photographs (PH-00104)]",http://n2t.net/ark:/62930/d13775v61,,Yes,Yes,Yes
+61,pho007074,Horses & Animals,P.42-43,42,UNLV Special Collections,pho007074,"Transparency of freight team near Las Vegas, June 1906 [Stewart (Helen J.) Photographs (PH-00104)]",http://n2t.net/ark:/62930/d1f766693,,Yes,Yes,Yes
+62,18498.0,Horses & Animals,P.42-43,42,Utah Historical Society,18498.0,Wagons -- Freighting P.32,https://collections.lib.utah.edu/ark:/87278/s6bv8z0v,Freight Hauling; Freight Wagons,Yes,Yes,Yes
+63,pho006145,Urban & Street Scenes,"P.42-43, P.90-104",42,UNLV Special Collections,pho006145,"Photograph of Ed Clark, circa early to mid 1900s [Squires Family Photographs (PH-00002)]",http://n2t.net/ark:/62930/d1gf0mw37,Ed Clark,Yes,Yes,Yes
+64,pho024853,People & Crowds,P.46,46,UNLV Special Collections,pho024853,"Beckley family, various (negative)",https://special.library.unlv.edu/ark%3A/62930/d1tb0z194,Families; Beckley Family,Yes,Yes,
+65,Pho024864-003,People & Crowds,P.46,46,UNLV Special Collections,Pho024864-003,"Beckley family, various",https://special.library.unlv.edu/node/342440,Families; Beckley Family; album; dress; family; people; women,Yes,Yes,
+66,Pho024864,People & Crowds,P.46,46,UNLV Special Collections,Pho024864,"Beckley family, various",https://special.library.unlv.edu/node/342441,Families; Beckley Family,Yes,Yes,
+67,Pho024781,Urban & Street Scenes,P.46,46,UNLV Special Collections,Pho024781,"Will Beckley inside store, 1908 (hats)",https://special.library.unlv.edu/ark%3A/62930/d1445hj8m,Will Beckley; Beckley Family; 1910s Fashion,Yes,Yes,
+68,pho024780,Urban & Street Scenes,P.46,46,UNLV Special Collections,pho024780,"Photograph of William Beckley at the register in his clothing store, Las Vegas (Nev.), circa 1909 [Beckley Family Photograph Collection (PH-00148)]",http://n2t.net/ark:/62930/d17w67c22,,Yes,Yes,Yes
+69,pho025129,Commerce & Buildings,P.47,47,UNLV Special Collections,pho025129,Saloon interior (Caliente) (1900 to 1930),https://special.library.unlv.edu/ark:/62930/d1901zn61,,Yes,Yes,Yes
+70,pho018411,Mining,P.47,47,UNLV Special Collections,pho018411,"Electrical line installation near mine, Candelaria, NV, undated",https://special.library.unlv.edu/ark%3A/62930/d1ft8dp04,,Yes,Yes,Yes
+71,GDFDXG,Sanitation & Utilities,P.49-51,49,Alamy,GDFDXG,"Outhouses, Bodie ghost town",https://www.alamy.com/stock-photo-bodie-ghost-town-intentional-noise-added-for-vintage-look-111592952.html,"Outhouses / Privies; Bodie, CA",Yes,Yes,
+72,DEAWCA,Sanitation & Utilities,P.49-51,49,Alamy,DEAWCA,"Outhouses, Sacramento CA - company housing",https://www.alamy.com/in-sacramento-california-fifty-to-sixty-families-pay-1-per-month-for-image60475754.html,"Outhouses / Privies; Sacramento, CA",Yes,Yes,
+73,DHCE5Y,Sanitation & Utilities,P.49-51,49,Alamy,DHCE5Y,"Privy/outdoor toilet, company housing project",https://www.alamy.com/a-privy-or-outdoor-toilet-located-in-the-company-housing-project-of-image62354823.html,Outhouses / Privies,Yes,Yes,
+74,2C74JDE,Sanitation & Utilities,P.49-51,49,Alamy,2C74JDE,"Cesspool - aerial view (Germany, for reference)",https://www.alamy.com/cesspool-above-and-setting-pond-04072020-aerial-view-germany-schleswig-holstein-image365822618.html,Cesspools; Aerial View,Yes,Yes,
+75,2NHY7BE,Sanitation & Utilities,"P.49-51, P.124-128",49,Alamy,2NHY7BE,Sewer hole in dirt with ladder (cesspool/sewer construction),https://www.alamy.com/digging-a-deep-round-hole-with-sewer-line-drain-pipe-outlet-for-a-brick-or-concrete-septic-tank-sewer-cesspool-and-manhole-installation-image527358706.html,Sewers; Sewer Construction; Cesspools,Yes,Yes,
+76,2M18K9B,Sanitation & Utilities,P.49-51,49,Alamy,2M18K9B,"Drainage ditches - Southborough, Mass., 1899",https://www.alamy.com/sudbury-department-angellico-swamp-drainage-ditches-junction-of-a-and-c-lines-southborough-mass-dec-7-1899-waterworks-reservoirs-water-distribution-structures-swamps-construction-sites-watershed-sanitary-improvement-image499906103.html,,Yes,Yes,Yes
+77,NEEDS-ID-04,Sanitation & Utilities,P.49-51,49,Alamy,,Shovel in dirt (cesspool reference),https://www.alamy.com/simple-shovel-with-a-wooden-handle-is-stuck-in-a-dry-ground-in-an-unfinished-pit-image263985930.html,,,,
+78,105170989.0,Sanitation & Utilities,P.49-51,49,Alamy,105170989.0,Sanitation ring/metal mold (cesspool cover reference),https://www.alamy.com/stock-photo-detail-of-a-sanitation-ring-and-metal-mold-105170989.html,,,,
+79,130432734.0,Sanitation & Utilities,P.49-51,49,Alamy,130432734.0,Bucket and cesspool-looking hole,https://www.alamy.com/stock-photo-a-golden-bucket-hanging-above-a-little-fountain-made-of-stone-130432734.html,,,,
+80,NEEDS-ID-05,Sanitation & Utilities,P.49-51,49,Alamy,,Dirty water / sewer channel,https://www.alamy.com/this-is-the-sewer-channel-of-almost-dead-clusters-of-dead-organic-matter-muddy-water-dim-reflection-of-the-sun-image729420866.html,,,,
+81,NEEDS-ID-06,Sanitation & Utilities,P.49-51,49,Alamy,,Filled cesspool (typhus fever reference figure),https://www.alamy.com/typhus-fever-with-particular-reference-to-the-serbian-epidemic-fig-1-filled-cesspool-image338447909.html,,,,
+82,1583588.0,Sanitation & Utilities,P.49-51,49,New York Public Library,1583588.0,"Outhouses, 1902",https://digitalcollections.nypl.org/items/106ecd60-c6e9-012f-8823-58d385a7bc34,"Outhouses / Privies; New York City, NY",,Yes,
+83,1583589.0,Sanitation & Utilities,P.49-51,49,New York Public Library,1583589.0,"Outhouses, 1902",https://digitalcollections.nypl.org/items/1150ac60-c6e9-012f-af26-58d385a7bc34,"Outhouses / Privies; New York City, NY",,Yes,
+84,1583597.0,Sanitation & Utilities,P.49-51,49,New York Public Library,1583597.0,"Outhouses, 1902",https://digitalcollections.nypl.org/items/13f071b0-c6e9-012f-bdf5-58d385a7bc34,"Outhouses / Privies; New York City, NY",Yes,Yes,
+85,1576447.0,Sanitation & Utilities,P.49-51,49,New York Public Library,1576447.0,"Outhouses, 1902",https://digitalcollections.nypl.org/items/14967590-c6e9-012f-83e9-58d385a7bc34,"Outhouses / Privies; New York City, NY",Yes,Yes,
+86,58647476.0,Sanitation & Utilities,P.49-51,49,New York Public Library,58647476.0,Outhouses (TIF format available),https://digitalcollections.nypl.org/items/b33b8580-b977-0138-427d-3ff929dd87e1,"Outhouses / Privies; New York City, NY",Yes,Yes,
+87,pho012947,Commerce & Buildings,P.51-54,51,UNLV Special Collections,pho012947,"Photograph of saloon fire, Caliente, Nevada, 1910 [Elbert Edwards Photograph Collection (PH-00214)]",http://n2t.net/ark:/62930/d1mk6596k,,Yes,Yes,Yes
+88,snv000210,Commerce & Buildings,P.51-54,51,UNLV Special Collections,snv000210,"Photograph of Goldfield Hotel fire (Nev.), November 17, 1906 [C. A. Earle Rinker Photograph Collection of Goldfield, Nevada (PH-00350)]",http://n2t.net/ark:/62930/d1z31p29g,,Yes,Yes,Yes
+89,snv000320,Commerce & Buildings,P.51-54,51,UNLV Special Collections,snv000320,"Photograph of the Goldfield Hotel fire, Goldfield (Nev.), November 17, 1906 [C. A. Earle Rinker Photograph Collection of Goldfield, Nevada (PH-00350)]",http://n2t.net/ark:/62930/d16688z6k,,Yes,Yes,Yes
+90,pho028388,Events & Disasters,P.51-54,51,UNLV Special Collections,pho028388,"Possible Goldfield fire ruins: photographic print [C. A. Earle Rinker Photograph Collection of Goldfield, Nevada (PH-00350)]",http://n2t.net/ark:/62930/d1bv7b54j,,Yes,Yes,Yes
+91,M7WDBN,Horses & Animals,P.51,51,Alamy,M7WDBN,Horse wagons full of garbage - Dump story,https://www.alamy.com/stock-photo-the-image-titled-dump-story-appears-to-depict-a-scene-possibly-involving-176965593.html,Horses,Yes,Yes,
+92,snv001993,Landscape & Terrain,P.51,51,UNLV Special Collections,snv001993,Fire in the desert (garbage-pit) (1900 to 1925),https://special.library.unlv.edu/ark:/62930/d12v2cq76,,Yes,Yes,Yes
+93,2RGMMJ1,Commerce & Buildings,P.55,55,Alamy,2RGMMJ1,"Interior grocery store (DGS Store, Wash DC, ca. 1910s)",https://www.alamy.com/interior-of-dgs-store-wash-dc-ca-1910s-image561021497.html,Grocery Store; Building Interior,Yes,Yes,
+94,pho016723,Commerce & Buildings,P.55,55,UNLV Special Collections,pho016723,Mesquite grocery and other shops,https://special.library.unlv.edu/ark%3A/62930/d16d5pf1b,"Grocery Store; Mesquite, NV",Yes,Yes,Yes
+95,NEEDS-ID-23,Commerce & Buildings,P.55,55,UNLV Special Collections (not digitized),,"Ward's Mesquite Cash Grocery Store, 1908 (calendar image) - NOT DIGITIZED",https://special.library.unlv.edu/node/309947,,,,
+96,pho014206,Commerce & Buildings,P.56-61,56,UNLV Special Collections,pho014206,"Photograph of early Las Vegas stores, Las Vegas, circa 1900s [Sherwin ""Scoop"" Garside Photographs (PH-00067)]",http://n2t.net/ark:/62930/d1n58cn9x,,Yes,Yes,Yes
+97,NEEDS-ID-07,Events & Disasters,P.56-61,56,Bartlesville Area History Museum,,"Fire Department honor guard, Bartlesville OK",https://www.cityofbartlesville.org/fire-department-launches-honor-guard-marks-112-years-service/,,,,
+98,CC-00324,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00324,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/D655425C-6567-42AC-857F-461836246857,"Fire; Fire Department; Carson City, NV",Yes,Yes,Yes
+99,CC-00323,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00323,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/A6CFEA42-32E1-4A6D-A655-810133204835,,Yes,Yes,Yes
+100,CC-00802,Events & Disasters,P.56-61,56,Nevada Historical Society,CC-00802,"Fire Department, Carson City, 1890s",https://nevadahistory.pastperfectonline.com/photo/A43CF197-32FF-4384-BB2A-307042705340,"Fire; Fire Department; Carson City, NV",Yes,Yes,Yes
+101,S1083_1090,Events & Disasters,P.56-61,56,State Historical Society of Missouri,S1083_1090,"St. Charles Fire Department Hose Company Number One Wagon, St. Charles, Missouri, 1909 [John J. Buse Collection, S1083] -- period fire-equipment reference, not Nevada",https://digital.shsmo.org/digital/collection/imc/id/35589,"Fire; Fire Wagon; St. Louis, MO",Yes,Yes,Yes
+102,pho032884,Events & Disasters,"P.56-61, P.163-171",56,UNLV Special Collections,pho032884,Fire truck (1910 (approx) to 1945 (approx)),https://special.library.unlv.edu/ark:/62930/d1445hr2d,,Yes,Yes,Yes
+103,P0034-3138,People & Crowds,P.56-61,56,State Historical Society of Missouri,P0034-3138,"Hose #4, St. Louis Fire Department fire engine (Photographer: Vic Stevenson) [Charles Trefts Photographs, Collection P0034] -- period fire-equipment reference, not Nevada",https://digital.shsmo.org/digital/collection/imc/id/24082,Firemen,Yes,Yes,Yes
+104,pho025987,Commerce & Buildings,P.58-59,58,UNLV Special Collections,pho025987,Methodist Church (curfew bell reference),http://n2t.net/ark:/62930/d1mw2cc2m,,Yes,Yes,Yes
+105,pho028106,Education,P.58-59,58,UNLV Special Collections,pho028106,"First grammar school, 1905-10",https://special.library.unlv.edu/ark%3A/62930/d16d5pk14,Grammar School; Schoolchildren,Yes,Yes,
+106,pho025881,Education,P.58-59,58,UNLV Special Collections,pho025881,"School class, 1915",https://special.library.unlv.edu/ark%3A/62930/d16t0kt56,School Class; Schoolchildren,Yes,Yes,
+107,snv001117,Education,P.58-59,58,UNLV Special Collections,snv001117,"Las Vegas School, 1910, kids and teachers outside",https://special.library.unlv.edu/ark%3A/62930/d1g44j48c,"Schoolchildren; Las Vegas, NV",Yes,Yes,Yes
+108,snv001260,Horses & Animals,"P.58 — New WorkFlow (wagons, Eldorado Canyon)",58,UNLV Special Collections,snv001260,"Photograph of men in a horse-drawn wagon in front of the Eldorado Canyon boarding house and mill, Eldorado Canyon (Nev.), 1907 [Ferron and Bracken Photograph Collection]",http://n2t.net/ark:/62930/d1zw19647,,Yes,Yes,Yes
+109,snv001959,Horses & Animals,P.58 — New WorkFlow (wagons on desert road),58,UNLV Special Collections,snv001959,"Photograph of a horse team and freight wagons on a dirt road in the desert, 1900-1925, Las Vegas [Ferron and Bracken Photograph Collection]",http://n2t.net/ark:/62930/d1bg2hq9h,,Yes,Yes,Yes
+110,pho013444,Horses & Animals,"P.58 — New WorkFlow (wagons, Eldorado Canyon)",58,UNLV Special Collections,pho013444,"Photograph of a wagon hauling freight in Eldorado Canyon, circa 1911-1915 [Elbert Edwards Photograph Collection]",https://special.library.unlv.edu/ark:/62930/d1j678z5t,,Yes,Yes,Yes
+111,snv001968,Landscape & Terrain,"P.58 — New WorkFlow (wagons, Eldorado Canyon)",58,UNLV Special Collections,snv001968,"Photograph of a wagon and horse team on a narrow mountain road, Eldorado Canyon (Nev.), 1900-1925 [Ferron and Bracken Photograph Collection]",http://n2t.net/ark:/62930/d15q4s142,,Yes,Yes,Yes
+112,snv001161,Landscape & Terrain,"P.58 — New WorkFlow (wagons, Eldorado Canyon)",58,UNLV Special Collections,snv001161,"Photograph of a wagon approaching the Narrows at Eldorado Canyon (Nev.), 1907 [Ferron and Bracken Photograph Collection]",http://n2t.net/ark:/62930/d1z02zp6r,,Yes,Yes,Yes
+113,CHS-5553,Landscape & Terrain,P.58-59,58,USC Digital Library,CHS-5553,Curfew bell (1907 laws),https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ61I5OBW&PN=2&DocRID=2A3BF1C66CC,bell; mount; riverside; mountain; rubidoux,Yes,Yes,Yes
+114,pho014468,People & Crowds,P.58,58,UNLV Special Collections,pho014468,"People in automobiles, Las Vegas, circa 1910s-1920s",https://special.library.unlv.edu/ark:/62930/d17p8tg24,,Yes,Yes,Yes
+115,pho016809,Uncategorized,"P.58 — New WorkFlow (early automobile, exact place/year match)",58,UNLV Special Collections,pho016809,"Side view of the 1910 Oldsmobile Limited for the automobile business in Las Vegas, Nevada [James Cashman Sr. Photograph Collection]",http://n2t.net/ark:/62930/d13775z4d,,Yes,Yes,Yes
+116,pho023809,Uncategorized,P.58,58,UNLV Special Collections,pho023809,"Automobile excursion, Goodsprings NV, 1910s (Chamber of Commerce Excursion)",https://special.library.unlv.edu/ark:/62930/d11n7xt09,,Yes,Yes,Yes
+117,snv002526,Urban & Street Scenes,"P.58 — New WorkFlow (Fremont St, automobiles, 1920s)",58,UNLV Special Collections,snv002526,"Photograph of Fremont Street, buildings, and automobiles, Las Vegas (Nev.), 1900-1925 [Jacob E. Von Tobel Photograph Collection]",http://n2t.net/ark:/62930/d1br8mw8j,,Yes,Yes,Yes
+118,pho021796,Urban & Street Scenes,"P.58 — New WorkFlow (Main St, 1908-1912)",58,UNLV Special Collections,pho021796,"Photograph of Main Street, Las Vegas (Nev.), 1908-1912 [Junior League of Las Vegas Photograph Collection]",http://n2t.net/ark:/62930/d1fq9q99m,,Yes,Yes,Yes
+119,pho008436,Urban & Street Scenes,"P.58 — New WorkFlow (Fremont St, 1912-1919)",58,UNLV Special Collections,pho008436,"Photograph of Fremont Street, Las Vegas, Nevada, circa 1912-1919 [Bill Willard Photograph Collection]",http://n2t.net/ark:/62930/d14x54h2n,,Yes,Yes,Yes
+120,hln001314,Uncategorized,P.66 — New WorkFlow (tax-paying symbol / office desk),66,UNLV Special Collections,hln001314,Bracken in office (1908-05),https://special.library.unlv.edu/ark:/62930/d1r788q1b,,Yes,Yes,Yes
+121,pho013039,Uncategorized,"P.66 — New WorkFlow (tax-paying symbol, office interior)",66,UNLV Special Collections,pho013039,"Interior view of the County Clerk's office in Las Vegas, Nevada, 1914-1916 [Elbert Edwards Photograph Collection]",http://n2t.net/ark:/62930/d1qz22j94,,Yes,Yes,Yes
+122,pho023832,"Maps, Newspapers & Documents","P.67, P.97-101",67,UNLV Special Collections,pho023832,"Postcard of Lincoln County Courthouse, Pioche (Nev.), 1930s [James Hulse Photograph Collection on Pioche, Nevada (PH-00133)]",http://n2t.net/ark:/62930/d12f7jx48,,Yes,Yes,Yes
+123,pho019916,Commerce & Buildings,P.71-77,71,UNLV Special Collections,pho019916,"Pioche, Nevada, 1906 (street scene, Bank of Pioche)",http://n2t.net/ark:/62930/d17p8tj02,"Banks; Pioche, NV",Yes,Yes,Yes
+124,pho006892,Commerce & Buildings,"P.71 — New WorkFlow (Las Vegas construction/substantial buildings, 1905-1915)",71,UNLV Special Collections,pho006892,"Exterior view of the First State Bank, Las Vegas, 1905 -- second Squires photo album page 16 image 1 [Charles P. Squires Photograph Collection]. CORRECTED 2026-08-27: previous title on this row (""Clark's Forwarding (barrels)"") did not match this item's actual UNLV record -- confirmed via item page. If Clark's Forwarding was a separate needed image, it may still need re-identifying.",https://special.library.unlv.edu/ark:/62930/d1z60c221,,Yes,Yes,Yes
+125,pho006889,Commerce & Buildings,"P.71 — New WorkFlow (Las Vegas construction, 1905-1915)",71,UNLV Special Collections,pho006889,"Exterior view of a bank building under construction, Las Vegas, circa 1905 -- second Squires photo album page 5 image 2 [Charles P. Squires Photograph Collection]",http://n2t.net/ark:/62930/d1bc3sx2g,,Yes,Yes,Yes
+126,CH-00740,Horses & Animals,P.71-77,71,Nevada Historical Society,CH-00740,On the way somewhere with a horse and buggy,https://nevadahistory.pastperfectonline.com/photo/1542E8D7-33D9-4AFC-8177-601402307910,Horses; Horse & Buggy,Yes,Yes,Yes
+127,ESM-01420,Horses & Animals,P.71-77,71,Nevada Historical Society,ESM-01420,On the way somewhere with a horse and buggy,https://nevadahistory.pastperfectonline.com/photo/CF5CE2EF-8060-4F99-A419-115366004210,Horses; Horse & Buggy,Yes,,Yes
+128,pho006890,Horses & Animals,"P.71 — New WorkFlow (Las Vegas construction, 1905-1915)",71,UNLV Special Collections,pho006890,"Exterior view of the Las Vegas Trading Company, advertising lumber, lime, cement, etc., with a horse coach in front, 1905 -- second Squires photo album page 9 image 4 [Charles P. Squires Photograph Collection]. CORRECTED 2026-08-27: previous title on this row (""Las Vegas Trading Co. / Thomas building"") was close but imprecise -- confirmed exact title/details via UNLV item page.",https://special.library.unlv.edu/ark:/62930/d16q1sh0k,,Yes,Yes,
+129,CH-00090,People & Crowds,P.71-77,71,Nevada Historical Society,CH-00090,"Family with buggy and house, en route to Pioche",https://nevadahistory.pastperfectonline.com/photo/B79044F6-00C2-48EF-8802-623642261290,"Families; Horse & Buggy; Pioche, NV",Yes,Yes,Yes
+130,snv000636,Uncategorized,P.71-77,71,UNLV Special Collections,snv000636,"Photograph of pedestrians in front of the Charles D. Marriage Assay office, Pioche (Nev.), 1907 [Lincoln County Museum Photograph Collection]",http://n2t.net/ark:/62930/d1416td1h,,Yes,Yes,Yes
+131,pho014336,Urban & Street Scenes,"P.71 — New WorkFlow (Las Vegas construction, 1905-1915)",71,UNLV Special Collections,pho014336,Street construction (1909 to 1910),https://special.library.unlv.edu/ark:/62930/d1gt5fh7v,,Yes,Yes,Yes
+132,Pho023008,Urban & Street Scenes,P.71-77,71,UNLV Special Collections,Pho023008,"Pioche panorama, distant",https://special.library.unlv.edu/ark%3A/62930/d14j0b341,"Panorama; Pioche, NV",Yes,Yes,
+133,pho023834,Government & Politics,Rough Cut p.72 — New WorkFlow (Lincoln County Courthouse interior),72,UNLV Special Collections,pho023834,"Photograph of interior of courthouse, Pioche (Nev.), 1905-1951 [James Hulse Photograph Collection on Pioche, Nevada]",http://n2t.net/ark:/62930/d1sx64g4f,,Yes,Yes,Yes
+134,pho023019,Horses & Animals,"Rough Cut p.72 — New WorkFlow (Pioche variety - child on horseback, 1907)",72,UNLV Special Collections,pho023019,"Photograph of a girl on a horse, Pioche (Nev.), 1907 [Lincoln County Museum Photograph Collection]",http://n2t.net/ark:/62930/d1q814z2p,,Yes,Yes,Yes
+135,Pho023927,Landscape & Terrain,P.72,72,UNLV Special Collections,Pho023927,Panorama of mountains and Pioche in the distance,https://special.library.unlv.edu/ark%3A/62930/d1sj19x4n,"Mountains; Panorama; Pioche, NV",Yes,Yes,
+136,Pho023916,Uncategorized,P.72,72,UNLV Special Collections,Pho023916,Pioche,https://special.library.unlv.edu/ark%3A/62930/d16q1sp4r,"Pioche, NV",Yes,Yes,
+137,Pho023372,Landscape & Terrain,P.73,73,UNLV Special Collections,Pho023372,"Photograph of Pioche, dirt roads",https://special.library.unlv.edu/ark%3A/62930/d1c53f65m,"Road; Pioche, NV",Yes,Yes,
+138,Pho023917,Uncategorized,P.73,73,UNLV Special Collections,Pho023917,Pioche,https://special.library.unlv.edu/ark%3A/62930/d12z12w00,"Pioche, NV",Yes,Yes,
+139,pho023919,Uncategorized,P.73 — New WorkFlow (Pioche government/office buildings),73,UNLV Special Collections,pho023919,"Small building used as T.J. Osborne's Law Office, Pioche Hills, 1899-1901 [Thomas J. Osborne Photograph Collection]",http://n2t.net/ark:/62930/d1th8bt2c,,Yes,Yes,Yes
+140,Snv000951,Horses & Animals,P.74,74,UNLV Special Collections,Snv000951,Pioche with wagon and horses,https://special.library.unlv.edu/ark%3A/62930/d1fx74c3w,"Horses; Pioche, NV",Yes,Yes,
+141,Pho017849,Uncategorized,P.74,74,UNLV Special Collections,Pho017849,On the way to Caliente,https://special.library.unlv.edu/ark%3A/62930/d1gb1xm27,"Caliente, NV",Yes,Yes,
+142,pho009800,Trains & Railroads — General,P.75,75,UNLV Special Collections,pho009800,"Caliente Railroad Depot exterior, circa 1960s-1970s (CAUTION: too late for 1911 era)",https://special.library.unlv.edu/ark%3A/62930/d1tm7223b,,Yes,Yes,Yes
+143,snv000705,Uncategorized,"P.75 — New WorkFlow (Caliente train depot, people in shot)",75,UNLV Special Collections,snv000705,"Samuel Newhouse's party waiting in Caliente for private car to Salt Lake, 1906 [Lincoln County Museum Photograph Collection]",http://n2t.net/ark:/62930/d1b853x99,,Yes,Yes,Yes
+144,pho023812-001,"Maps, Newspapers & Documents",P.84-85,84,Western Mining History,pho023812-001,"Postcard of Searchlight, NV, 1907 (front) - low priority",https://westernmininghistory.com/gallery-image/41441/,"Searchlight, NV; Postcard",Yes,Yes,Yes
+145,pho009778,Mining,P.84-85,84,UNLV Special Collections,pho009778,Searchlight mine,https://special.library.unlv.edu/ark%3A/62930/d1p26q47w,"Mines; Searchlight, NV",Yes,Yes,Yes
+146,snv002133,Mining,P.84-85,84,UNLV Special Collections,snv002133,"Photograph of miners inside the Techatticup Mine (Nev.), 1900-1925 [UNLV Special Collections]",http://n2t.net/ark:/62930/d1513v946,,Yes,,Yes
+147,pho031101,Mining,P.84-85,84,UNLV Special Collections,pho031101,Quartette mine (1900 to 1940),https://special.library.unlv.edu/ark:/62930/d1sx64n36,,Yes,Yes,Yes
+148,NEEDS-ID-13,Mining,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41440/,,,,
+149,NEEDS-ID-14,Mining,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41444/,,,,
+150,NEEDS-ID-15,Mining,P.84-85,84,Western Mining History,,Searchlight/mining images - low priority,https://westernmininghistory.com/gallery-image/41446/,,,,
+151,pho016862,Mining,P.85,85,UNLV Special Collections,pho016862,Techatticup Mine,https://special.library.unlv.edu/ark%3A/62930/d17p8th0m,Mines,Yes,Yes,Yes
+152,NEEDS-ID-08,Commerce & Buildings,P.87-90,87,Chicago History Museum,,"Banks in Chicago, LaSalle Street",https://images.chicagohistory.org/search/?searchQuery=bank+lasalle+1910,,,,
+153,DN-0008569,Commerce & Buildings,P.87-90,87,Chicago History Museum,DN-0008569,"Five men with two carts holding bags at the entrance to the Union Trust Bank vault, Tribune Building (Madison & Dearborn), Chicago, 1910",https://images.chicagohistory.org/asset/704/,,Yes,Yes,Yes
+154,NEEDS-ID-09,Urban & Street Scenes,P.87-90,87,Chicago History Museum,,Chicago street scene,https://images.chicagohistory.org/asset/31985/,,,,
+155,hln000496,Horses & Animals,P.90-92,90,UNLV Special Collections,hln000496,"Grading for a rail line, 1906, Kiel Ranch (horses, equipment)",https://special.library.unlv.edu/ark%3A/62930/d1ft8hj31,"Horses; Railroad Tracks; Grading for Rail Line; Ranch; Kiel Ranch, NV",Yes,Yes,
+156,21339.0,People & Crowds,P.90-92,90,Utah Historical Society,21339.0,"RR shops construction, 1905, foundation/workers/tracks, Idaho",https://collections.lib.utah.edu/ark:/87278/s6pk0qgj,"San Pedro, Los Angeles and Salt Lake dining car with waiters, May, 1905. Shipler Photog. # 1525.",Yes,Yes,Yes
+157,NEEDS-ID-11,Trains & Railroads — General,P.90,90,Union Pacific Railroad Museum,,"Railroad office, 1905",https://unionpacific.canto.com/v/UnionPacificCollection/library?keyword=nevada,,,,
+158,22586.0,Trains & Railroads — General,P.90-92,90,Utah Historical Society,22586.0,SP LA SL Railroad cooks pose outside rail car,https://collections.lib.utah.edu/ark:/87278/s6mc97gg,,Yes,Yes,Yes
+159,511.0,Trains & Railroads — General,P.90-92,90,Utah Historical Society,511.0,"Bamberger Railroad -- Cable Gang, Lagoon, Summer 1909 (Bamberger Railroad P.1)",https://collections.lib.utah.edu/ark:/87278/s6418cwb,"Taken at the old main entrance of Lagoon, Summer 1909. Electrical cable crew of Bamberger Electric",Yes,Yes,Yes
+160,523.0,Trains & Railroads — General,P.90-92,90,Utah Historical Society,523.0,"Workmen on tracks, 1900",https://collections.lib.utah.edu/ark:/87278/s68d1c1h,"Central Pacific Railroad grade and bridge over Bear River at Corinne, looking east.",Yes,Yes,Yes
+161,27871.0,Trains & Railroads — General,P.90-92,90,Utah Historical Society,27871.0,"Bamberger Line property, April 21, 1907 (Bamberger Railroad P.15)",https://collections.lib.utah.edu/ark:/87278/s6bg44vt,"Bamberger Line property, April 21, 1907. Shipler Commercial Photography #2814.",Yes,Yes,Yes
+162,22584.0,Trains & Railroads — Stations & Travel,P.90-92,90,Utah Historical Society,22584.0,Empty dining car,https://collections.lib.utah.edu/ark:/87278/s6vx0qzt,"San Pedro, Los Angeles and Salt Lake train (1st to L.A.) dining car",Yes,Yes,Yes
+163,pan.6a13942,Uncategorized,"P.90-92, P.163",90,Library of Congress,pan.6a13942,"Wide shot of Las Vegas, 1910, RR machine shops in progress",https://www.loc.gov/pictures/resource/pan.6a13942/,,Yes,Yes,Yes
+164,snv002556,Trains & Railroads — General,"P.91 — New WorkFlow (machine shop expansion interior, exact match)",91,UNLV Special Collections,snv002556,"Interior of San Pedro, Los Angeles and Salt Lake Railroad machine shop in Las Vegas, Nevada, estimated 1909-1910 [Charles P. Squires Photograph Collection]",http://n2t.net/ark:/62930/d1gb1xx5q,,Yes,Yes,Yes
+165,pho013522,Trains & Railroads — General,P.91,91,UNLV Special Collections,pho013522,"Railroad machine shops, Las Vegas, circa early 1900s",https://special.library.unlv.edu/ark:/62930/d1g15td0r,,Yes,Yes,Yes
+166,pho023833,Government & Politics,"P.100 — New WorkFlow (Pioche's grand courthouse, exterior)",100,UNLV Special Collections,pho023833,"EXTERIOR view (front facade) of Lincoln County Courthouse, Pioche, Nevada, 1905-1951 -- winter scene, snow, bare trees, ""POST NO BILLS"" signage on facade. CORRECTED 2026-08-27: earlier note on this row said ""interiors"" -- verified by visual inspection this is an EXTERIOR shot. [James Hulse Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1xp6v886,,Yes,Yes,Yes
+167,snv000856,Government & Politics,P.100 — New WorkFlow (Pioche's grand courthouse),100,UNLV Special Collections,snv000856,"Old Lincoln County Courthouse, Pioche, Nevada -- period caption ""Nevada's Famous $1,000,000.00 Court House,"" circa 1900-1925 [James Hulse Photograph Collection on Pioche, Nevada]",http://n2t.net/ark:/62930/d19p2wm23,,Yes,Yes,Yes
+168,pho013129,Government & Politics,"P.101, P.104",101,UNLV Special Collections,pho013129,"Photograph of governor's mansion, Carson City, Nevada, circa 1908-1909 [Elbert Edwards Photograph Collection (PH-00214)]",http://n2t.net/ark:/62930/d13r0pv96,,Yes,Yes,Yes
+169,tey0054,Government & Politics,"P.101, P.156",101,Western Nevada Historic Photo Collection,tey0054,"1911 Nevada Legislature -- labeled group photo naming Clay Tallman (Senate President Pro Tem 1909-1913), A.C. Frolich (Assembly Speaker 1911-1913), James G. Sweeney (Chief Justice), and senators from Washoe/Esmeralda/Nye/Ormsby/Lyon/Douglas counties. This is the legislature that passed the Las Vegas incorporation bill, March 1911. Source: Carson City: The Early Years (WNHPC).",https://wnhpc.com/details/tey0054,,Yes,,Yes
+170,pcrd.1d03667,"Maps, Newspapers & Documents","P.101, P.156",101,Library of Congress,pcrd.1d03667,"State capitol - Carson City. Library of Congress Prints and Photographs Division, postcard collection. Digital ID: pcrd 1d03667",https://www.loc.gov/pictures/resource/pcrd.1d03667/,,Yes,Yes,
+171,tey0087,Trains & Railroads — General,"P.101, P.156",101,Western Nevada Historic Photo Collection,tey0087,"Carson Depot (V&T Railroad) -- the Carson City depot of the Virginia & Truckee Railroad, original size before a later expansion. Source: Carson City: The Early Years (WNHPC).",https://wnhpc.com/details/tey0087,,Yes,,Yes
+172,tey0082,Government & Politics,"P.104, P.156 (loose)",104,Western Nevada Historic Photo Collection,tey0082,"Suffrage -- Governor Emmett D. Boyle signs the resolution for ratification of the 19th Amendment, February 7, 1920. Also present: Mrs. Sadie D. Hurst (first female member of the Nevada Legislature) and Speaker of the Assembly D.J. Fitzgerald. Source: Carson City: The Early Years (WNHPC).",https://wnhpc.com/details/tey0082,"Suffragettes; Governor; Suffrage / 19th Amendment Signing; Governor Boyle; Carson City, NV",Yes,,Yes
+173,pho013120,Uncategorized,P.104,104,UNLV Special Collections,pho013120,"Photograph of Denver Dickerson, Nevada, circa 1908-1910 [Elbert Edwards Photograph Collection (PH-00214)]",http://n2t.net/ark:/62930/d18c9r58r,,Yes,Yes,Yes
+174,pho014432,Urban & Street Scenes,P.104-108,104,UNLV Special Collections,pho014432,"Photograph of a footrace, Las Vegas, Nevada, July 4, 1907 [Leon Rockwell Photograph Collection (PH-00008)]",http://n2t.net/ark:/62930/d1rv0d30m,,Yes,Yes,Yes
+175,pho025998,Government & Politics,P.108-112,108,UNLV Special Collections,pho025998,"Clark County Courthouse (temporary building, 1909)",https://special.library.unlv.edu/ark%3A/62930/d1bg2m77h,,,Yes,
+176,pho019878,Urban & Street Scenes,P.108-112,108,UNLV Special Collections,pho019878,"County commissioners (Harmon, Ronnow, others), ca. 1912-1914",https://special.library.unlv.edu/ark%3A/62930/d1513v09k,County Commissioners; Charles Ronnow; Harmon,Yes,Yes,
+177,pho019880,People & Crowds,P.112-119,112,UNLV Special Collections,pho019880,Caliente School (Ronnow children),https://special.library.unlv.edu/ark%3A/62930/d1wm13z3r,"Children; Schoolchildren; Charles Ronnow; Caliente, NV",Yes,Yes,
+178,snv000187,Mining,"P.119, P.38-42",119,UNLV Special Collections,snv000187,"Photograph of a power plant for a mill, Goldfield (Nev.), early 1900s [C. A. Earle Rinker Photograph Collection of Goldfield, Nevada (PH-00350)]",http://n2t.net/ark:/62930/d1j38kx6x,,Yes,Yes,Yes
+179,pho025511,Urban & Street Scenes,"P.119, P.38-42",119,UNLV Special Collections,pho025511,Charles Ronnow (Ed Clark's business partner),https://special.library.unlv.edu/ark%3A/62930/d1zw1900m,Ed Clark; Charles Ronnow,Yes,Yes,
+180,2EJ3T8R,"Maps, Newspapers & Documents",P.124-128,124,Alamy,2EJ3T8R,"Water supply system diagram/drawing, 1900s",https://www.alamy.com/vintage-plans-of-building-system-of-drainage-and-water-supply-essential-to-proper-sanitation-1900s-image406987191.html,,Yes,Yes,Yes
+181,429744.0,"Maps, Newspapers & Documents",P.124-128,124,Utah Historical Society,429744.0,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429744,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
+182,429746.0,"Maps, Newspapers & Documents",P.124-128,124,Utah Historical Society,429746.0,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429746,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
+183,429753.0,"Maps, Newspapers & Documents",P.124-128,124,Utah Historical Society,429753.0,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429753,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
+184,429758.0,"Maps, Newspapers & Documents",P.124-128,124,Utah Historical Society,429758.0,Sewer/water supply plans,https://collections.lib.utah.edu/details?id=429758,Railroad Maps & Plans; Sewers; Water Supply,,Yes,
+185,DPW-35,People & Crowds,P.124-128,124,San Francisco Public Library,DPW-35,"San Francisco sewers with construction workers, 1910",https://digitalsf.org/record/6559,"Workers; Construction Workers; Sewers; San Francisco, CA",Yes,Yes,Yes
+186,2M2JKTF,Sanitation & Utilities,P.124-128,124,Alamy,2M2JKTF,"Culvert - Malden, Mass., 1904",https://www.alamy.com/distribution-department-spot-pond-brook-winter-street-culvert-northerly-end-malden-mass-apr-30-1904-waterworks-brooks-watershed-sanitary-improvement-image500740703.html,,Yes,Yes,Yes
+187,2M2JKRR,Sanitation & Utilities,P.124-128,124,Alamy,2M2JKRR,"Culvert / drainage area - Melrose, Mass., 1904",https://www.alamy.com/distribution-department-spot-pond-brook-wyoming-avenue-culvert-westerly-end-melrose-mass-apr-30-1904-waterworks-brooks-watershed-sanitary-improvement-image500740683.html,,Yes,Yes,Yes
+188,45.0,Sanitation & Utilities,P.124-128,124,Digital Commonwealth,45.0,Sewer construction,https://www.digitalcommonwealth.org/search/commonwealth:xw42p9010,Sewers; Sewer Construction,Yes,Yes,Yes
+189,MDWSC_C_0071_0009_CE,Sanitation & Utilities,P.124-128,124,Massachusetts Archives / Digital Commonwealth,MDWSC_C_0071_0009_CE,"Contract No. 71, WPA Sewer Construction, Holden, laying 8 in. vitrified clay pipe, looking northerly from Sta. 30+35, Holden Sewer, Holden, Mass., Dec. 5, 1939 [Metropolitan District Water Supply Commission, Quabbin Reservoir] -- period sewer-construction reference photo, not Nevada",https://www.digitalcommonwealth.org/search/commonwealth:5m60tx74j,Sewers; Sewer Construction,Yes,Yes,
+190,DPW-46,Sanitation & Utilities,P.124-128,124,San Francisco Public Library,DPW-46,"San Francisco sewers, 1910, being built",https://digitalsf.org/record/6563,,Yes,Yes,Yes
+191,AHAPZ202108000145,Sanitation & Utilities,P.124-128,124,Temple University Digital Collections,AHAPZ202108000145,Sewer construction,https://digital.library.temple.edu/digital/collection/p245801coll13/id/4540,Sewers; Sewer Construction,,Yes,
+192,hln000124,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000124,"Men laying sewer pipe, Boulder City, ca. 1931",https://special.library.unlv.edu/ark%3A/62930/d1p846v6x,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
+193,hln000338,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000338,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d16t0kw0p,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
+194,hln000340,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000340,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1zc7vt5h,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
+195,hln000313,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000313,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1fj2dc3h,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
+196,hln000423,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,hln000423,"Men laying sewer pipe, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1nv9d94q,"Men; Sewers; Sewer Pipe; Men Laying Sewer Pipe; Boulder City, NV",Yes,Yes,Yes
+197,pho005819,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,pho005819,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1g15xg59,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
+198,Pho023137,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,Pho023137,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1qn5zh42,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
+199,pho023136,Sanitation & Utilities,P.124-128,124,UNLV Special Collections,pho023136,"Sewer construction, Boulder City",https://special.library.unlv.edu/ark%3A/62930/d1vd6p97q,"Sewers; Sewer Construction; Boulder City, NV",Yes,Yes,Yes
+200,2714859.0,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2714859.0,"Corrugated pipe siphon, 1910",https://collections.lib.utah.edu/ark:/87278/s6zc6tmp,Corrugated Pipe Siphon,Yes,Yes,Yes
+201,2669736.0,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2669736.0,"Water supply in concrete reservoir, 1905",https://collections.lib.utah.edu/ark:/87278/s6afswsn,,,Yes,
+202,2714874.0,Sanitation & Utilities,P.124-128,124,Utah Historical Society,2714874.0,"Water supply in concrete reservoir, with materials list",https://collections.lib.utah.edu/ark:/87278/s648tkc4,Water Tank / Reservoir; Water Supply; Concrete Reservoir,,Yes,
+203,2714858.0,Trains & Railroads — Construction & Infrastructure,P.124-128,124,Utah Historical Society,2714858.0,Double coal house for company dwellings,https://collections.lib.utah.edu/ark:/87278/s6rby25h,Coal House,Yes,Yes,Yes
+204,573.0,Trains & Railroads — General,P.124-128,124,Utah Historical Society,573.0,"Denver and Rio Grande Western RR, east-bound train #6 crossing Soldier Summit, 1910 (D&RGW R.R. P.7)",https://collections.lib.utah.edu/ark:/87278/s6pk1zvr,"Denver and Rio Grande Western RR, east-bound train #6, crossing the divide at Soldier Summit,",Yes,Yes,Yes
+205,CH-00542,Events & Disasters,P.129-136,129,Nevada Historical Society,CH-00542,"Flood/washout, 1910 (cheat - Fallon flood 1907)",https://nevadahistory.pastperfectonline.com/photo/85F34D11-5B34-4A66-9A83-368651104515,Flood; Washout,,Yes,
+206,hln000245,Events & Disasters,P.129-133,129,UNLV Special Collections,hln000245,"Flooding in Carp, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d10r9q359,"Flood; Carp, NV; Carp; Ephemeral; Fences; Flooding; Floods; Mountain",Yes,Yes,
+207,Hln000247,Events & Disasters,P.129-133,129,UNLV Special Collections,Hln000247,"Flood damage in Stine, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1r788n8t,"Flood; Stine, NV",Yes,Yes,
+208,hln000248,Events & Disasters,P.129-133,129,UNLV Special Collections,hln000248,"Flood in Carp (WARNING: script wants 1909-10 flood, this resolves to 1905, verify) (1905)",https://special.library.unlv.edu/ark:/62930/d1mg7jv4p,Damage; Flood; Tracks; Rails; Stine Nevada,Yes,Yes,
+209,NEEDS-ID-18,Events & Disasters,P.129-133,129,UNLV Special Collections (not digitized),,"Flash flood in Stine, NV, 1905 - NOT DIGITIZED (some found digitized separately)",https://special.library.unlv.edu/node/85232,,,,
+210,hln000264,Landscape & Terrain,P.129-133 (loose),129,UNLV Special Collections,hln000264,"Flooding in desert, 1950s, windblown tree",https://special.library.unlv.edu/ark%3A/62930/d1jm26f7g,Flood; Desert; Trees,Yes,Yes,
+211,pho031617,Ranching & Farming,P.129-133,129,UNLV Special Collections,pho031617,Cracked mud from Meadow Valley Wash flood,https://special.library.unlv.edu/ark%3A/62930/d1cn6zb43,"Harvest; Farming; Bunkerville, NV",Yes,Yes,Yes
+212,hln000246,Trains & Railroads — General,P.129-133,129,UNLV Special Collections,hln000246,"Flood, damaged tracks in Stine, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1w090g0m,"Railroad Tracks; Flood; Stine, NV",Yes,Yes,
+213,NEEDS-ID-10,Trains & Railroads — General,P.129-136,129,Union Pacific Railroad Museum,,"1938 flood, same location as earlier flood photos (tracks and mud)",https://unionpacific.canto.com/v/UnionPacificCollection/library?keyword=FLOOD,,,,
+214,NC96_22_79_5,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,NC96_22_79_5,"Reno, quiet residential street",https://unr.dgicloud.com/node/48971,"Street Scene; Residential Street; Reno, NV",,Yes,
+215,campphotoscollection:5367,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,campphotoscollection:5367,Downtown Reno,https://unr.dgicloud.com/node/3206,,Yes,Yes,Yes
+216,campphotoscollection:5365,Urban & Street Scenes,P.136-142,136,University of Nevada Reno,campphotoscollection:5365,"Downtown Reno, a few people",https://unr.dgicloud.com/node/11156,,Yes,Yes,Yes
+217,pho017802,People & Crowds,P.141,141,UNLV Special Collections,pho017802,Cahlan family (1910),https://special.library.unlv.edu/ark:/62930/d1jd4ps8x,Families; Cahlan Family,Yes,Yes,Yes
+218,pho017706,Events & Disasters,P.148-151,148,UNLV Special Collections,pho017706,"Harvest at J.I. Earl farm, Bunkerville, NV, 1905",https://special.library.unlv.edu/ark%3A/62930/d1pk07521,"Flood; Meadow Valley Wash, NV",Yes,Yes,Yes
+219,NEEDS-ID-21,People & Crowds,P.148-151,148,UNLV Special Collections (not digitized),,"People at Old Ranch, 1911 - NOT DIGITIZED",https://special.library.unlv.edu/node/279355,,,,
+220,NEEDS-ID-19,Ranching & Farming,P.148-151,148,UNLV Special Collections (not digitized),,"Bordoli ranch, 1910 - NOT DIGITIZED",https://special.library.unlv.edu/node/50090,,,,
+221,NEEDS-ID-20,Ranching & Farming,P.148-151,148,UNLV Special Collections (not digitized),,"Man on a horse at Bill Morgan's Old Ranch, 1910 - NOT DIGITIZED",https://special.library.unlv.edu/node/279361,,,,
+222,1a34194,Agriculture,P.151-152,151,Library of Congress,1a34194,Crates of peaches,https://www.loc.gov/pictures/resource/fsac.1a34194/,,Yes,Yes,Yes
+223,CHS-1130,Agriculture,P.151,151,USC Digital Library,CHS-1130,"Picking strawberries in California, 1910 (Florence Boyer)",https://digitallibrary.usc.edu/CS.aspx?VP3=DamView&VBID=2A3BXZ64A78J3&PN=1&DocRID=2A3BF16BONA,Strawberry Picking; Florence Boyer,Yes,Yes,Yes
+224,pho023728,Horses & Animals,P.151,151,UNLV Special Collections,pho023728,"Country doctor in wagon, Nevada, 1880-1910",https://special.library.unlv.edu/ark%3A/62930/d1h41js9j,,Yes,Yes,Yes
+225,pho014397,People & Crowds,P.151,151,UNLV Special Collections,pho014397,"McGriff Ranch, early 1900s, man",https://special.library.unlv.edu/ark%3A/62930/d1901zj18,Men; Ranch; McGriff Family,Yes,Yes,Yes
+226,pho004895,People & Crowds,P.151,151,UNLV Special Collections,pho004895,"McGriff Ranch, early 1900s, people and house",https://special.library.unlv.edu/ark%3A/62930/d1wp9t64s,People; Ranch; McGriff Family,Yes,Yes,Yes
+227,pho004794,Ranching & Farming,P.151,151,UNLV Special Collections,pho004794,Greenhouse at McGriff Ranch,https://special.library.unlv.edu/ark%3A/62930/d1f47gt3x,Ranch; Greenhouse; McGriff Family,Yes,Yes,Yes
+228,pho004793,Ranching & Farming,P.151,151,UNLV Special Collections,pho004793,"Olive Lake at well on McGriff Ranch, Las Vegas",https://special.library.unlv.edu/ark%3A/62930/d1js9h75x,"Ranch; Well; Olive Lake; McGriff Family; Las Vegas, NV",Yes,Yes,Yes
+229,NEEDS-ID-17,Ranching & Farming,P.151,151,UNLV Special Collections (not digitized),,"Peach orchard, McGriff property, 1912 - NOT DIGITIZED",https://special.library.unlv.edu/node/751123,,,,
+230,pho019885,Urban & Street Scenes,P.151,151,UNLV Special Collections,pho019885,"Della McGriff with man on the ranch, 1910s",https://special.library.unlv.edu/ark%3A/62930/d17s7hx3c,Men; Ranch; Della McGriff; McGriff Family,Yes,,Yes
+231,D99999_539,Government & Politics,Yes -- script row 155 area (Squires advocates for incorporation bill at Carson City),155,UNLV Special Collections,D99999_539,"Nevada State Capitol building in Carson City, Nevada: photographic print. On photograph printed ""John Nulty photography"", 1930-1970 [Walking Box Ranch Photograph Collection].",http://n2t.net/ark:/62930/d1j97k,,Yes,Yes,Yes
+232,D99999_590,Urban & Street Scenes,Yes -- script row 155 area (Squires advocates for incorporation bill at Carson City),155,UNLV Special Collections,D99999_590,"Aerial view of the Nevada Capitol building: photographic print. Copyright stamp on back ""Photo by John Nulty"", 1930-1970 [Walking Box Ranch Photograph Collection].",http://n2t.net/ark:/62930/d1n103,,Yes,Yes,Yes
+233,Pho016224,Horses & Animals,P.160,160,UNLV Special Collections,Pho016224,Mrs. Park on her porch with dog,https://special.library.unlv.edu/ark%3A/62930/d1445hg0v,Dogs; Park Family,Yes,,
+234,1112.0,Commerce & Buildings,P.163-165,163,Found Image Press (Amazon),1112.0,"Restaurant kitchen, for Overland Fire",https://www.amazon.com/dp/B0C2JFVWB4,Restaurant; Restaurant Kitchen; Fire,,,
+235,Pho033937-014,People & Crowds,P.163-165,163,UNLV Special Collections,Pho033937-014,Smiling woman on a picnic,https://special.library.unlv.edu/ark%3A/62930/d1154hn5j,Women; Picnicking; Album; Park Families; Picnic; Woman; Smiling; Ice plant; Garden of the Gods,Yes,Yes,
+236,pho017618,Urban & Street Scenes,P.163-165,163,UNLV Special Collections,pho017618,Von Tobel and Beckley families picnicking,https://special.library.unlv.edu/ark%3A/62930/d1j960d4h,Families; Picnicking; Beckley Family; Von Tobel Family,Yes,Yes,
+237,pho021802,Commerce & Buildings,"Rough Cut p.171-176 — New WorkFlow (Overland Hotel fire aftermath, people)",171,UNLV Special Collections,pho021802,"Photograph of Overland Hotel after a fire, Las Vegas (Nev.), 1911 [Junior League of Las Vegas Photograph Collection]",http://n2t.net/ark:/62930/d1p84416b,,Yes,Yes,Yes
+238,pho006111,Commerce & Buildings,Rough Cut p.171-176 — New WorkFlow (Overland Hotel fire remains),171,UNLV Special Collections,pho006111,"Photograph of Overland Hotel, Las Vegas, circa 1911 [Charles P. Squires Photograph Collection]",http://n2t.net/ark:/62930/d1vt1gp8w,,Yes,Yes,Yes
+239,pho017729,Agriculture,,9999,UNLV Special Collections,pho017729,pho017729,,Frehner Family; First Home; Farm; Portrait,,Yes,
+240,2012646311.0,Commerce & Buildings,,9999,Library of Congress,2012646311.0,"Mary's Dance Hall, Goldfield, Nevada, 1907",https://lccn.loc.gov/2012646311,,Yes,Yes,Yes
+241,L87-1.2383-10,Commerce & Buildings,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.2383-10,"Spokane, 1910, grocery store",https://ferrisarchives.northwestmuseum.org/Item/Index/3657,,Yes,Yes,Yes
+242,L87-1.2384-10,Commerce & Buildings,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.2384-10,"Spokane, 1910, fancy couple in a restaurant",https://ferrisarchives.northwestmuseum.org/Item/Index/3658,,Yes,Yes,Yes
+243,pho033453,Commerce & Buildings,,9999,UNLV Special Collections,pho033453,Early wood bank building (1900 to 1939),https://special.library.unlv.edu/ark:/62930/d1901zx92,,,Yes,
+244,pho006099,Commerce & Buildings,,9999,UNLV Special Collections,pho006099,Kids outside church (1910 to 1919),https://special.library.unlv.edu/ark:/62930/d1dr2p837,,Yes,Yes,Yes
+245,pho006296,Commerce & Buildings,,9999,UNLV Special Collections,pho006296,Bank / W.E. Hawkins Store (1900 to 1915),https://special.library.unlv.edu/ark:/62930/d13b5w77d,,Yes,Yes,Yes
+246,pho012890,Commerce & Buildings,,9999,UNLV Special Collections,pho012890,Saloon with burros (1905),https://special.library.unlv.edu/ark:/62930/d1057ct9w,,Yes,Yes,Yes
+247,pho025125,Commerce & Buildings,,9999,UNLV Special Collections,pho025125,"Interiors, Caliente (Saloon keepers)",,,,,
+248,pho019918,Education,,9999,UNLV Special Collections,pho019918,"Helen Hackett, Rose Valley School, Lincoln County, Nevada, 1931",http://n2t.net/ark:/62930/d1057cx1c,,,,
+249,pho013067,Education,,9999,UNLV Special Collections,pho013067,pho013067,,School; Panaca; Nevada,,Yes,
+250,csfcp_000063,Events & Disasters,,9999,Internet Archive / California Revealed,csfcp_000063,Goldfield-Rawhide NV 1904-1909 photo album (incl. 1905 and 1908 fire photos),https://archive.org/details/csfcp_000063,,,,
+251,pho031198,Events & Disasters,,9999,UNLV Special Collections,pho031198,Rainstorm/flood (1910 (approx) to 1930 (approx)),https://special.library.unlv.edu/ark:/62930/d1hm52x2h,,Yes,Yes,Yes
+252,pho031199,Events & Disasters,,9999,UNLV Special Collections,pho031199,Rainstorm/flood (1910 (approx) to 1930 (approx)),https://special.library.unlv.edu/ark:/62930/d1cv4c39n,,Yes,Yes,Yes
+253,2016864143.0,Government & Politics,,9999,Library of Congress,2016864143.0,"Tasker Oddie, Governor of Nevada, portrait, 1912, Standing",https://lccn.loc.gov/2016864143,,Yes,Yes,Yes
+254,nv0072,Government & Politics,,9999,Library of Congress (HABS),nv0072,"Old Lincoln County Courthouse (Million Dollar Courthouse), Pioche, NV",https://www.loc.gov/item/nv0072/,,Yes,Yes,Yes
+255,TNV006,Government & Politics,,9999,Town of Tonopah,TNV006,"Nye County Courthouse, Tonopah, NV, 1910",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+256,pho018500,Government & Politics,,9999,UNLV Special Collections,pho018500,"Aerial photograph of Pioche, Nevada, 1870-1889 (Million Dollar Courthouse visible)",http://n2t.net/ark:/62930/d1445hg77,,Yes,Yes,Yes
+257,pho019911,Government & Politics,,9999,UNLV Special Collections,pho019911,"Governor Emmett D. Boyle of Nevada signing resolution for the Nineteenth Amendment, 1920 February 07",http://n2t.net/ark:/62930/d1wd3q561,,Yes,Yes,Yes
+258,pho025999,Government & Politics,,9999,UNLV Special Collections,pho025999,"Photograph of Clark County Courthouse, Las Vegas (Nev.) -- close view, circa 1900-1925 [Sunnie Gillette Photograph Collection]. See also pho025998 (other courthouse views).",http://n2t.net/ark:/62930/d16q1wf2w,,Yes,Yes,Yes
+259,pho006301,Government & Politics,,9999,UNLV Special Collections,pho006301,"Slide of the first Clark County Courthouse, Las Vegas, circa early 1910s",http://n2t.net/ark:/62930/d1fn10s04,,Yes,Yes,Yes
+260,pho006104,Government & Politics,,9999,UNLV Special Collections,pho006104,"Construction of courthouse, 1914, men in hats",,,,,
+261,pho019910,Government & Politics,,9999,UNLV Special Collections,pho019910,"U.S. Senator William A. Clark from Montana, undated",http://n2t.net/ark:/62930/d1154dt1m,,Yes,Yes,Yes
+262,pho021842,Government & Politics,,9999,UNLV Special Collections,pho021842,"Photograph of Senator William A. Clark, circa 1890s [Junior League of Las Vegas Photograph Collection]",http://n2t.net/ark:/62930/d1hd7nz0q,,Yes,Yes,Yes
+263,PH-00001,Government & Politics,,9999,UNLV Special Collections,PH-00001,Senator Clark's RR car,,,,,
+264,177247046.0,Government & Politics,,9999,Wikimedia Commons,177247046.0,"Denver S. Dickerson, Governor of Nevada, portrait, c. 1908-1910","https://commons.wikimedia.org/wiki/File:Denver_S._Dickerson,_c._1908-1910.jpg",,Yes,,Yes
+265,00694211,Horses & Animals,,9999,Library of Congress,00694211,"Freight train (Edison film, video), 1898",https://lccn.loc.gov/00694211,,,Yes,
+266,snv002501,Horses & Animals,,9999,UNLV Special Collections,snv002501,Wagon train / 16-horse team passing Las Vegas Bank & Trust (1905),https://special.library.unlv.edu/ark:/62930/d19w09d16,,Yes,Yes,Yes
+267,pho017616,Horses & Animals,,9999,UNLV Special Collections,pho017616,Von Tobel inspecting supply wagon (Unknown year in the decade of the 1900s),https://special.library.unlv.edu/ark:/62930/d1st7f136,,Yes,Yes,Yes
+268,pho023871,Horses & Animals,,9999,UNLV Special Collections,pho023871,"Photograph of horsemen at the Newman House, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d11c1tn18,,Yes,Yes,Yes
+269,pho020087,Landscape & Terrain,,9999,UNLV Special Collections,pho020087,"Empty desert (WARNING: resolves 1920-1929, script wants ~1910, verify) (1920 to 1929)",https://special.library.unlv.edu/ark:/62930/d1513v10p,,Yes,Yes,Yes
+270,hln000175,Landscape & Terrain,,9999,UNLV Special Collections,hln000175,hln000175,,Las Vegas Valley; Sunrise; Frenchman; Mountains; Mormon Fort,,Yes,
+271,sn86076141_1910-01-01,"Maps, Newspapers & Documents",,9999,Library of Congress (Chronicling America),sn86076141_1910-01-01,"Las Vegas Age newspaper, front page, January 1, 1910",https://www.loc.gov/resource/sn86076141/1910-01-01/ed-1/?sp=1,,Yes,Yes,Yes
+272,The_Pomona_Daily_Review_1905_06_20_4,"Maps, Newspapers & Documents",,9999,Newspaper,The_Pomona_Daily_Review_1905_06_20_4,The Pomona Daily Review 1905 06 20 4,,,,Yes,
+273,Los_Angeles_Evening_Express_1905_06_27_11,"Maps, Newspapers & Documents",,9999,Newspaper,Los_Angeles_Evening_Express_1905_06_27_11,Los Angeles Evening Express 1905 06 27 11,,,,Yes,
+274,Los_Angeles_Evening_Express_1905_05_17_9,"Maps, Newspapers & Documents",,9999,Newspaper,Los_Angeles_Evening_Express_1905_05_17_9,Los Angeles Evening Express 1905 05 17 9,,,,Yes,
+275,Los_Angeles_Evening_Express_1905_07_17_2,"Maps, Newspapers & Documents",,9999,Newspaper,Los_Angeles_Evening_Express_1905_07_17_2,Los Angeles Evening Express 1905 07 17 2.,,,,Yes,
+276,Los_Angeles_Evening_Express_1905_05_18_2,"Maps, Newspapers & Documents",,9999,Newspaper,Los_Angeles_Evening_Express_1905_05_18_2,Los Angeles Evening Express 1905 05 18 2,,,,Yes,
+277,The_Los_Angeles_Times_1905_05_12_28,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_05_12_28,The Los Angeles Times 1905 05 12 2,,,,Yes,
+278,The_Los_Angeles_Times_1905_05_29_5,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_05_29_5,The Los Angeles Times 1905 05 29 5,,,,Yes,
+279,Los_Angeles_Herald_1905_05_28_Page_4,"Maps, Newspapers & Documents",,9999,Newspaper,Los_Angeles_Herald_1905_05_28_Page_4,Los Angeles Herald 1905 05 28 Page 4,,,,Yes,
+280,The_Los_Angeles_Times_1905_06_04_50,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_06_04_50,The Los Angeles Times 1905 06 04 50,,,,Yes,
+281,The_Los_Angeles_Times_1905_05_13_11,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_05_13_11,The Los Angeles Times 1905 05 13 11,,,,Yes,
+282,Deseret_News_1905_05_12_Page_8,"Maps, Newspapers & Documents",,9999,Newspaper,Deseret_News_1905_05_12_Page_8,Deseret News 1905 05 12 Page 8,,,,Yes,
+283,The_Los_Angeles_Times_1905_06_11_53,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_06_11_53,The Los Angeles Times 1905 06 11 53,,,,Yes,
+284,The_Los_Angeles_Times_1905_06_06_19,"Maps, Newspapers & Documents",,9999,Newspaper,The_Los_Angeles_Times_1905_06_06_19,The Los Angeles Times 1905 06 06 19,,,,Yes,
+285,Salt_Lake_Telegram_1905_06_12_15,"Maps, Newspapers & Documents",,9999,Newspaper,Salt_Lake_Telegram_1905_06_12_15,Salt Lake Telegram 1905 06 12 15,,,,Yes,
+286,The_Salt_Lake_Tribune_1905_05_14_Page_23,"Maps, Newspapers & Documents",,9999,Newspaper,The_Salt_Lake_Tribune_1905_05_14_Page_23,The Salt Lake Tribune 1905 05 14 Page 23,,,,Yes,
+287,Salt_Lake_Telegram_1905_05_02_1,"Maps, Newspapers & Documents",,9999,Newspaper,Salt_Lake_Telegram_1905_05_02_1,Salt Lake Telegram 1905 05 02 1,,,,Yes,
+288,Las_Vegas_Age_1911_01_14_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_14_4,Las Vegas Age 1911 01 14 4,,,,Yes,
+289,Las_Vegas_Age_1911_04_29_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_29_4,,,,,Yes,
+290,Las_Vegas_Age_1911_04_08_10,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_08_10,,,,,Yes,
+291,Las_Vegas_Age_1911_05_13_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_13_4,,,,,Yes,
+292,Las_Vegas_Age_1911_09_16_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_16_8,,,,,Yes,
+293,Las_Vegas_Age_1911_05_27_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_27_4,,,,,Yes,
+294,Las_Vegas_Age_1911_09_09_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_09_8,,,,,Yes,
+295,Las_Vegas_Age_1911_09_09_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_09_4,,,,,Yes,
+296,The_San_Diego_Sun_1911_07_06_1,"Maps, Newspapers & Documents",,9999,Newspaper,The_San_Diego_Sun_1911_07_06_1,,,,,Yes,
+297,Pasadena_Star_News_1911_07_06_1,"Maps, Newspapers & Documents",,9999,Newspaper,Pasadena_Star_News_1911_07_06_1,,,,,Yes,
+298,The_Tacoma_Times_1911_07_06_Page_1,"Maps, Newspapers & Documents",,9999,Newspaper,The_Tacoma_Times_1911_07_06_Page_1,,,,,Yes,
+299,St_Albans_Daily_Messenger_1911_12_19_7,"Maps, Newspapers & Documents",,9999,Newspaper,St_Albans_Daily_Messenger_1911_12_19_7,,,,,Yes,
+300,St_Albans_Weekly_Messenger_1911_12_21_8,"Maps, Newspapers & Documents",,9999,Newspaper,St_Albans_Weekly_Messenger_1911_12_21_8,,,,,Yes,
+301,The_Oregon_Daily_Journal_1911_07_06_10,"Maps, Newspapers & Documents",,9999,Newspaper,The_Oregon_Daily_Journal_1911_07_06_10,,,,,Yes,
+302,The_Fairbury_Blade_1911_08_04_1,"Maps, Newspapers & Documents",,9999,Newspaper,The_Fairbury_Blade_1911_08_04_1,,,,,Yes,
+303,Las_Vegas_Age_1911_02_25_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_02_25_5,,,,,Yes,
+304,Las_Vegas_Age_1911_05_06_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_06_4,,,,,Yes,
+305,Las_Vegas_Age_1911_01_14_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_14_5,,,,,Yes,
+306,Las_Vegas_Age_1911_04_29_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_29_1,,,,,Yes,
+307,Las_Vegas_Age_1911_03_04_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_03_04_5,,,,,Yes,
+308,Las_Vegas_Age_1911_04_29_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_29_5,,,,,Yes,
+309,Las_Vegas_Age_1911_01_07_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_07_4,Las Vegas Age 1911 01 07 4.,,,,Yes,
+310,Las_Vegas_Age_1911_01_07_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_07_5,Las Vegas Age 1911 01 07 5,,,,Yes,
+311,Las_Vegas_Age_1911_01_07_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_07_8,Las Vegas Age 1911 01 07 8,,,,Yes,
+312,Las_Vegas_Age_1911_01_14_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_14_8,,,,,Yes,
+313,Las_Vegas_Age_1911_09_16_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_16_1,,,,,Yes,
+314,Las_Vegas_Age_1911_09_16_2,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_16_2,,,,,Yes,
+315,Las_Vegas_Age_1911_09_16_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_16_5,,,,,Yes,
+316,Las_Vegas_Age_1911_09_16_7,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_16_7,,,,,Yes,
+317,Las_Vegas_Age_1911_09_09_2,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_09_2,,,,,Yes,
+318,Las_Vegas_Age_1911_09_09_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_09_5,,,,,Yes,
+319,Las_Vegas_Age_1911_09_09_7,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_09_09_7,,,,,Yes,
+320,Las_Vegas_Age_1911_05_06_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_06_1,,,,,Yes,
+321,Las_Vegas_Age_1911_05_06_2,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_06_2,,,,,Yes,
+322,Las_Vegas_Age_1911_05_06_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_06_5,,,,,Yes,
+323,Las_Vegas_Age_1911_05_06_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_06_8,,,,,Yes,
+324,Las_Vegas_Age_1911_05_13_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_13_1,,,,,Yes,
+325,Las_Vegas_Age_1911_05_13_2,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_13_2,,,,,Yes,
+326,Las_Vegas_Age_1911_05_13_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_13_5,,,,,Yes,
+327,Las_Vegas_Age_1911_05_13_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_13_8,,,,,Yes,
+328,Las_Vegas_Age_1911_05_27_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_27_1,,,,,Yes,
+329,Las_Vegas_Age_1911_05_27_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_27_5,,,,,Yes,
+330,Las_Vegas_Age_1911_05_27_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_05_27_8,,,,,Yes,
+331,Las_Vegas_Age_1911_01_07_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_07_1,Las Vegas Age 1911 01 07 1,,,,Yes,
+332,Las_Vegas_Age_1911_01_07_3,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_07_3,Las Vegas Age 1911 01 07 3,,,,Yes,
+333,Las_Vegas_Age_1911_01_14_3,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_01_14_3,Las Vegas Age 1911 01 14 3,,,,Yes,
+334,Las_Vegas_Age_1911_02_25_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_02_25_4,,,,,Yes,
+335,Las_Vegas_Age_1911_02_25_7,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_02_25_7,,,,,Yes,
+336,Las_Vegas_Age_1911_02_25_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_02_25_8,,,,,Yes,
+337,Las_Vegas_Age_1911_03_04_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_03_04_1,,,,,Yes,
+338,Las_Vegas_Age_1911_03_04_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_03_04_8,,,,,Yes,
+339,Las_Vegas_Age_1911_04_08_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_08_1,,,,,Yes,
+340,Las_Vegas_Age_1911_04_08_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_08_4,,,,,Yes,
+341,Las_Vegas_Age_1911_04_08_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_08_5,,,,,Yes,
+342,Las_Vegas_Age_1911_04_15_1,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_15_1,,,,,Yes,
+343,Las_Vegas_Age_1911_04_15_4,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_15_4,,,,,Yes,
+344,Las_Vegas_Age_1911_04_15_5,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_15_5,,,,,Yes,
+345,Las_Vegas_Age_1911_04_29_8,"Maps, Newspapers & Documents",,9999,Newspaper,Las_Vegas_Age_1911_04_29_8,,,,,Yes,
+346,NEEDS-ID-02,"Maps, Newspapers & Documents",(ignore per sheet note),9999,Private Source (robertgavora.com),,"Postcards of a flood 1910, Nevada (different place - ignore for Squires project)",https://www.robertgavora.com/pages/books/54905/result-reese-river-nevada-flood-1910-nevada-central-railway-seven-photographic-postcards,,,,
+347,snv000843,"Maps, Newspapers & Documents",,9999,UNLV Special Collections,snv000843,"Postcard of Robert ""Spud"" Lake with men and horse-drawn wagons, Las Vegas (Nev.), December, 1914",https://special.library.unlv.edu/ark:/62930/d1qv3cj0v,,Yes,Yes,Yes
+348,pho007102,"Maps, Newspapers & Documents",,9999,UNLV Special Collections,pho007102,"Stewart Ranch, Las Vegas, postcard (1900 to 1939)",https://special.library.unlv.edu/ark:/62930/d1tb0xv61,,Yes,Yes,Yes
+349,hln000440,"Maps, Newspapers & Documents",,9999,UNLV Special Collections,hln000440,"Photograph of swimmers at Lorenzi Park pool, circa 1931 [Elton and Madelaine Garrett Photograph and Architectural Drawing Collection (PH-00265)]",http://n2t.net/ark:/62930/d16q1wg68,Water; Pool; Diving Board,Yes,Yes,
+350,pho020567,"Maps, Newspapers & Documents",,9999,UNLV Special Collections,pho020567,"Postcard of Tonopah Belmont Development Company's mine and mill, Tonopah (Nev.), September 18, 1912",https://special.library.unlv.edu/ark:/62930/d1ht2gg9z,,Yes,Yes,Yes
+351,churchseries22_2835,"Maps, Newspapers & Documents",,9999,Unidentified (needs repository verification),churchseries22_2835,"Hand-tinted postcard No. 5010, ""Mill Street, Reno, Nevada."" Street scene, early 1900s-1910s. Filename suggests UNR Special Collections (James Edward Church Papers, Series 22) but source page unconfirmed (site requires captcha) -- also note: depicts Reno, not Las Vegas",,,Yes,Yes,Yes
+352,"Pile of lumber by RR tracks, cheat:close ups",Mining,,9999,,"Pile of lumber by RR tracks, cheat:close ups","Reno Mill and Lumber Company, Eveleth",,,,,
+353,Reno Mill and Lumber Company,Mining,,9999,,Reno Mill and Lumber Company,Reno Mill and Lumber Company,,,,Yes,
+354,CHS-20325,Mining,,9999,California Historical Society / USC Digital Library,CHS-20325,"View of the Chollar mine dump in Gold Hill, Nevada, ca. 1900 (re-downloaded at higher resolution, 1200x964)",https://digitallibrary.usc.edu/asset-management/2A3BF14KCN8?FR_=1&W=1092&H=597,,Yes,Yes,Yes
+355,pho023878,Mining,,9999,UNLV Special Collections,pho023878,"Photograph of mines, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1445hj55,,Yes,Yes,Yes
+356,pho023880,Mining,,9999,UNLV Special Collections,pho023880,"Photograph of hillside mines, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1vm4336t,,Yes,Yes,
+357,pho023879,Mining,,9999,UNLV Special Collections,pho023879,"Photograph of mines, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d10c4sr2h,,Yes,Yes,Yes
+358,pho023882,Mining,,9999,UNLV Special Collections,pho023882,"Photograph of a mill, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1m32ng68,,Yes,Yes,Yes
+359,pho014113,Mining,,9999,UNLV Special Collections,pho014113,Miners/People (Pho014113-002),,,,,
+360,pho023877,Mining,,9999,UNLV Special Collections,pho023877,"Photograph of mine tailings, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d17s7hz68,,Yes,Yes,Yes
+361,pho018545,Mining,,9999,UNLV Special Collections,pho018545,Miners/people (1908-10-11),https://special.library.unlv.edu/ark:/62930/d1g73774q,,,Yes,
+362,2016860954.0,People & Crowds,,9999,Library of Congress,2016860954.0,"Tasker Oddie, Senator, portrait",https://lccn.loc.gov/2016860954,,Yes,Yes,Yes
+363,cph.3b04506,People & Crowds,,9999,Library of Congress,cph.3b04506,"William Andrews Clark, 1839-1925 (bust portrait, 1917) [LC-USZ62-56672] -- onsite access only, not downloadable",https://loc.gov/pictures/resource/cph.3b04506/,,,,
+364,cph.3a36791,People & Crowds,,9999,Library of Congress,cph.3a36791,"[Senator William A. Clark (D-Montana), 1839-1925, head-and-shoulders portrait] [LC-USZ62-36382] -- onsite access only, not downloadable",https://loc.gov/pictures/resource/cph.3a36791/,,,,
+365,pho023367,People & Crowds,,9999,UNLV Special Collections,pho023367,"Photograph of Lincoln County Court House, Pioche (Nev.), 1872 -- POST NO BILLS signage [Campbell Family Photograph Collection]",http://n2t.net/ark:/62930/d10z7128b,,Yes,Yes,Yes
+366,pho033930-002,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930-002,"People in a wagon in the woods, Mt. Charleston",https://special.library.unlv.edu/ark%3A/62930/d1028sc3g,"People; Mt. Charleston, NV; Horses; Camping; Mt. Charleston; Family; Wagon; Wilson and Park Families; Woods",Yes,Yes,
+367,pho033930,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930,Wilson and Park families camping near Mt. Charleston (Album 4),https://special.library.unlv.edu/ark%3A/62930/d11834f8d,,,Yes,
+368,pho033930-003,People & Crowds,"general ref, no clear page",9999,UNLV Special Collections,pho033930-003,Woman near the tent,https://special.library.unlv.edu/ark%3A/62930/d1v982r0f,Women; Camping,Yes,,
+369,hln000066,People & Crowds,,9999,UNLV Special Collections,hln000066,"Photograph of people camped on the Colorado River in the Vegas Wash, 1910",https://special.library.unlv.edu/ark:/62930/d18g8jh0j,,Yes,Yes,Yes
+370,pho020232,People & Crowds,,9999,UNLV Special Collections,pho020232,2 women in hats (1909 to 1911),https://special.library.unlv.edu/ark:/62930/d1dr2pd50,,,Yes,
+371,pho014116,People & Crowds,,9999,UNLV Special Collections,pho014116,People w/train (Pho014116-006-02),,,,Yes,
+372,pho007182,People & Crowds,,9999,UNLV Special Collections,pho007182,pho007182,,Stewart; Family,,Yes,
+373,pho018485,People & Crowds,,9999,UNLV Special Collections,pho018485,pho018485,,Men; Miners Arms; Saloon; Zither; Glass Windows; Ales; Wines; Spirits,,Yes,
+374,pho018395,People & Crowds,,9999,UNLV Special Collections,pho018395,pho018395,,Cy E. Johnson; Portrait; Men; Man,,Yes,
+375,snv002520,People & Crowds,,9999,UNLV Special Collections,snv002520,snv002520,,family; W.J. Stewart,,Yes,
+376,pho007164,People & Crowds,,9999,UNLV Special Collections,pho007164,pho007164,,William Stewart; Will; portrait; Stewart,,Yes,
+377,pho014315,People & Crowds,,9999,UNLV Special Collections,pho014315,pho014315,,Old Ranch; Earl; Floyd; Portrait,,Yes,
+378,pho021428-005,People & Crowds,,9999,UNLV Special Collections,pho021428-005,pho021428 005,,portrait; woman; friend; lottie wengert,,Yes,
+379,pho021428-010,People & Crowds,,9999,UNLV Special Collections,pho021428-010,pho021428 010,,Portrait; Woman; Lottie Wengert,,Yes,
+380,pho021428-014,People & Crowds,,9999,UNLV Special Collections,pho021428-014,pho021428 014,,Portrait; Woman; Esther; Lottie Wengert,,Yes,
+381,pho021428-013,People & Crowds,,9999,UNLV Special Collections,pho021428-013,pho021428 013,,Portrait; Veatch; Cedar Falls; Lottie Wengert,,Yes,
+382,pho018479,People & Crowds,,9999,UNLV Special Collections,pho018479,pho018479,,Portrait; Jogn Coggshall; San Francisco,,Yes,
+383,hln000062,People & Crowds,,9999,UNLV Special Collections,hln000062,"Photograph of people at Las Vegas Spring, before 1915",https://special.library.unlv.edu/ark:/62930/d1sf2qb3v,,Yes,Yes,Yes
+384,pho014697,Ranching & Farming,,9999,UNLV Special Collections,pho014697,Clark-Ronnow ranch (1905 to 1930),https://special.library.unlv.edu/ark:/62930/d1ns0m09g,,Yes,Yes,Yes
+385,pho026753,Ranching & Farming,,9999,UNLV Special Collections,pho026753,Basic Magnesium future plant site (context: near Stewart Ranch imagery search) (1942-03-26),https://special.library.unlv.edu/ark:/62930/d1sf27,,Yes,Yes,Yes
+386,pho007059,Ranching & Farming,,9999,UNLV Special Collections,pho007059,"Stewart Ranch, Las Vegas, transparency (1900 to 1939)",https://special.library.unlv.edu/ark:/62930/d1cf9j65w,,Yes,Yes,Yes
+387,hln000072,Ranching & Farming,,9999,UNLV Special Collections,hln000072,"Photograph of riders near the Vegas Creek at the Stewart Ranch camp in Las Vegas, circa 1905-1906",https://special.library.unlv.edu/ark:/62930/d1h12z678,,Yes,Yes,Yes
+388,hln000023,Ranching & Farming,,9999,UNLV Special Collections,hln000023,"Photograph of first artesian well in Las Vegas Valley on Taylor Ranch, with group of men, before 1910",https://special.library.unlv.edu/ark:/62930/d1tm7507m,,Yes,Yes,Yes
+389,hln000024,Ranching & Farming,,9999,UNLV Special Collections,hln000024,"Photograph of first artesian well in Las Vegas Valley on Taylor Ranch, Clark County, before 1910",https://special.library.unlv.edu/ark:/62930/d1pv6f63g,,Yes,Yes,Yes
+390,hln000039,Ranching & Farming,,9999,UNLV Special Collections,hln000039,"Well, women (open start to 1920)",https://special.library.unlv.edu/ark:/62930/d1rn33685,Well; Artesian; Group,,Yes,
+391,pho007185,Ranching & Farming,,9999,UNLV Special Collections,pho007185,Well-dressed couple (1913 (year approximate)),https://special.library.unlv.edu/ark:/62930/d13b5w79c,,,Yes,
+392,hln000093,Ranching & Farming,,9999,UNLV Special Collections,hln000093,Pics of wells (Hln000093a),,,,Yes,
+393,hln000305,Ranching & Farming,,9999,UNLV Special Collections,hln000305,hln000305,,Artesian; Well; Williams; Bell,,Yes,
+394,hln000094,Ranching & Farming,,9999,UNLV Special Collections,hln000094,Gushing well (Unknown year in the decade of the 1900s (year approximate)),https://special.library.unlv.edu/ark:/62930/d14j0dw83,,Yes,Yes,Yes
+395,hln000040,Ranching & Farming,,9999,UNLV Special Collections,hln000040,Well in stream (1911 to 1949),https://special.library.unlv.edu/ark:/62930/d1mw2cd5h,,,,
+396,hln000221,Ranching & Farming,,9999,UNLV Special Collections,hln000221,"Photograph of a drill rig putting down the hole for the first well in the Las Vegas Heights District, circa 1907",https://special.library.unlv.edu/ark:/62930/d13n23d35,,Yes,Yes,Yes
+397,hln000239,Ranching & Farming,,9999,UNLV Special Collections,hln000239,"Photograph of artesian well in Paradise Valley, before 1920",https://special.library.unlv.edu/ark:/62930/d1s759j63,,Yes,Yes,Yes
+398,G32XJN,Sanitation & Utilities,,9999,Alamy,G32XJN,detail of a sanitation ring and metal mold G32XJN,,Cesspools,,,
+399,HG5M7X,Sanitation & Utilities,,9999,Alamy,HG5M7X,a golden bucket hanging above a little fountain made of stone HG5M7X,,Cesspools,,,
+400,3EAKYN6,Sanitation & Utilities,,9999,Alamy,3EAKYN6,this is the sewer channel of almost dead clusters of dead organic matter muddy water dim reflection of the sun 3EAKYN6,,Sewers,,,
+401,2RWE8CB,Sanitation & Utilities,,9999,Alamy,2RWE8CB,digging a deep round hole with sewer line drain pipe outlet for a septic tank sewer 2RWE8CB,,,,,
+402,2AJHHN9,Sanitation & Utilities,,9999,Alamy,2AJHHN9,typhus fever with particular reference to the serbian epidemic fig 1 filled cesspool 2AJHHN9,,,,,
+403,hln000068,Sanitation & Utilities,,9999,UNLV Special Collections,hln000068,"Photograph of an outhouse over an irrigation ditch in Corn Creek, Nevada, circa 1938",https://special.library.unlv.edu/ark:/62930/d10z73w40,,Yes,Yes,Yes
+404,2646098.0,Trains & Railroads — Construction & Infrastructure,"general ref, no clear page",9999,Utah Historical Society,2646098.0,Steel oil tank,https://collections.lib.utah.edu/ark:/87278/s647memz,,,Yes,
+405,TNV001,Trains & Railroads — General,,9999,Town of Tonopah,TNV001,"Drilling competition, Tonopah Railroad Carnival, 1904",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+406,TNV003,Trains & Railroads — General,,9999,Town of Tonopah,TNV003,"Railroad Days celebration, Tonopah, 1904",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+407,pho004103,Trains & Railroads — General,,9999,UNLV Special Collections,pho004103,"Las Vegas Ranch, Las Vegas, Nevada, circa 1905 (dated 1904 to 1906). Union Pacific Railroad Company.",https://special.library.unlv.edu/ark:/62930/d1wm13s9d,,Yes,Yes,Yes
+408,pho023005,Trains & Railroads — General,,9999,UNLV Special Collections,pho023005,"Bullionville & Pioche Railroad Grade in Condor Canyon, Nevada, 1915-1917",http://n2t.net/ark:/62930/d1hq3s43n,,Yes,Yes,Yes
+409,pho004764,Trains & Railroads — General,,9999,UNLV Special Collections,pho004764,"Film transparency of a Las Vegas and Tonopah Railroad Company train car, Las Vegas, circa early 1900s",https://special.library.unlv.edu/ark:/62930/d15q4rk8r,,Yes,Yes,Yes
+410,pho006891,Trains & Railroads — General,,9999,UNLV Special Collections,pho006891,Building big tent / temp depot (1905),https://special.library.unlv.edu/ark:/62930/d12z12p7p,,,Yes,
+411,pho019795,Trains & Railroads — General,,9999,UNLV Special Collections,pho019795,Train engine w/ construction (script cites Jan 1909 headline -- verify) (1911-10-10),https://special.library.unlv.edu/ark:/62930/d1w08wm56,,Yes,Yes,Yes
+412,snv001103,Trains & Railroads — General,,9999,UNLV Special Collections,snv001103,"Salt Lake Depot, train on tracks (1908 (year approximate))",https://special.library.unlv.edu/ark:/62930/d1125qq39,,Yes,Yes,Yes
+413,CHS-33079-2,Trains & Railroads — General,,9999,USC Digital Library,CHS-33079,"Train crossing over the Santa Ana River in Riverside, circa 1904 (Creator: C.C. Pierce) [California Historical Society Collection, 1860-1960]",http://doi.org/10.25549/chs-m8202,"Trains; Riverside, CA; Santa Ana River, CA; arch bridge; bridge; crossing",Yes,Yes,Yes
+414,22587.0,Trains & Railroads — General,,9999,Utah Historical Society,22587.0,Saltair Depot P.3,https://collections.lib.utah.edu/ark:/87278/s6hh6zvd,,Yes,Yes,Yes
+415,23501.0,Trains & Railroads — General,,9999,Utah Historical Society,23501.0,"Denver & Rio Grande Western Railroad Station, SLC P.53",https://collections.lib.utah.edu/ark:/87278/s6d79r8r,,Yes,Yes,Yes
+416,23302.0,Trains & Railroads — General,,9999,Utah Historical Society,23302.0,"Denver & Rio Grande Western Railroad Station, SLC P.54",https://collections.lib.utah.edu/ark:/87278/s68g90jd,,Yes,Yes,Yes
+417,pho017627,Uncategorized,,9999,,pho017627,,https://special.library.unlv.edu/ark%3A/62930/d1rv0d421,,,,
+418,pho013824,Uncategorized,,9999,,pho013824,,https://special.library.unlv.edu/ark%3A/62930/d1zg6g89c,,,,
+419,pho017624,Uncategorized,,9999,,pho017624,,,,,,
+420,RR-00549,Uncategorized,,9999,,RR-00549,,,,,,
+421,master-pnp-pan-6a13000-6a13900-6a13942u,Uncategorized,,9999,,master-pnp-pan-6a13000-6a13900-6a13942u,pan 6a13942,,,,,
+422,master-pnp-pan-6a07000-6a07600-6a07603u,Uncategorized,,9999,,master-pnp-pan-6a07000-6a07600-6a07603u,master pnp pan 6a07000 6a07600 6a07603u,,,,,
+423,0038 0037,Uncategorized,,9999,,0038 0037,0038 0037,,,,,
+424,master-pnp-cph-3c30000-3c37000-3c37400-3c37462u,Uncategorized,,9999,,master-pnp-cph-3c30000-3c37000-3c37400-3c37462u,master pnp cph 3c30000 3c37000 3c37400 3c37462u,,,,,
+425,master-pnp-cph-3c30000-3c37000-3c37400-3c37463u,Uncategorized,,9999,,master-pnp-cph-3c30000-3c37000-3c37400-3c37463u,master pnp cph 3c30000 3c37000 3c37400 3c37463u,,,,,
+426,master-pnp-cph-3c30000-3c37000-3c37400-3c37464u,Uncategorized,,9999,,master-pnp-cph-3c30000-3c37000-3c37400-3c37464u,master pnp cph 3c30000 3c37000 3c37400 3c37464u,,,,,
+427,map000242,Uncategorized,,9999,,map000242,map000242,,,,Yes,
+428,sanfran-sewers,Uncategorized,,9999,,sanfran-sewers,SFPL collection of DPW photographs,,,,Yes,
+429,182-Reno Mill &amp; Lumber Company,Uncategorized,,9999,,182-Reno Mill &amp; Lumber Company,,,,,Yes,
+430,master-pnp-stereo-1s10000-1s14000-1s14000-1s14012u,Uncategorized,,9999,,master-pnp-stereo-1s10000-1s14000-1s14000-1s14012u,master pnp stereo 1s10000 1s14000 1s14000 1s14012u,,,,Yes,
+431,man000137-101,Uncategorized,,9999,,man000137-101,man000137 101,,,,Yes,
+432,FirstMailPlane,Uncategorized,,9999,,FirstMailPlane,1993 5P 2 002a,,,,Yes,
+433,map000274-1,Uncategorized,,9999,,map000274-1,map000274 1,,,,Yes,
+434,map000274-2,Uncategorized,,9999,,map000274-2,map000274 2,,,,Yes,
+435,map000293,Uncategorized,,9999,,map000293,map000293,,,,Yes,
+436,FearfulOfBanditRaid,Uncategorized,,9999,,FearfulOfBanditRaid,FearfulOfBanditRaid,,,,Yes,
+437,LasVegasWillImprove,Uncategorized,,9999,,LasVegasWillImprove,LasVegasWillImprove,,,,Yes,
+438,LasVegasImprovement,Uncategorized,,9999,,LasVegasImprovement,LasVegasImprovement,,,,Yes,
+439,LasVegasRushExpected,Uncategorized,,9999,,LasVegasRushExpected,LasVegasRushExpected,,,,Yes,
+440,WonderfulNewCity,Uncategorized,,9999,,WonderfulNewCity,WonderfulNewCity,,,,Yes,
+441,FactsAboutLasVegas,Uncategorized,,9999,,FactsAboutLasVegas,FactsAboutLasVegas,,,,Yes,
+442,TheMagicCity,Uncategorized,,9999,,TheMagicCity,TheMagicCity,,,,Yes,
+443,GossipFromTheFront,Uncategorized,,9999,,GossipFromTheFront,GossipFromTheFront,,,,Yes,
+444,AttackUnwarranted,Uncategorized,,9999,,AttackUnwarranted,AttackUnwarranted,,,,Yes,
+445,LasVegasScheme,Uncategorized,,9999,,LasVegasScheme,LasVegasScheme,,,,Yes,
+446,W9DGMX,Uncategorized,,9999,Alamy,W9DGMX,simple shovel with a wooden handle is stuck in a dry ground in an unfinished pit W9DGMX,,,,,
+447,CHS-258,Uncategorized,,9999,California Historical Society / USC Digital Library,CHS-258,"Los Angeles Times Building, First St. and Broadway, ca. 1905 (low-res only)",https://doi.org/10.25549/chs-m958,,Yes,Yes,Yes
+448,2013647219.0,Uncategorized,,9999,Library of Congress,2013647219.0,"Telephone operator at work (switchboard), c. 1922",https://lccn.loc.gov/2013647219,,Yes,Yes,Yes
+449,2014696545.0,Uncategorized,,9999,Library of Congress,2014696545.0,"Gov. Oddie at USS Nevada launching, July 11, 1914 (exposure a)",https://loc.gov/pictures/resource/ggbain.16569/,,Yes,Yes,Yes
+450,2014696546.0,Uncategorized,,9999,Library of Congress,2014696546.0,"Gov. Oddie at USS Nevada launching, July 11, 1914 (exposure b)",https://lccn.loc.gov/2014696546,,Yes,Yes,Yes
+451,2007662543.0,Uncategorized,,9999,Library of Congress,2007662543.0,"Alfalfa fields, Las Vegas, Nevada, 1910",https://lccn.loc.gov/2007662543,,Yes,Yes,Yes
+452,2003665483.0,Uncategorized,,9999,Library of Congress,2003665483.0,"Reading room, 10-cent lodging house, Bowery, NYC, c. 1908",https://lccn.loc.gov/2003665483,,Yes,Yes,Yes
+453,00694311,Uncategorized,,9999,Library of Congress,00694311,"Sunset Limited, Southern Pacific Ry (Edison film, video), 1898",https://lccn.loc.gov/00694311,,,Yes,
+454,00694263,Uncategorized,,9999,Library of Congress,00694263,"Overland Express arriving at Helena, Mont (Edison film, video), 1897",https://lccn.loc.gov/00694263,,,Yes,
+455,2018677796.0,Uncategorized,,9999,Library of Congress,2018677796.0,"Newsies. See California report. Location: Los Angeles, California / Lewis W. Hine, 1915",https://www.loc.gov/item/2018677796/,,Yes,Yes,Yes
+456,CHS-5712,Uncategorized,,9999,Nevada Historical Society,CHS-5712,,,,,,
+457,CC-00425,Uncategorized,,9999,Nevada Historical Society,CC-00425,,,,,,
+458,CC-00698,Uncategorized,,9999,Nevada Historical Society,CC-00698,698.0,,,,,
+459,CC-00393,Uncategorized,,9999,Nevada Historical Society,CC-00393,393.0,,,,,
+460,CC-00392,Uncategorized,,9999,Nevada Historical Society,CC-00392,,,,,,
+461,CC-00695,Uncategorized,,9999,Nevada Historical Society,CC-00695,695.0,,,,,
+462,CC-00711,Uncategorized,,9999,Nevada Historical Society,CC-00711,711.0,,,,,
+463,CC-00699,Uncategorized,,9999,Nevada Historical Society,CC-00699,699.0,,,,,
+464,CC-00700,Uncategorized,,9999,Nevada Historical Society,CC-00700,700.0,,,,,
+465,CC-01059,Uncategorized,,9999,Nevada Historical Society,CC-01059,,,,,,
+466,CC-00710,Uncategorized,,9999,Nevada Historical Society,CC-00710,710.0,,,,,
+467,CC-00950,Uncategorized,,9999,Nevada Historical Society,CC-00950,CC 00950,,,,,
+468,CC-01204,Uncategorized,,9999,Nevada Historical Society,CC-01204,1204.0,,,,,
+469,CC-01571,Uncategorized,,9999,Nevada Historical Society,CC-01571,,,,,,
+470,CC-01681,Uncategorized,,9999,Nevada Historical Society,CC-01681,,,,,,
+471,chs-m958,Uncategorized,,9999,Nevada Historical Society,chs-m958,chs m958,,,,,
+472,TNV005,Uncategorized,,9999,Town of Tonopah,TNV005,"Nevada-California Power Company facility, 1906",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+473,TNV002,Uncategorized,,9999,Town of Tonopah,TNV002,"Double-jack drilling contest, Tonopah, July 4, 1903",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+474,TNV004,Uncategorized,,9999,Town of Tonopah,TNV004,"Boxing match, Tonopah Athletic Club, 1900s",https://www.tonopahnevada.com/tonopah-historic-photos/,,Yes,Yes,Yes
+475,snv002558,Uncategorized,,9999,UNLV Special Collections,snv002558,Lena Carl Stewart with a rifle and a dog near a creek: photograph,https://special.library.unlv.edu/ark:/62930/d1bk1742v,,Yes,Yes,Yes
+476,pho013953,Uncategorized,,9999,UNLV Special Collections,pho013953,Hospital tent (1904 to 1906),https://special.library.unlv.edu/ark:/62930/d1697008b,,Yes,Yes,Yes
+477,pho006091,Uncategorized,,9999,UNLV Special Collections,pho006091,Ice plant (1905 to 1920),https://special.library.unlv.edu/ark:/62930/d1fq9q53x,,Yes,Yes,Yes
+478,pho006293,Uncategorized,,9999,UNLV Special Collections,pho006293,Ice plant intact (1905 to 1907),https://special.library.unlv.edu/ark:/62930/d1gm81p0t,,Yes,Yes,Yes
+479,pho013214,Uncategorized,,9999,UNLV Special Collections,pho013214,Clark's Forwarding (1900 to 1939),https://special.library.unlv.edu/ark:/62930/d14746t27,,Yes,Yes,Yes
+480,pho025819,Uncategorized,,9999,UNLV Special Collections,pho025819,County Commissioner W.E. Hawkins (1913 to 1919),https://special.library.unlv.edu/ark:/62930/d1dv1cv48,,Yes,Yes,Yes
+481,pho019907,Uncategorized,,9999,UNLV Special Collections,pho019907,"Clara Beatty, former director of the Nevada State Historical Society, undated",http://n2t.net/ark:/62930/d1df6k73z,,,,
+482,pho019908,Uncategorized,,9999,UNLV Special Collections,pho019908,"Eva Stewart, undated",http://n2t.net/ark:/62930/d18p5vf09,,,,
+483,pho019909,Uncategorized,,9999,UNLV Special Collections,pho019909,"Mrs. Clarence Mackay, undated",http://n2t.net/ark:/62930/d14x54m6x,,,,
+484,pho019912,Uncategorized,,9999,UNLV Special Collections,pho019912,"Anne Martin campaign for U.S. Senate, approximately 1918-1920",http://n2t.net/ark:/62930/d1rn30c3r,,Yes,Yes,Yes
+485,pho019913,Uncategorized,,9999,UNLV Special Collections,pho019913,"Groundbreaking ceremony: Al Coradetti, Rodney Colton, Ira Earl, Frank Gusewelle (county/city commissioners), undated",http://n2t.net/ark:/62930/d1n00zz1c,,,,
+486,pho019915,Uncategorized,,9999,UNLV Special Collections,pho019915,"Pioche, Nevada, 1885",http://n2t.net/ark:/62930/d1cf9jb46,,,,
+487,snv002550,Uncategorized,,9999,UNLV Special Collections,snv002550,"McWilliams' Townsite, group of men outside businesses (1905)",https://special.library.unlv.edu/ark:/62930/d17s7j68s,,Yes,Yes,Yes
+488,pho006181,Uncategorized,,9999,UNLV Special Collections,pho006181,"Squires (WARNING: search hit resolves to 1984-1986, likely wrong item, verify manually) (1984 to 1986)",https://special.library.unlv.edu/ark:/62930/d1th8bn05,,Yes,Yes,Yes
+489,snv002515,Uncategorized,,9999,UNLV Special Collections,snv002515,"Division Club photo, men w/ signs (1900 to 1925)",https://special.library.unlv.edu/ark:/62930/d1rx93t7s,,Yes,Yes,Yes
+490,pho019972,Uncategorized,,9999,UNLV Special Collections,pho019972,Baseball team (Unknown year in the decade of the 1910s),https://special.library.unlv.edu/ark:/62930/d10v89n2q,,Yes,Yes,Yes
+491,pho017630,Uncategorized,,9999,UNLV Special Collections,pho017630,RR yards (1905 to 1915),https://special.library.unlv.edu/ark:/62930/d1cj87p8j,,Yes,Yes,Yes
+492,snv001925,Uncategorized,,9999,UNLV Special Collections,snv001925,RR yards (1908),https://special.library.unlv.edu/ark:/62930/d1ff3md7q,,Yes,Yes,Yes
+493,snv001921,Uncategorized,,9999,UNLV Special Collections,snv001921,RR yards (1900 to 1925),https://special.library.unlv.edu/ark:/62930/d1zc7s81k,,Yes,Yes,Yes
+494,snv001104,Uncategorized,,9999,UNLV Special Collections,snv001104,RR yards (1900 to 1925),https://special.library.unlv.edu/ark:/62930/d1wd3qf92,,Yes,Yes,Yes
+495,snv001857,Uncategorized,,9999,UNLV Special Collections,snv001857,RR yards (1900 to 1925),https://special.library.unlv.edu/ark:/62930/d1jh3dg9q,,Yes,Yes,Yes
+496,pho006079,Uncategorized,,9999,UNLV Special Collections,pho006079,Arizona Club (1905 to 1915),https://special.library.unlv.edu/ark:/62930/d10p0wq8s,,Yes,Yes,Yes
+497,pho014952,Uncategorized,,9999,UNLV Special Collections,pho014952,Machine shops (1910 to 1919),https://special.library.unlv.edu/ark:/62930/d13j3936d,,Yes,Yes,Yes
+498,pho004806,Uncategorized,,9999,UNLV Special Collections,pho004806,Machine shops (1913),https://special.library.unlv.edu/ark:/62930/d1w37kv6r,,Yes,Yes,Yes
+499,pho004893,Uncategorized,,9999,UNLV Special Collections,pho004893,Machine shops (1912 to 1914),https://special.library.unlv.edu/ark:/62930/d1542j80r,,Yes,Yes,Yes
+500,pho023869,Uncategorized,,9999,UNLV Special Collections,pho023869,"Photograph of a baseball field, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d18s4jv51,,Yes,Yes,Yes
+501,pho023870,Uncategorized,,9999,UNLV Special Collections,pho023870,"Photograph of Henry Lee and others, Pioche (Nev.), 1890-1910 [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1513v223,,Yes,Yes,Yes
+502,pho023872,Uncategorized,,9999,UNLV Special Collections,pho023872,"Photograph of the Alamo Club, Pioche (Nev.), 1934 [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1wm1407j,,Yes,Yes,Yes
+503,pho023873,Uncategorized,,9999,UNLV Special Collections,pho023873,"Photograph of the Price House, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1rv0d63d,,Yes,Yes,Yes
+504,pho023874,Uncategorized,,9999,UNLV Special Collections,pho023874,"Photograph of Henry Lee, Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1n29pc8x,,Yes,Yes,Yes
+505,pho023875,Uncategorized,,9999,UNLV Special Collections,pho023875,"Photograph of Henry Lee, Pioche (Nev.), 1890-1910 [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1h98zk39,,Yes,Yes,Yes
+506,snv000706,Uncategorized,,9999,UNLV Special Collections,snv000706,"Photograph of the Samuel Newhouse party in Caliente departing for Salt Lake City, Caliente (Nev.), 1906 -- companion image to snv000705, same event [Lincoln County Museum Photograph Collection]",https://special.library.unlv.edu/ark%3A/62930/d16h4d462,,Yes,Yes,Yes
+507,pho021426,Uncategorized,,9999,UNLV Special Collections,pho021426,Woman w/house (pho021426-011),,,,Yes,
+508,pho023921,Uncategorized,,9999,UNLV Special Collections,pho023921,"Photo of house in Pioche, c. 1900",,,,,
+509,snv001284,Uncategorized,,9999,UNLV Special Collections,snv001284,snv001284,,,,,
+510,snv002494,Uncategorized,,9999,UNLV Special Collections,snv002494,snv002494,,,,Yes,
+511,hln001042,Uncategorized,,9999,UNLV Special Collections,hln001042,hln001042,,,,Yes,
+512,pho004898,Uncategorized,,9999,UNLV Special Collections,pho004898,pho004898,,,,Yes,
+513,pho004442,Uncategorized,,9999,UNLV Special Collections,pho004442,pho004442.tif,,,,Yes,
+514,pho004849,Uncategorized,,9999,UNLV Special Collections,pho004849,pho004849,,,,Yes,
+515,pho004850,Uncategorized,,9999,UNLV Special Collections,pho004850,pho004850,,,,Yes,
+516,pho004851,Uncategorized,,9999,UNLV Special Collections,pho004851,pho004851,,,,Yes,
+517,pho004811,Uncategorized,,9999,UNLV Special Collections,pho004811,pho004811,,,,Yes,
+518,pho006297,Uncategorized,,9999,UNLV Special Collections,pho006297,pho006297,,,,Yes,
+519,pho006299,Uncategorized,,9999,UNLV Special Collections,pho006299,pho006299,,,,Yes,
+520,pho006300,Uncategorized,,9999,UNLV Special Collections,pho006300,pho006300,,,,Yes,
+521,pho006302,Uncategorized,,9999,UNLV Special Collections,pho006302,pho006302,,,,Yes,
+522,pho006095,Uncategorized,,9999,UNLV Special Collections,pho006095,pho006095,,,,Yes,
+523,pho006097,Uncategorized,,9999,UNLV Special Collections,pho006097,pho006097,,,,Yes,
+524,pho006098,Uncategorized,,9999,UNLV Special Collections,pho006098,pho006098,,,,Yes,
+525,pho006101,Uncategorized,,9999,UNLV Special Collections,pho006101,pho006101,,,,Yes,
+526,pho006102,Uncategorized,,9999,UNLV Special Collections,pho006102,pho006102,,,,Yes,
+527,pho006109,Uncategorized,,9999,UNLV Special Collections,pho006109,pho006109,,,,Yes,
+528,pho006110,Uncategorized,,9999,UNLV Special Collections,pho006110,pho006110,,,,Yes,
+529,pho006112,Uncategorized,,9999,UNLV Special Collections,pho006112,pho006112,,,,Yes,
+530,pho006113,Uncategorized,,9999,UNLV Special Collections,pho006113,pho006113,,,,Yes,
+531,pho006115,Uncategorized,,9999,UNLV Special Collections,pho006115,pho006115,,,,Yes,
+532,pho006124,Uncategorized,,9999,UNLV Special Collections,pho006124,pho006124,,,,Yes,
+533,pho006108,Uncategorized,,9999,UNLV Special Collections,pho006108,pho006108,,,,Yes,
+534,pho006173,Uncategorized,,9999,UNLV Special Collections,pho006173,pho006173,,,,Yes,
+535,pho006268,Uncategorized,,9999,UNLV Special Collections,pho006268,pho006268,,,,Yes,
+536,pho007096,Uncategorized,,9999,UNLV Special Collections,pho007096,pho007096,,,,Yes,
+537,pho007099,Uncategorized,,9999,UNLV Special Collections,pho007099,pho007099,,,,Yes,
+538,pho007100,Uncategorized,,9999,UNLV Special Collections,pho007100,pho007100,,,,Yes,
+539,pho007103,Uncategorized,,9999,UNLV Special Collections,pho007103,pho007103,,,,Yes,
+540,pho007104,Uncategorized,,9999,UNLV Special Collections,pho007104,pho007104,,,,Yes,
+541,pho007105,Uncategorized,,9999,UNLV Special Collections,pho007105,pho007105,,,,Yes,
+542,pho007107,Uncategorized,,9999,UNLV Special Collections,pho007107,pho007107,,,,Yes,
+543,pho007111,Uncategorized,,9999,UNLV Special Collections,pho007111,pho007111,,,,Yes,
+544,pho007114,Uncategorized,,9999,UNLV Special Collections,pho007114,pho007114,,,,Yes,
+545,pho007186,Uncategorized,,9999,UNLV Special Collections,pho007186,pho007186,,,,Yes,
+546,pho006876,Uncategorized,,9999,UNLV Special Collections,pho006876,pho006876,,,,Yes,
+547,pho006881,Uncategorized,,9999,UNLV Special Collections,pho006881,pho006881,,,,Yes,
+548,pho006883,Uncategorized,,9999,UNLV Special Collections,pho006883,pho006883,,,,Yes,
+549,pho007462,Uncategorized,,9999,UNLV Special Collections,pho007462,pho007462,,,,Yes,
+550,pho007540,Uncategorized,,9999,UNLV Special Collections,pho007540,pho007540,,,,Yes,
+551,pho007541,Uncategorized,,9999,UNLV Special Collections,pho007541,pho007541,,,,Yes,
+552,pho007542,Uncategorized,,9999,UNLV Special Collections,pho007542,pho007542,,,,Yes,
+553,pho007543,Uncategorized,,9999,UNLV Special Collections,pho007543,pho007543,,,,Yes,
+554,pho007637,Uncategorized,,9999,UNLV Special Collections,pho007637,pho007637,,,,Yes,
+555,pho007638,Uncategorized,,9999,UNLV Special Collections,pho007638,pho007638,,,,Yes,
+556,pho007050,Uncategorized,,9999,UNLV Special Collections,pho007050,pho007050,,,,Yes,
+557,pho005957,Uncategorized,,9999,UNLV Special Collections,pho005957,pho005957,,,,Yes,
+558,pho008158,Uncategorized,,9999,UNLV Special Collections,pho008158,pho008158,,,,Yes,
+559,pho012905,Uncategorized,,9999,UNLV Special Collections,pho012905,pho012905,,,,Yes,
+560,pho012908,Uncategorized,,9999,UNLV Special Collections,pho012908,pho012908,,,,Yes,
+561,pho012909,Uncategorized,,9999,UNLV Special Collections,pho012909,pho012909,,,,Yes,
+562,pho012955,Uncategorized,,9999,UNLV Special Collections,pho012955,pho012955,,,,Yes,
+563,pho013049,Uncategorized,,9999,UNLV Special Collections,pho013049,pho013049,,,,Yes,
+564,pho013081,Uncategorized,,9999,UNLV Special Collections,pho013081,pho013081,,,,Yes,
+565,pho013082,Uncategorized,,9999,UNLV Special Collections,pho013082,pho013082,,,,Yes,
+566,pho013113,Uncategorized,,9999,UNLV Special Collections,pho013113,pho013113,,,,Yes,
+567,pho013121,Uncategorized,,9999,UNLV Special Collections,pho013121,pho013121,,,,Yes,
+568,pho013265,Uncategorized,,9999,UNLV Special Collections,pho013265,pho013265,,,,Yes,
+569,pho013290,Uncategorized,,9999,UNLV Special Collections,pho013290,pho013290,,,,Yes,
+570,pho009786,Uncategorized,,9999,UNLV Special Collections,pho009786,pho009786,,,,Yes,
+571,pho013508,Uncategorized,,9999,UNLV Special Collections,pho013508,pho013508,,,,Yes,
+572,pho013440,Uncategorized,,9999,UNLV Special Collections,pho013440,pho013440,,,,Yes,
+573,pho013441,Uncategorized,,9999,UNLV Special Collections,pho013441,pho013441,,,,Yes,
+574,pho013442,Uncategorized,,9999,UNLV Special Collections,pho013442,pho013442,,,,Yes,
+575,pho013443,Uncategorized,,9999,UNLV Special Collections,pho013443,pho013443,,,,Yes,
+576,pho013445,Uncategorized,,9999,UNLV Special Collections,pho013445,pho013445,,,,Yes,
+577,pho013456,Uncategorized,,9999,UNLV Special Collections,pho013456,pho013456,,,,Yes,
+578,pho013548,Uncategorized,,9999,UNLV Special Collections,pho013548,pho013548,,,,Yes,
+579,pho014335,Uncategorized,,9999,UNLV Special Collections,pho014335,pho014335,,,,Yes,
+580,pho018477,Uncategorized,,9999,UNLV Special Collections,pho018477,pho018477,,,,Yes,
+581,pho018486,Uncategorized,,9999,UNLV Special Collections,pho018486,pho018486,,,,Yes,
+582,pho018508,Uncategorized,,9999,UNLV Special Collections,pho018508,pho018508,,,,Yes,
+583,pho018536,Uncategorized,,9999,UNLV Special Collections,pho018536,pho018536,,,,Yes,
+584,pho018408,Uncategorized,,9999,UNLV Special Collections,pho018408,pho018408,,,,Yes,
+585,pho018457,Uncategorized,,9999,UNLV Special Collections,pho018457,pho018457,,,,Yes,
+586,pho015064,Uncategorized,,9999,UNLV Special Collections,pho015064,pho015064,,,,Yes,
+587,pho022596,Uncategorized,,9999,UNLV Special Collections,pho022596,pho022596,,,,Yes,
+588,pho023735,Uncategorized,,9999,UNLV Special Collections,pho023735,pho023735,,,,Yes,
+589,pho025132,Uncategorized,,9999,UNLV Special Collections,pho025132,pho025132,,,,Yes,
+590,pho025371,Uncategorized,,9999,UNLV Special Collections,pho025371,pho025371,,,,Yes,
+591,pho025374,Uncategorized,,9999,UNLV Special Collections,pho025374,pho025374,,,,Yes,
+592,pho025528-001,Uncategorized,,9999,UNLV Special Collections,pho025528-001,pho025528 001,,,,Yes,
+593,pho025528-002,Uncategorized,,9999,UNLV Special Collections,pho025528-002,pho025528 002,,,,Yes,
+594,pho025839,Uncategorized,,9999,UNLV Special Collections,pho025839,pho025839,,,,Yes,
+595,pho025842,Uncategorized,,9999,UNLV Special Collections,pho025842,pho025842,,,,Yes,
+596,pho026014,Uncategorized,,9999,UNLV Special Collections,pho026014,,,,,Yes,
+597,pho028463-001,Uncategorized,,9999,UNLV Special Collections,pho028463-001,pho028463 001,,,,Yes,
+598,pho028463-002,Uncategorized,,9999,UNLV Special Collections,pho028463-002,pho028463 002,,,,Yes,
+599,pho028463-003,Uncategorized,,9999,UNLV Special Collections,pho028463-003,pho028463 003,,,,Yes,
+600,pho028463-004,Uncategorized,,9999,UNLV Special Collections,pho028463-004,pho028463 004,,,,Yes,
+601,pho032945,Uncategorized,,9999,UNLV Special Collections,pho032945,pho032945,,,,Yes,
+602,pho033345,Uncategorized,,9999,UNLV Special Collections,pho033345,pho033345,,,,Yes,
+603,pho032608,Uncategorized,,9999,UNLV Special Collections,pho032608,pho032608,,,,Yes,
+604,snv002495,Uncategorized,,9999,UNLV Special Collections,snv002495,snv002495,,,,Yes,
+605,hln000131,Uncategorized,,9999,UNLV Special Collections,hln000131,hln000131,,,,Yes,
+606,pho021426-012,Uncategorized,,9999,UNLV Special Collections,pho021426-012,pho021426 012,,,,Yes,
+607,pho021426-011,Uncategorized,,9999,UNLV Special Collections,pho021426-011,pho021426 011,,,,Yes,
+608,pho014583,Uncategorized,,9999,UNLV Special Collections,pho014583,pho014583,,,,Yes,
+609,pho018437,Uncategorized,,9999,UNLV Special Collections,pho018437,pho018437,,,,Yes,
+610,pho021423,Uncategorized,,9999,UNLV Special Collections,pho021423,pho021423,,,,Yes,
+611,pho018445,Uncategorized,,9999,UNLV Special Collections,pho018445,pho018445,,,,Yes,
+612,pho019796,Uncategorized,,9999,UNLV Special Collections,pho019796,pho019796,,,,Yes,
+613,pho021413,Uncategorized,,9999,UNLV Special Collections,pho021413,pho021413,,,,Yes,
+614,pho018153,Uncategorized,,9999,UNLV Special Collections,pho018153,pho018153,,,,Yes,
+615,pho021426-004,Uncategorized,,9999,UNLV Special Collections,pho021426-004,pho021426 004,,,,Yes,
+616,pho014694,Uncategorized,,9999,UNLV Special Collections,pho014694,pho014694,,,,Yes,
+617,pho014317,Uncategorized,,9999,UNLV Special Collections,pho014317,pho014317,,,,Yes,
+618,pho022760,Uncategorized,,9999,UNLV Special Collections,pho022760,pho022760,,,,Yes,
+619,pho020545,Uncategorized,,9999,UNLV Special Collections,pho020545,pho020545,,,,Yes,
+620,pho015059,Uncategorized,,9999,UNLV Special Collections,pho015059,pho015059,,,,Yes,
+621,pho016095,Uncategorized,,9999,UNLV Special Collections,pho016095,pho016095,,,,Yes,
+622,pho014563,Uncategorized,,9999,UNLV Special Collections,pho014563,pho014563,,,,Yes,
+623,pho022836,Uncategorized,,9999,UNLV Special Collections,pho022836,pho022836,,,,Yes,
+624,pho022753,Uncategorized,,9999,UNLV Special Collections,pho022753,pho022753,,,,Yes,
+625,pho014949,Uncategorized,,9999,UNLV Special Collections,pho014949,pho014949,,,,Yes,
+626,pho014950,Uncategorized,,9999,UNLV Special Collections,pho014950,pho014950,,,,Yes,
+627,pho018704,Uncategorized,,9999,UNLV Special Collections,pho018704,pho018704,,,,Yes,
+628,pho018705,Uncategorized,,9999,UNLV Special Collections,pho018705,pho018705,,,,Yes,
+629,pho014696,Uncategorized,,9999,UNLV Special Collections,pho014696,pho014696,,,,Yes,
+630,pho021428-002,Uncategorized,,9999,UNLV Special Collections,pho021428-002,pho021428 002,,,,Yes,
+631,pho021428-001,Uncategorized,,9999,UNLV Special Collections,pho021428-001,pho021428 001,,,,Yes,
+632,pho021428-004,Uncategorized,,9999,UNLV Special Collections,pho021428-004,pho021428 004,,,,Yes,
+633,pho021428-007,Uncategorized,,9999,UNLV Special Collections,pho021428-007,pho021428 007,,,,Yes,
+634,pho021428-008,Uncategorized,,9999,UNLV Special Collections,pho021428-008,pho021428 008,,Portait; girl; necklace,,Yes,
+635,pho021428-011,Uncategorized,,9999,UNLV Special Collections,pho021428-011,pho021428 011,,,,Yes,
+636,pho021428-012,Uncategorized,,9999,UNLV Special Collections,pho021428-012,pho021428 012,,Woman; Portrait Lottie Wengert,,Yes,
+637,pho021428-016,Uncategorized,,9999,UNLV Special Collections,pho021428-016,pho021428 016,,,,Yes,
+638,pho021428-006,Uncategorized,,9999,UNLV Special Collections,pho021428-006,pho021428 006,,,,Yes,
+639,pho021428-009,Uncategorized,,9999,UNLV Special Collections,pho021428-009,pho021428 009,,,,Yes,
+640,pho021428-015,Uncategorized,,9999,UNLV Special Collections,pho021428-015,pho021428 015,,,,Yes,
+641,pho021790,Uncategorized,,9999,UNLV Special Collections,pho021790,pho021790,,,,Yes,
+642,pho021799,Uncategorized,,9999,UNLV Special Collections,pho021799,pho021799,,,,Yes,
+643,pho021801,Uncategorized,,9999,UNLV Special Collections,pho021801,pho021801,,,,Yes,
+644,pho022967,Uncategorized,,9999,UNLV Special Collections,pho022967,pho022967,,,,Yes,
+645,pho019828,Uncategorized,,9999,UNLV Special Collections,pho019828,pho019828,,,,Yes,
+646,pho018384,Uncategorized,,9999,UNLV Special Collections,pho018384,pho018384,,,,Yes,
+647,pho018385,Uncategorized,,9999,UNLV Special Collections,pho018385,pho018385,,,,Yes,
+648,pho018386,Uncategorized,,9999,UNLV Special Collections,pho018386,pho018386,,,,Yes,
+649,pho018406,Uncategorized,,9999,UNLV Special Collections,pho018406,pho018406,,,,Yes,
+650,pho018407,Uncategorized,,9999,UNLV Special Collections,pho018407,pho018407,,,,Yes,
+651,pho018422,Uncategorized,,9999,UNLV Special Collections,pho018422,pho018422,,,,Yes,
+652,pho018474,Uncategorized,,9999,UNLV Special Collections,pho018474,pho018474,,,,Yes,
+653,pho018475,Uncategorized,,9999,UNLV Special Collections,pho018475,pho018475,,,,Yes,
+654,pho018476,Uncategorized,,9999,UNLV Special Collections,pho018476,pho018476,,,,Yes,
+655,pho018478,Uncategorized,,9999,UNLV Special Collections,pho018478,pho018478,,,,Yes,
+656,pho018483,Uncategorized,,9999,UNLV Special Collections,pho018483,pho018483,,,,Yes,
+657,pho018501,Uncategorized,,9999,UNLV Special Collections,pho018501,pho018501,,Aerial; Pioche; Dexter Stables; Marysville; Hardware; J. J. Halpin; Stores,,Yes,
+658,pho018513,Uncategorized,,9999,UNLV Special Collections,pho018513,pho018513,,,,Yes,
+659,pho020527,Uncategorized,,9999,UNLV Special Collections,pho020527,pho020527,,,,Yes,
+660,pho020529,Uncategorized,,9999,UNLV Special Collections,pho020529,pho020529,,,,Yes,
+661,pho020528,Uncategorized,,9999,UNLV Special Collections,pho020528,pho020528,,,,Yes,
+662,pho020535,Uncategorized,,9999,UNLV Special Collections,pho020535,pho020535,,,,Yes,
+663,hln000041,Uncategorized,,9999,UNLV Special Collections,hln000041,hln000041,,,,Yes,
+664,hln000437,Uncategorized,,9999,UNLV Special Collections,hln000437,hln000437,,,,Yes,
+665,hln000011,Uncategorized,,9999,UNLV Special Collections,hln000011,hln000011,,,,Yes,
+666,snv002524,Uncategorized,,9999,UNLV Special Collections,snv002524,snv002524,,,,Yes,
+667,pho014675,Uncategorized,,9999,UNLV Special Collections,pho014675,pho014675,,,,Yes,
+668,pho016203,Uncategorized,,9999,UNLV Special Collections,pho016203,pho016203,,Mr and Mrs; John S. Park; Car,,Yes,
+669,pho014425,Uncategorized,,9999,UNLV Special Collections,pho014425,pho014425,,,,Yes,
+670,hln000042,Uncategorized,,9999,UNLV Special Collections,hln000042,hln000042,,,,Yes,
+671,hln000046,Uncategorized,,9999,UNLV Special Collections,hln000046,hln000046,,,,Yes,
+672,hln000054,Uncategorized,,9999,UNLV Special Collections,hln000054,hln000054,,Water Conservation; Woman; Jean Nevada; Sign Post,,Yes,
+673,hln000061,Uncategorized,,9999,UNLV Special Collections,hln000061,hln000061,,Maude Swartwood; Adobo House; Remains; Big Las Vegas Spring,,Yes,
+674,hln000067,Uncategorized,,9999,UNLV Special Collections,hln000067,hln000067,,Vegas Wash; Captain Jim Ladd; Stage Wagon,,Yes,
+675,hln000090,Uncategorized,,9999,UNLV Special Collections,hln000090,hln000090,,Las Vegas; Squires; Waving; Woman,,Yes,
+676,hln000102,Uncategorized,,9999,UNLV Special Collections,hln000102,hln000102,,,,Yes,
+677,hln000095-02,Uncategorized,,9999,UNLV Special Collections,hln000095-02,hln000095 02,,,,Yes,
+678,hln000095-01,Uncategorized,,9999,UNLV Special Collections,hln000095-01,hln000095 01,,,,Yes,
+679,hln000093a,Uncategorized,,9999,UNLV Special Collections,hln000093a,hln000093a,,,,Yes,
+680,hln000202,Uncategorized,,9999,UNLV Special Collections,hln000202,hln000202,,,,Yes,
+681,hln000194,Uncategorized,,9999,UNLV Special Collections,hln000194,hln000194,,,,Yes,
+682,hln000182,Uncategorized,,9999,UNLV Special Collections,hln000182,hln000182,,,,Yes,
+683,hln000177,Uncategorized,,9999,UNLV Special Collections,hln000177,hln000177,,,,Yes,
+684,hln000176,Uncategorized,,9999,UNLV Special Collections,hln000176,hln000176,,,,Yes,
+685,hln000167,Uncategorized,,9999,UNLV Special Collections,hln000167,hln000167,,Las Vegas Ranch,,Yes,
+686,hln000165,Uncategorized,,9999,UNLV Special Collections,hln000165,hln000165,,,,Yes,
+687,hln000162,Uncategorized,,9999,UNLV Special Collections,hln000162,hln000162,,,,Yes,
+688,hln000219,Uncategorized,,9999,UNLV Special Collections,hln000219,,,,,Yes,
+689,hln000220,Uncategorized,,9999,UNLV Special Collections,hln000220,hln000220,,,,Yes,
+690,hln000462,Uncategorized,,9999,UNLV Special Collections,hln000462,hln000462.tif,,,,Yes,
+691,hln000461,Uncategorized,,9999,UNLV Special Collections,hln000461,hln000461.tif,,,,Yes,
+692,hln000460,Uncategorized,,9999,UNLV Special Collections,hln000460,hln000460.tif,,,,Yes,
+693,hln000319,Uncategorized,,9999,UNLV Special Collections,hln000319,,,,,Yes,
+694,hln000298,Uncategorized,,9999,UNLV Special Collections,hln000298,hln000298.tif,,,,Yes,
+695,hln000297,Uncategorized,,9999,UNLV Special Collections,hln000297,hln000297,,,,Yes,
+696,hln000241,Uncategorized,,9999,UNLV Special Collections,hln000241,,,,,Yes,
+697,hln000240,Uncategorized,,9999,UNLV Special Collections,hln000240,,,,,Yes,
+698,hln000495,Uncategorized,,9999,UNLV Special Collections,hln000495,hln000495,,,,Yes,
+699,hln000003,Uncategorized,,9999,UNLV Special Collections,hln000003,"Photograph of bridge over Vegas Creek, Las Vegas, circa 1900",https://special.library.unlv.edu/ark:/62930/d1610zr3z,,Yes,Yes,Yes
+700,27082.0,Uncategorized,,9999,Utah Historical Society,27082.0,"Ely, Nevada P.18",https://collections.lib.utah.edu/ark:/87278/s6sb4gh4,,Yes,Yes,Yes
+701,25049.0,Uncategorized,,9999,Utah Historical Society,25049.0,"San Pedro, Los Angeles & Salt Lake RR P.11",https://collections.lib.utah.edu/ark:/87278/s6bv7r2w,,Yes,Yes,Yes
+702,750.0,Uncategorized,,9999,Utah Historical Society,750.0,"San Pedro, Los Angeles & Salt Lake RR P.2",https://collections.lib.utah.edu/ark:/87278/s6cv4s68,,Yes,Yes,Yes
+703,82003220.0,Uncategorized,,9999,Wikimedia Commons,82003220.0,"Brann Boardinghouse, Tonopah, NV, built 1906",https://en.wikipedia.org/wiki/Brann_Boardinghouse,,Yes,,Yes
+704,83001121.0,Uncategorized,,9999,Wikimedia Commons,83001121.0,"Nortonia Boarding House, Reno, NV",https://en.wikipedia.org/wiki/Nortonia_Boarding_House,,Yes,,Yes
+705,17527202.0,Uncategorized,,9999,Wikimedia Commons,17527202.0,"Southern Nevada Consolidated Telephone-Telegraph Co. Building, Goldfield, NV, 1906","https://commons.wikimedia.org/wiki/File:Southern_Nevada_Consolidated_Telephone-Telegraph_Company_Building,_Goldfield,_Nevada.jpg",,Yes,,Yes
+706,campphotoscollection_5365,Urban & Street Scenes,,9999,,campphotoscollection_5365,"campphotoscollection:5365 Downtown Reno, a few people",,,,,
+707,campphotoscollection_5367,Urban & Street Scenes,,9999,,campphotoscollection_5367,campphotoscollection:5367 Downtown Reno,,,,,
+708,2012648308.0,Urban & Street Scenes,,9999,Library of Congress,2012648308.0,"Goldfield, Nevada street scene, c. 1907",http://hdl.loc.gov/loc.pnp/cph.3a15639,,Yes,Yes,Yes
+709,800387.0,Urban & Street Scenes,"general ref, no clear page",9999,New York Public Library,800387.0,"NYC street scene, 1910",https://digitalcollections.nypl.org/items/91e81af0-c559-012f-8b4b-58d385a7bc34,"Street Scene; New York City, NY",Yes,Yes,
+710,L87-1.5321X-10,Urban & Street Scenes,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.5321X-10,"Spokane, 1910, city view",https://ferrisarchives.northwestmuseum.org/Item/Index/3699,,Yes,Yes,Yes
+711,L87-1.5637X-10,Urban & Street Scenes,"general ref, no clear page",9999,Northwest Museum (Ferris Archives),L87-1.5637X-10,"Spokane, 1910, city view with big bank",https://ferrisarchives.northwestmuseum.org/Item/Index/3702,,Yes,Yes,
+712,DPW-46-2,Urban & Street Scenes,,9999,San Francisco Public Library,DPW-46,"Vicente Street sewer near 30th Ave. ('Brick invert'), San Francisco, July 9, 1910 [San Francisco Department of Public Works Bureau of Engineering Photograph Records, SFP 26]",https://digitalsf.org/record/6563,,Yes,Yes,Yes
+713,AAB-6092,Urban & Street Scenes,,9999,San Francisco Public Library,AAB-6092,"East on Market from 4th Street, San Francisco, 1910-1912 (Photographer: H.C. Tibbitts) [San Francisco Subjects Photograph Collection, SFP 162]",https://digitalsf.org/record/23973,,Yes,,Yes
+714,AAA-7143,Urban & Street Scenes,"general ref, no clear page",9999,San Francisco Public Library,AAA-7143,"Union Square, San Francisco, circa 1910 [San Francisco Subjects Photograph Collection, SFP 162]",https://digitalsf.org/record/17191,"Downtown; San Francisco, CA",Yes,Yes,Yes
+715,AAB-6085,Urban & Street Scenes,,9999,San Francisco Public Library,AAB-6085,"Intersection of Sutter, Sansome and Market Streets, San Francisco, March 28, 1910 [San Francisco Subjects Photograph Collection, SFP 162]",https://digitalsf.org/record/23966,"Downtown; San Francisco, CA",Yes,Yes,Yes
+716,pho004120,Urban & Street Scenes,,9999,UNLV Special Collections,pho004120,Street w/ construction (1910),https://special.library.unlv.edu/ark:/62930/d1pz51k90,,Yes,Yes,Yes
+717,pho017850,Urban & Street Scenes,,9999,UNLV Special Collections,pho017850,"Main Street, Caliente (1900 to 1910)",https://special.library.unlv.edu/ark:/62930/d1bk16s9b,,Yes,Yes,Yes
+718,pho025988,Urban & Street Scenes,,9999,UNLV Special Collections,pho025988,"Photograph of back of First Methodist Church building, Las Vegas (Nev.) -- located at 3rd and Bridger Streets, circa 1900-1925 [Sunnie Gillette Photograph Collection]. See also pho025987 (front view).",https://special.library.unlv.edu/ark%3A/62930/d1mw2cc2m,,Yes,Yes,Yes
+719,pho019906,Urban & Street Scenes,,9999,UNLV Special Collections,pho019906,"Photograph of Tonopah, Nevada, 1906 (aerial view including red light district)",http://n2t.net/ark:/62930/d1j67916m,,Yes,Yes,Yes
+720,pho019905,Urban & Street Scenes,,9999,UNLV Special Collections,pho019905,"Delamar, Nevada, 1907 (panorama)",http://n2t.net/ark:/62930/d1nv99f9p,,Yes,Yes,Yes
+721,pho019917,Urban & Street Scenes,,9999,UNLV Special Collections,pho019917,"Pioche, Nevada, 1906 (street scene, Clark's Place)",http://n2t.net/ark:/62930/d13x83q56,,Yes,Yes,Yes
+722,pho025802,Urban & Street Scenes,,9999,UNLV Special Collections,pho025802,Peter Buol (1911 to 1913),https://special.library.unlv.edu/ark:/62930/d1mk65f9t,,,Yes,Yes
+723,pho013038,Urban & Street Scenes,,9999,UNLV Special Collections,pho013038,Ed Clark age 25 / Forwarding Company (1904 to 1906),https://special.library.unlv.edu/ark:/62930/d1vm4300k,,Yes,Yes,Yes
+724,pho014576,Urban & Street Scenes,,9999,UNLV Special Collections,pho014576,Leon Rockwell (1908),https://special.library.unlv.edu/ark:/62930/d1930nx52,,Yes,Yes,Yes
+725,pho023866,Urban & Street Scenes,,9999,UNLV Special Collections,pho023866,"Photograph of an aerial view of Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1p26q89n,,Yes,Yes,Yes
+726,pho023868,Urban & Street Scenes,,9999,UNLV Special Collections,pho023868,"Photograph of an aerial view of Pioche (Nev.), early 1900s [John Janney Photograph Collection on Pioche, Nevada]",https://special.library.unlv.edu/ark:/62930/d1dj58n95,,Yes,Yes,Yes
+727,pho006198,Urban & Street Scenes,,9999,UNLV Special Collections,pho006198,"Photograph of Delphine Squires in Las Vegas during construction of Squires house at 407 Fremont St., April 1906 [Charles P. Squires Photograph Collection]",http://n2t.net/ark:/62930/d1ms3k16w,,Yes,Yes,Yes
+728,PH-00002,Urban & Street Scenes,,9999,UNLV Special Collections,PH-00002,"Ed Clark, c. 1932 [pics of Ronnow]",,,,,
+729,NEEDS-ID-22,Urban & Street Scenes,"general ref, no clear page",9999,UNLV Special Collections (not digitized),,"Leon Rockwell on the Colorado River, 1907 - NOT DIGITIZED",https://special.library.unlv.edu/node/279368,,,,
+730,CHS-5247,Urban & Street Scenes,,9999,USC Digital Library,CHS-5247,"Main Street, looking north-east, Riverside, California, circa 1905 (Creator: C.C. Pierce) [California Historical Society Collection, 1860-1960]",http://doi.org/10.25549/chs-m8183,,Yes,Yes,Yes
+731,CHS-1876,Urban & Street Scenes,,9999,USC Digital Library,CHS-1876,"Broadway north from Fourth Street, downtown Los Angeles, 1903-1905 [California Historical Society Collection, 1860-1960]",http://doi.org/10.25549/chs-m86,,Yes,Yes,Yes
+732,8473926.0,Urban & Street Scenes,,9999,Wikimedia Commons,8473926.0,"Street scenery, Goldfield, NV",https://commons.wikimedia.org/wiki/File:Goldfield_NV_-_street_scenery.jpg,,Yes,,Yes
