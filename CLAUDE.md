@@ -115,3 +115,18 @@ need a permission prompt. Known cases:
   bases but never the account email.
 
 State the exact click path, then move on to work that actually needs an agent.
+
+## Airtable base (tracking)
+
+`Las Vegas Documentary — Archival Images`
+- base `appntIAZCHnEatgyi`, table `Images` `tblQdrGgTOzZSPr11`
+- workspace: Las Vegas Production (lexvbush@gmail.com account)
+- 732 records, loaded 2026-09-02 by CSV import of `manifest/airtable_import.csv`
+
+Reloading is far cheaper by CSV import than through the API: the API caps at
+50 records per call and each call needs a permission prompt, while Airtable's
+built-in importer takes the whole file and auto-detects single-select and
+checkbox fields correctly. Regenerate the CSV with `build_manifest.py`, import
+to a new table, delete the old one, then rename and re-add the field
+descriptions and the Thumbnail / Editor Notes fields (the CSV cannot carry
+attachments or empty columns).
