@@ -88,3 +88,19 @@ In Lightroom, Metadata Attached, Editor Notes.
 **Sequence is provisional** — derived from the current draft script, regenerate
 when the script locks. **Category is stable** and is what the editor groups by
 in the meantime. `manifest/editor_manifest.csv` is the git-side mirror.
+
+## Division of labour — hand UI work back
+
+When a job is one or two clicks in a web UI but many approval-gated API calls
+here, **say so and hand it over**. Do not grind through batched calls that each
+need a permission prompt. Known cases:
+
+- **Deleting an Airtable base** — no API for it at all; the UI is the only way.
+- **Bulk-deleting records** — 50 per call, one approval each. Deleting the base
+  or table in the UI is faster when the whole thing is going anyway.
+- **Creating a shared view link** — UI only.
+- **Connector sign-in / switching accounts** — UI only, and the connector's
+  account identity is *only* visible there. The API exposes workspaces and
+  bases but never the account email.
+
+State the exact click path, then move on to work that actually needs an agent.
