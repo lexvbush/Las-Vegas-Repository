@@ -68,13 +68,24 @@ download_file_content(fileId, exportMimeType=
 then decode the base64 and read it with openpyxl. Row counts from any other
 path are not trustworthy.
 
-## Naming
+## Naming — one value, four places
 
-`Image ID` in Airtable is the **catalog ID verbatim** — that is the production's
-naming convention for every image and it stays short (median 9 characters).
-Do not build long composite names for it. The longer
-`ARCHIVE_catalogid_caption` form is used only for TIF filenames on disk, where
-the archive prefix is a deliberate second layer of provenance.
+**Catalog ID == Image ID == `<filename>.tif` == Lightroom Title.** All four are
+the archive's catalog ID verbatim, so a file can never drift from its record.
+Do not build composite names anywhere. `lvtag.py rename` renames to
+`<catalog id>.tif` and `build_fields` writes that same string to XMP-dc:Title
+and IPTC:ObjectName, which is what Lightroom shows as the Title.
+
+The archive is NOT in the filename -- it is carried in nine embedded fields
+(Creator, Rights, Credit, IPTC Source, Caption, and others), which is what
+protects credits and clearance.
+
+**Archives that give a catalog ID *and* a download filename** (Utah Historical
+Society records both, as "<id> / <filename>") keep both: the ID drives the
+naming convention, and the archive's own filename goes to `archive_filename`
+in the manifest, the `Archive Filename` field in Airtable, and
+XMP-photoshop:TransmissionReference + IPTC:OriginalTransmissionReference in the
+file. It is also appended to the Caption as "archive file <name>".
 
 ## Airtable base (tracking)
 
@@ -82,7 +93,7 @@ the archive prefix is a deliberate second layer of provenance.
 - base `appD7Xn4PafIb2a6I`, table `Images` `tbln0l7r7Vhm51jxH`
 
 Fields: Image ID (primary, = catalog ID), Sequence, Category, Script Page,
-Archive, Catalog ID, Caption, Source URL, Thumbnail, Keywords, Downloaded,
+Archive, Catalog ID, Archive Filename, Caption, Source URL, Thumbnail, Keywords, Downloaded,
 In Lightroom, Metadata Attached, Editor Notes.
 
 **Sequence is provisional** — derived from the current draft script, regenerate

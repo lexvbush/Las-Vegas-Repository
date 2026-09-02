@@ -78,6 +78,11 @@ def main(path):
         d = {COLS[i]: cell(r[i]) for i in range(len(COLS))}
         if not (d['archive'] or d['catalog_id'] or d['title_caption']):
             continue
+        # some archives (Utah) record "<catalog id> / <download filename>"
+        d['archive_filename'] = ''
+        if ' / ' in d['catalog_id']:
+            cid, fname = [x.strip() for x in d['catalog_id'].split(' / ', 1)]
+            d['catalog_id'], d['archive_filename'] = cid, fname
         if d['in_lightroom'].lower() in ('yes', 'true'):
             d['in_lightroom'] = 'Yes'
         rows.append(d)
@@ -137,9 +142,9 @@ def main(path):
         d['sequence'] = i
 
     out = ['sequence', 'image_id', 'category', 'script_pages', 'page_sort', 'archive',
-           'catalog_id', 'title_caption', 'source_url', 'keywords',
+           'catalog_id', 'archive_filename', 'title_caption', 'source_url', 'keywords',
            'downloaded', 'in_lightroom', 'metadata_attached']
-    for name, fields in (("editor_manifest.csv", out), ("master_manifest.csv", COLS + ['keywords'])):
+    for name, fields in (("editor_manifest.csv", out), ("master_manifest.csv", COLS + ['archive_filename', 'keywords'])):
         with open(ROOT / "manifest" / name, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
             w.writeheader()

@@ -116,6 +116,7 @@ def build_fields(row, keywords):
     caption = (row.get("title_caption") or "").strip()
     url     = (row.get("source_url") or "").strip()
     pages   = (row.get("script_pages") or "").strip()
+    arc_file = (row.get("archive_filename") or "").strip()
 
     # Caption is the widest field the team can read in the browser, so it
     # carries the human description *and* the provenance trail.
@@ -123,6 +124,8 @@ def build_fields(row, keywords):
     prov = " ".join(x for x in (archive, cat_id) if x)
     if prov:
         bits.append(prov)
+    if arc_file and arc_file != cat_id:
+        bits.append(f"archive file {arc_file}")
     if pages:
         bits.append(f"Script {pages}")
     description = " - ".join(bits)
@@ -131,8 +134,8 @@ def build_fields(row, keywords):
 
     f = {
         # visible in Lightroom web
-        "XMP-dc:Title":              cat_id or caption,
-        "IPTC:ObjectName":           cat_id or caption,
+        "XMP-dc:Title":              cat_id,
+        "IPTC:ObjectName":           cat_id,
         "XMP-dc:Description":        description,
         "IPTC:Caption-Abstract":     description,
         "EXIF:ImageDescription":     description,
@@ -146,7 +149,8 @@ def build_fields(row, keywords):
         "IPTC:Source":               archive,
         "XMP-photoshop:Headline":    caption,
         "XMP-dc:Identifier":         cat_id,
-        "XMP-photoshop:TransmissionReference": cat_id,
+        "XMP-photoshop:TransmissionReference": arc_file or cat_id,
+        "IPTC:OriginalTransmissionReference":  arc_file or cat_id,
         "XMP-xmpRights:UsageTerms":  USAGE_TERMS,
         "XMP-xmpRights:Marked":      "True",
         "XMP-photoshop:Instructions": f"Script {pages}" if pages else "",
@@ -272,9 +276,22 @@ def slug(s, maxlen=48):
 
 
 def target_name(row, ext=".tif"):
-    """ARCHIVE_catalogid_short-caption.tif -- provenance survives metadata loss."""
-    code = archive_code(row.get("archive"))
-    cid = slug(row.get("catalog_id"), 32)
-    cap = slug(row.get("title_caption"), 44)
-    parts = [p for p in (code, cid, cap) if p]
-    return "_".join(parts) + ext
+    """The catalog ID and nothing else.
+
+    Production convention: Catalog ID == Image ID == filename == Lightroom
+    Title. One value in all four places, so a file can never drift from its
+    record. The archive is carried in the embedded metadata, not the filename.
+    """
+    cid = (row.get("catalog_id") or "").strip()
+    if not cid:
+        cid = row.get("image_id") or "UNKNOWN"
+    return slug_filename(cid) + ext
+
+
+def slug_filename(s):
+    """Make a catalog ID safe as a filename without disguising it."""
+    s = (s or "").strip()
+    for bad, good in (("/", "-"), ("\\", "-"), (":", "-"), ("*", ""), ("?", ""),
+                      ('"', ""), ("<", ""), (">", ""), ("|", "-")):
+        s = s.replace(bad, good)
+    return re.sub(r"\s+", " ", s).strip()
