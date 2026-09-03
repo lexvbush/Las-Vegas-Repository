@@ -167,6 +167,28 @@ from the album's own asset ids rather than assuming.
 disk alike: `AAB-6092` (302x400, San Francisco Public Library) and `ESM-01420`
 (450x258, Nevada Historical Society). `pho017606` at 947x1629 is marginal.
 
+## Disk layout — sorted by state, 2026-09-03
+
+`Vegas Downloads Full Folder` is now sorted by what has happened to each image
+rather than by the day it was found:
+
+    _Uploaded to Lightroom/          386 files that are in the Early 1900s album
+    _Uploaded to Lightroom/_duplicate on disk/   7 same-name copies from two folders
+    September 3/Ready to Upload/     tagged, recorded, not yet imported
+    September 3/_in catalog - move into album/   in the catalog, needs a MOVE not an import
+    September 3/_done - in album/    moved in and ticked In Lightroom
+    September 3/_already in Lightroom/   arrived already imported, no work needed
+    September 3/Don't want/          rejected
+    September 3/_exiftool backups/   pre-tag originals
+
+`manifest/uploaded_files_moved.csv` records the original path of every one of
+the 386, so the move is fully reversible and the old dated/topical folder names
+are not lost — several of them carried script pages (`P.58 Eldorado Canyon
+Wagons`) that exist nowhere else.
+
+**98 folders are now empty** and can be deleted whenever. **27 images remain**
+outside the status folders; those are the real backlog.
+
 ## TIFs only — and a JPEG must be traceable
 
 **Lightroom should hold 300 DPI TIFs.** Alexa's rule, 2026-09-03: "ideally we
