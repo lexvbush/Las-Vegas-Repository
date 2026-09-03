@@ -189,6 +189,32 @@ Wagons`) that exist nowhere else.
 **98 folders are now empty** and can be deleted whenever. **27 images remain**
 outside the status folders; those are the real backlog.
 
+### Downloading a UNLV master TIF
+
+curl gets 403 from `special.library.unlv.edu` and saves an HTML error page with
+a `.tif` name, so always check `file` on the result. The way through is the real
+browser: the item page's HTML contains the master path, e.g.
+`/_flysystem/fedora/SNV Boomtown/SNV Archival Images/snv000351.tif`, and
+navigating Chrome straight at that URL downloads it. **The catalog ID is in that
+path** — which is how an untitled file gets identified.
+
+Worked example, 2026-09-03: `JakesDanceHall.jpg` (2317x1364, no id, no record)
+had "Jake Goodfriend" handwritten on it and "JAKE'S DANCE HALL" on the building.
+Searching UNLV for `"Jake's Dance Hall"` returned 3 hits, one of them the
+photograph; its ark yielded the master path and therefore the id **snv000351**,
+downloaded at 3510x2153 / 600 DPI. **It is Goldfield, not Las Vegas** — Jake's
+Dance Hall and the Pioneer Dance Hall were both in Goldfield, and the plate is
+C. A. Earle Rinker's.
+
+### Judging which copy is really higher resolution
+
+Pixel count alone lies. `3c37464` ("Eva Wells, Las Vegas, Nevada") is 6451x5135
+but is a **copy-stand scan of the mounted print**: most of the frame is black
+surround, a Kodak gray scale and a ruler, so only a band across the middle is
+the photograph. `pan.6a07656` is the same negative — West Coast Art Co. No. 758,
+copyright 1910, confirmed by reading the imprint off the plate — at 2705x677 but
+cropped to just the image. Look at a file before ranking it by megapixels.
+
 ## TIFs only — and a JPEG must be traceable
 
 **Lightroom should hold 300 DPI TIFs.** Alexa's rule, 2026-09-03: "ideally we

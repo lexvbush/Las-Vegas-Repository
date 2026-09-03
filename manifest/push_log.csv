@@ -711,3 +711,20 @@ when,record_id,image_id,field,old_value,new_value,result
 2026-09-03T17:47:00,recEo4gUQORTXYcdR,snv002412,In Lightroom,False,True,ok
 2026-09-03T17:47:00,recoLzrrvGTBT2yFB,snv002544,In Lightroom,False,True,ok
 2026-09-03T17:47:00,recqMh2VVO7JD3yhh,snv002546,In Lightroom,False,True,ok
+2026-09-03T17:58:37,recaZXzOSXreugqZ4,hln000101,In Lightroom,False,True,ok
+2026-09-03T17:58:37,recICGAMYH1qtzFtA,pho004882,In Lightroom,False,True,ok
+2026-09-03T17:58:37,rec6dvGeSANOiy3ex,pho013952,In Lightroom,False,True,ok
+2026-09-03T17:58:37,recu28HaTjw0YaLPG,pho015065,In Lightroom,False,True,ok
+2026-09-03T17:58:37,recnspP4dlBgzNEwW,pho017606,In Lightroom,False,True,ok
+2026-09-03T17:58:37,recHgfCiSRNnMccmy,snv000841,In Lightroom,False,True,ok
+2026-09-03T17:58:37,rect5HMc4AlVtO3tA,snv002133,In Lightroom,False,True,ok
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Image ID,(new record),snv000351,created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Archive,(new record),UNLV Special Collections,created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Caption,(new record),"Photograph of a street scene near dance halls, Goldfield (Nev.), 1900-1920",created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Description,(new record),"Caption on the print: Jake Goodfriend. Site names: Jake's Dance Hall (Goldfield, Nev.); Pioneer Dance Hall (Goldfield, Nev.). Photographer C. A. Earle Rinker (1883-1965). Digital project: Southern Nevada, The Boomtown Years 1900-1925. Identified 2026-09-03 from the handwritten name and the building sign on an untitled file named JakesDanceHall.jpg -- note the site is GOLDFIELD, not Las Vegas.",created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Collection,(new record),"C. A. Earle Rinker Photograph Collection of Goldfield, Nevada",created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Archive Subjects,(new record),Dance halls,created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Source URL,(new record),https://special.library.unlv.edu/ark:/62930/d19s1m03v,created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Keywords,(new record),"Dance Hall; Street Scene; Building Exterior; Signage; Jake Goodfriend; Goldfield, NV; Esmeralda County, NV; Mining Town; UNLV Special Collections",created
+2026-09-03T18:01:54,recva09BP2Uq7HnWT,snv000351,Downloaded,(new record),True,created
+2026-09-03T18:02:34,recva09BP2Uq7HnWT,snv000351,Metadata Attached,False,True,ok
