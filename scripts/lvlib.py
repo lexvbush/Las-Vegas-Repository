@@ -214,27 +214,53 @@ def index_files(folder):
     return [p for p in sorted(folder.rglob("*")) if p.suffix in TIF_EXT]
 
 
+MIN_ID = 4  # shorter than this, a token is too generic to trust as a substring
+
+
 def match_files(rows, files):
     """Match manifest rows to files on disk by catalog ID token.
+
+    Exact normalized matches are claimed first, then substring matches in
+    either direction -- a catalog ID buried in a longer filename
+    (pho033930 -> pho033930-002) or a filename that is the tail of a longer
+    ID (3c37464 -> master-pnp-cph-...-3c37464u). Both sides must be at least
+    MIN_ID characters for a substring match: without that floor a file named
+    45.tif swallows every catalog ID that happens to contain "45". The exact
+    pass still matches short IDs, so 523 -> 523.tif survives.
+
+    Each file is claimed by at most one row, so a single file can no longer
+    stand in as evidence for twenty of them.
 
     Returns (matches, unmatched_rows, unmatched_files).
     """
     by_norm = [(norm_file(p.stem), p) for p in files]
-    matches, unmatched_rows = [], []
+    matched = {}
     used = set()
-    for row in rows:
-        cid = norm_file(row.get("catalog_id"))
-        hit = None
-        if cid and len(cid) >= 4:
-            for n, p in by_norm:
-                if cid in n or n in cid:
-                    hit = p
-                    break
-        if hit:
-            matches.append((row, hit))
-            used.add(hit)
-        else:
-            unmatched_rows.append(row)
+
+    def claim(i, cid, exact):
+        for n, path in by_norm:
+            if path in used or not n:
+                continue
+            if exact:
+                hit = n == cid
+            else:
+                hit = (len(cid) >= MIN_ID and len(n) >= MIN_ID
+                       and (cid in n or n in cid))
+            if hit:
+                matched[i] = path
+                used.add(path)
+                return
+
+    for exact in (True, False):
+        for i, row in enumerate(rows):
+            if i in matched:
+                continue
+            cid = norm_file(row.get("catalog_id"))
+            if cid:
+                claim(i, cid, exact)
+
+    matches = [(rows[i], matched[i]) for i in range(len(rows)) if i in matched]
+    unmatched_rows = [rows[i] for i in range(len(rows)) if i not in matched]
     return matches, unmatched_rows, [p for p in files if p not in used]
 
 
