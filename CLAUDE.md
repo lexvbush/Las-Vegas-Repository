@@ -366,6 +366,32 @@ all three places (Airtable, the TIF, and the Lightroom asset). Everything droppe
 Lightroom that cannot see it. It also confirms the shortened copyright works:
 `dc:rights` reads `Nevada Historical Society` and nothing more.
 
+## Why the duplicates happened — Lightroom dedupes on metadata
+
+Alexa, 2026-09-03: "when I reupload an image into lightroom that has sightly
+different metadata, it will accept it. if i try to upload the same image with
+the same metadata it will reject as a duplicate."
+
+So Lightroom's duplicate check is over pixels **plus** metadata. That explains
+this session's 11 duplicate groups completely, and the fault is a tagging
+pass run between two imports: the 17:20 copy of `CL-00560` had no keywords, the
+keyword pass added them, and the 18:45 import therefore looked like a different
+asset and was accepted. Nothing was wrong with the import — the metadata moved
+underneath it.
+
+Two rules follow:
+
+- **Do not re-tag a file after it has been imported** unless you intend to
+  replace the asset, and if you do, delete the old one. Lightroom will not
+  protect you: changed metadata reads as a new image.
+- **Finish tagging before the first import.** Get keywords, captions and the
+  permalink right, then upload once. A file that is already in Lightroom and
+  then re-tagged can no longer be safely re-uploaded at all.
+
+The corollary bit: an untouched file *is* protected — re-dragging a folder whose
+files have not been re-tagged is safe, because Lightroom rejects those as
+duplicates. It is only the edited ones that slip through.
+
 ## Duplicates in Lightroom — 94 groups, 102 redundant assets
 
 Measured 2026-09-03 across every archive from the fresh scrape:
