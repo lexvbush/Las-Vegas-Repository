@@ -143,6 +143,50 @@ In Lightroom, Metadata Attached, Editor Notes.
 when the script locks. **Category is stable** and is what the editor groups by
 in the meantime. `manifest/editor_manifest.csv` is the git-side mirror.
 
+## Harvesting from an archive — the recipe that works
+
+Archive sites sit behind bot protection: a plain WebFetch of a UNLV or Utah
+item page returns 418, and the metadata is client-rendered so the raw HTML is
+empty. What works is to open ONE page in the browser tool and then run
+same-origin `fetch` from inside it -- the browser has already cleared the
+challenge, so every later request is cheap.
+
+UNLV (special.library.unlv.edu), proven on 221 IDs:
+
+    fetch('/search?keys=' + encodeURIComponent(id))
+
+Parse `Displaying results 1 - 1 of N` out of `body.innerText`. Three rules:
+
+1. **Accept only N == 1.** Unquoted hyphenated IDs explode -- pho021428-006
+   returns 9,003 fuzzy hits and the top result is a different photograph.
+   If N != 1, retry the query wrapped in double quotes; if it is still not 1,
+   record it as ambiguous rather than guessing.
+2. **Take either link shape.** Items live at `/ark%3A/62930/...` or `/node/NNNN`;
+   both are valid permalinks.
+3. **Ignore the facet sidebar.** On a multi-hit page the "Archival Collection"
+   label picks up the whole facet list. Reject any value over ~110 chars or
+   containing a "(123)" count.
+
+The search result also carries Title, Date, Archival Collection and
+Description -- richer than the item page, which only reliably yields the title.
+
+Run it with ~5 concurrent workers writing into one object, and poll for
+completion; serial is ~11s per ID, five workers ~1s. 209 IDs took about four
+minutes with a 100% hit rate.
+
+Library of Congress needs no scraping at all: a `master-pnp-<prefix>-...-<id>u`
+filename decomposes to `https://hdl.loc.gov/loc.pnp/<prefix>.<id>`, which is
+LOC's own permalink. Alamy is `https://www.alamy.com/stock-photo/<ID>.html`.
+Nevada Historical Society's PastPerfect matches the exact hyphenated ID, but
+only about half its holdings are online -- 16 of ours return zero results
+against controls that return exactly one, so those need Sarah Patton
+(Archivist, Nevada Historical Society), not a scraper.
+
+**Bulk Airtable writes are the expensive part of any session.** Each record has
+to be printed by the browser and then retyped into the update call. Build the
+push counterpart to pull_manifest.py -- a local script with AIRTABLE_TOKEN --
+before doing another large write pass.
+
 ## Division of labour — hand UI work back
 
 When a job is one or two clicks in a web UI but many approval-gated API calls
