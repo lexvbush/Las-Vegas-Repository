@@ -135,8 +135,19 @@ lower left of each — so they are the photographer's own sequential numbers.
 Consecutive numbers, one panorama and one shared caption is how they came to
 be filed under a composite `CHS-5711/CHS-5712` id in the first place.
 
-`CHS-5712` is in Lightroom. `CHS-5711` is downloaded and is not, and it is a
-1200px JPEG rather than a 300 DPI TIF, so it wants re-sourcing before upload.
+`CHS-5712` is in Lightroom. `CHS-5711` is a 1200px JPEG rather than a 300 DPI
+TIF, so it wants re-sourcing before upload, and its `In Lightroom` tick is
+doubtful: the 701-asset compendium holds `CHS-5712.jpg` and nothing matching
+5711 at all. The tick was probably inherited from the composite row. Verify in
+Lightroom before trusting it — if it is wrong, CHS-5711 has never been
+uploaded.
+
+A second, separate problem was a duplicate: an empty record also carrying
+Image ID `CHS-5712` (Nevada Historical Society, Uncategorized, Sequence 462,
+nothing else). It came in with the 2026-09-02 CSV import and surfaced when the
+composite was renamed onto the same id. Deleted 2026-09-03 at Alexa's request;
+its contents are in `manifest/deleted_records.csv`. No duplicated Image ID
+remains in the base.
 
 ### Prose in the Keywords field
 
