@@ -150,6 +150,23 @@ Still on the doc's list and not yet sourced: `pho016226`, `pho023883`,
 Office survey plats as unchased — that is the federal paperwork Buol actually
 handled, if a document insert is wanted.
 
+### Verify presence per asset, not from a bulk crawl
+
+Alexa was right to doubt the "already in the catalog" list. The way to settle it
+is to fetch each asset by id — `GET /v2c/catalogs/<catalogId>/assets/<assetId>`
+— and check for HTTP 200 with `removed_from_catalog` false. Done for all 20 on
+2026-09-03: every one is a live asset, some imported as long ago as 2023-12-01,
+and the disk copies match the Lightroom copies pixel-dimension for
+pixel-dimension, so there was nothing to replace.
+
+Album membership is the separate question, and it moves under you: the album
+went 814 -> 836 during that same check as Alexa moved files in. Read membership
+from the album's own asset ids rather than assuming.
+
+**Two assets are near-thumbnail size and want re-sourcing**, in Lightroom and on
+disk alike: `AAB-6092` (302x400, San Francisco Public Library) and `ESM-01420`
+(450x258, Nevada Historical Society). `pho017606` at 947x1629 is marginal.
+
 ## TIFs only — and a JPEG must be traceable
 
 **Lightroom should hold 300 DPI TIFs.** Alexa's rule, 2026-09-03: "ideally we
