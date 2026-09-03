@@ -38,6 +38,12 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 ## Conventions
 
 - Always `plan` before `apply`. Never write to TIFs without previewing.
+- Re-running `lvtag apply` on a staged upload folder leaves a second
+  `*_original` beside every file, which doubles the folder and is not what
+  should be dragged into Lightroom. Clean them out, or pass `--no-backup` when
+  the files have already been verified.
+- Before staging anything for Lightroom, check `In Lightroom` **and** the
+  compendium. Re-uploading an asset Lightroom already holds duplicates it.
 - `apply` keeps `*_original` backups unless `--no-backup` is passed.
 - Filenames: `<catalog id>.tif` and nothing else — see "the one invariant"
   below. `lvlib.target_name` is the only place that decides this.
@@ -276,6 +282,13 @@ instead of reporting them as not found. It dedupes repeated keys within the
 file, omits blank cells rather than writing empties, and refuses to run at all
 without the flag — so a typo'd ID in an update file can never silently become
 a new record.
+
+**A create file's cells are defaults, not decisions**, so `--create` alone
+leaves any row that turns out to already exist untouched and says so; add
+`--upsert` to update those too. This guard exists because on 2026-09-03 a
+create file for `CHS-5711` met a record that already existed and silently
+flipped its Downloaded, In Lightroom and Metadata Attached flags. Restored
+from `manifest/push_log.csv`, which is what that log is for.
 
 Three things it will not do quietly:
 

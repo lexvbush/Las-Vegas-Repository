@@ -429,8 +429,12 @@ def main():
     p.add_argument("--allow-blank", action="store_true",
                    help="treat an empty cell as 'clear this field'")
     p.add_argument("--create", action="store_true",
-                   help="create records for keys not already in the table "
-                        "(instead of reporting them as not found)")
+                   help="create records for keys not already in the table; "
+                        "rows that DO match a record are left alone unless "
+                        "--upsert is also given")
+    p.add_argument("--upsert", action="store_true",
+                   help="with --create, also apply updates to the rows that "
+                        "already exist")
     p.add_argument("--typecast", action="store_true",
                    help="let Airtable coerce values and CREATE new select choices")
     p.add_argument("--from-json", metavar="FILE",
@@ -487,6 +491,21 @@ def main():
 
     edits, missing, blanks, newchoice, dupes, creates = plan(
         rows, key_col, mapping, records, a.allow_blank, a.create)
+    if a.create and not a.upsert and edits:
+        # A create file is written for records that do not exist yet, so its
+        # cells are defaults, not decisions. Applying them to a record that
+        # turns out to exist quietly overwrites real status flags -- which is
+        # exactly what happened to CHS-5711 on 2026-09-03. Refuse by default.
+        print(c(f"\n  {len(edits)} of these keys ALREADY EXIST and would be "
+                f"updated, not created:", "r"))
+        for e in list(edits.values())[:10]:
+            fields = ", ".join(FIELDS[f] for f in e["cells"])
+            print(c(f"    {e['key']:<28} would change {fields}", "r"))
+        if len(edits) > 10:
+            print(c(f"    ... {len(edits) - 10} more", "r"))
+        print(c("  left alone. Re-run with --upsert if changing them is "
+                "really what you want.", "r"))
+        edits = {}
     cells = sum(len(e["cells"]) for e in edits.values())
 
     print(c(f"\n  {cells} cells to change across {len(edits)} records", "b"))
