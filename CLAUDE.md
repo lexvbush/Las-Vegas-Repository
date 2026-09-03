@@ -241,6 +241,33 @@ in the manifest, the `Archive Filename` field in Airtable, and
 XMP-photoshop:TransmissionReference + IPTC:OriginalTransmissionReference in the
 file. It is also appended to the Caption as "archive file <name>".
 
+## Verify metadata by reading Lightroom back, not by re-uploading
+
+Lightroom's API returns the XMP it actually stored, so a batch can be checked
+without uploading it twice. Read one asset with
+`GET /v2c/catalogs/<catalogId>/assets/<assetId>` from inside a logged-in tab
+and look at `payload.xmp`. Asset ids come from the album scrape.
+
+**Lightroom's catalog keeps only three XMP namespaces: `dc`, `tiff` and
+`xmpRights`.** Checked on `CL-00560` 2026-09-03, its stored payload was exactly:
+
+    dc:title  dc:creator  dc:description  dc:rights  dc:subject
+    tiff:Orientation
+    xmpRights:Marked  xmpRights:UsageTerms  xmpRights:WebStatement
+
+So of the eleven fields `build_fields` writes the archive into, only
+`dc:creator`, `dc:rights` and `dc:description` reach Lightroom. The whole
+`photoshop` namespace is dropped (Credit, Source, Headline,
+TransmissionReference, DateCreated, Instructions), so are the IPTC fields and
+`EXIF:Copyright`, and so is `dc:Identifier`.
+
+This is why the fields are deliberately redundant, and it vindicates packing
+the archive into Caption/Creator/Rights rather than trusting Credit and
+IPTC:Source alone — those are invisible here. Everything dropped still lives
+**in the file**, which is the layer that matters on re-download; it is only
+Lightroom that cannot see it. It also confirms the shortened copyright works:
+`dc:rights` reads `Nevada Historical Society` and nothing more.
+
 ## Duplicates in Lightroom — 62 filenames, 66 redundant assets
 
 Measured 2026-09-03 from the fresh scrape: 792 assets for 726 distinct
@@ -249,9 +276,15 @@ asset id, its created timestamp, and which copy to keep (the newest, since
 later imports carry the fuller metadata).
 
 - **11 groups are from 2026-09-03's own imports (12 assets to delete).** The
-  September 3 folder was imported more than once — batches at 16:04, 17:20,
-  18:31 and 18:45 — so the same file landed repeatedly. Import a staging folder
-  once, and re-check before importing again.
+  September 3 folder went in at 16:04, 17:20, 18:31 and 18:45. Some of that was
+  deliberate — Alexa re-uploaded `CL-00560` to confirm the metadata had taken —
+  so do not treat these as simple mistakes. Reading the asset back (above) is
+  the cheaper way to answer that question.
+  `CL-00560`'s three copies show why the newest is the one to keep: the 17:20
+  copy has the full fields but **no keywords**, because it predates the keyword
+  pass, and its twin at the same second is **completely empty** — no title,
+  creator, rights or description at all, a failed import worth deleting on its
+  own merits. Only the 18:45 copy has all six keywords.
 - **51 groups predate that (54 assets to delete)**, mostly pairs from 2026-08-27
   to 2026-09-01, a few triples (`pho023870`, `pho013444`, `pho032884`).
 
