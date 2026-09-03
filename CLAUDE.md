@@ -50,6 +50,16 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
   the files have already been verified.
 - Before staging anything for Lightroom, check `In Lightroom` **and** the
   compendium. Re-uploading an asset Lightroom already holds duplicates it.
+- **The compendium under-reports — never treat "absent from it" as proof an
+  image is not in Lightroom.** `Lightroom Compendium - 2026-09-01.json` holds
+  701 assets, and 11 rows that Airtable marks `In Lightroom` cannot be found in
+  it under any of their ids. `CHS-5711` is the proven case: Alexa confirmed it
+  is in Lightroom and the compendium has no trace of it. So the compendium is
+  incomplete, not just stale. It is usable as a positive check (a hit means the
+  asset really is there) but a miss proves nothing. Re-scrape it — the
+  technique is in `Session Handoff - 2026-09-01.md` — before relying on it for
+  the next upload pass, and note the scrape needs a logged-in Adobe session, so
+  it wants the real browser rather than the in-app one.
 - `apply` keeps `*_original` backups unless `--no-backup` is passed.
 - Filenames: `<catalog id>.tif` and nothing else — see "the one invariant"
   below. `lvlib.target_name` is the only place that decides this.
@@ -135,12 +145,9 @@ lower left of each — so they are the photographer's own sequential numbers.
 Consecutive numbers, one panorama and one shared caption is how they came to
 be filed under a composite `CHS-5711/CHS-5712` id in the first place.
 
-`CHS-5712` is in Lightroom. `CHS-5711` is a 1200px JPEG rather than a 300 DPI
-TIF, so it wants re-sourcing before upload, and its `In Lightroom` tick is
-doubtful: the 701-asset compendium holds `CHS-5712.jpg` and nothing matching
-5711 at all. The tick was probably inherited from the composite row. Verify in
-Lightroom before trusting it — if it is wrong, CHS-5711 has never been
-uploaded.
+Both are in Lightroom — Alexa confirmed CHS-5711 on 2026-09-03, so its tick is
+correct and neither needs uploading. CHS-5711 is a 1200px JPEG rather than a
+300 DPI TIF, so it is worth re-sourcing from USC on quality grounds alone.
 
 A second, separate problem was a duplicate: an empty record also carrying
 Image ID `CHS-5712` (Nevada Historical Society, Uncategorized, Sequence 462,
