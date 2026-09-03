@@ -28,6 +28,7 @@ credits and rights clearance. It is written to nine fields plus the filename.
 manifest/master_manifest.csv   731 rows, generated from Airtable — do not edit
 vocabulary/                    controlled keywords + merge rules
 scripts/pull_manifest.py       Airtable -> the two manifest CSVs
+scripts/push_manifest.py       a reviewed CSV -> Airtable (plan, then --apply)
 scripts/lvtag.py               CLI: audit, plan, apply, verify, rename, daily
 scripts/lvlib.py               field mapping, matching, exiftool wrapper
 daily/<date>/                  staged for Lightroom upload (gitignored)
@@ -37,7 +38,8 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 
 - Always `plan` before `apply`. Never write to TIFs without previewing.
 - `apply` keeps `*_original` backups unless `--no-backup` is passed.
-- Filenames: `ARCHIVE_catalogid_short-caption.tif`.
+- Filenames: `<catalog id>.tif` and nothing else — see "the one invariant"
+  below. `lvlib.target_name` is the only place that decides this.
 - Credit line and usage terms live in `scripts/lvlib.py` — edit there, not inline.
 - Files are matched to manifest rows by catalog ID, normalized to alphanumerics.
   When a match fails it is usually because the archive's download name bears no
@@ -130,19 +132,6 @@ in the manifest, the `Archive Filename` field in Airtable, and
 XMP-photoshop:TransmissionReference + IPTC:OriginalTransmissionReference in the
 file. It is also appended to the Caption as "archive file <name>".
 
-## Airtable base (tracking)
-
-`Las Vegas Documentary — Archival Images`
-- base `appD7Xn4PafIb2a6I`, table `Images` `tbln0l7r7Vhm51jxH`
-
-Fields: Image ID (primary, = catalog ID), Sequence, Category, Script Page,
-Archive, Catalog ID, Archive Filename, Caption, Source URL, Thumbnail, Keywords, Downloaded,
-In Lightroom, Metadata Attached, Editor Notes.
-
-**Sequence is provisional** — derived from the current draft script, regenerate
-when the script locks. **Category is stable** and is what the editor groups by
-in the meantime. `manifest/editor_manifest.csv` is the git-side mirror.
-
 ## Harvesting from an archive — the recipe that works
 
 Archive sites sit behind bot protection: a plain WebFetch of a UNLV or Utah
@@ -182,10 +171,41 @@ only about half its holdings are online -- 16 of ours return zero results
 against controls that return exactly one, so those need Sarah Patton
 (Archivist, Nevada Historical Society), not a scraper.
 
-**Bulk Airtable writes are the expensive part of any session.** Each record has
-to be printed by the browser and then retyped into the update call. Build the
-push counterpart to pull_manifest.py -- a local script with AIRTABLE_TOKEN --
-before doing another large write pass.
+**Bulk Airtable writes go through scripts/push_manifest.py, not the browser.**
+Printing each record and retyping it into an update call was the expensive part
+of every session. The push script does a whole pass locally:
+
+```
+export AIRTABLE_TOKEN=pat...                              # read AND write scope
+python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv
+python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv --apply
+python3 scripts/pull_manifest.py                          # bring the CSVs back in step
+```
+
+Plan first, as everywhere else here -- it writes nothing without `--apply`, and
+the plan shows old -> new for every cell and drops the cells that already
+agree, so a 227-row proposal comes out as 756 real changes in 23 API calls.
+
+It takes any CSV keyed on `image_id` or `catalog_id` whose remaining columns
+name Airtable fields. The review files this repo already writes work unchanged:
+where a file uses `NEW_<field>` beside `current_<field>`, only the `NEW_` side
+is read and the bare context columns are ignored. A generated manifest can be
+pushed back too, which is the route for an offline bulk edit.
+
+Three things it will not do quietly:
+
+- A blank cell means "leave alone", not "clear" -- the proposal files are
+  sparse, so blanks-as-deletions would empty most of the base. `--allow-blank`
+  if clearing is actually what you want.
+- `Editor Notes` and `Thumbnail` columns are refused by name, not ignored, so a
+  proposal file carrying one cannot recreate a field that was deleted on
+  purpose.
+- A single-select value that is not already in use is flagged, because Airtable
+  rejects it without `--typecast` and *creates* the choice with it -- that is
+  how a base grows an "Uncategorised" next to its "Uncategorized".
+
+Every applied cell is appended to `manifest/push_log.csv` with its old value,
+so a bad pass can be read back and reverted.
 
 ## Division of labour — hand UI work back
 
@@ -220,10 +240,30 @@ State the exact click path, then move on to work that actually needs an agent.
   recreate them; production commentary found inside archive metadata is simply
   left out of the base (it stays in manifest/caption_proposal.csv).
 
-Reloading is far cheaper by CSV import than through the API: the API caps at
-50 records per call and each call needs a permission prompt, while Airtable's
+The 16 fields, in table order:
+
+    Image ID (primary)   Caption        Topic              Category
+    Source URL           Archive        Script Page        Sequence
+    Archive Filename     Keywords       Downloaded         In Lightroom
+    Metadata Attached    Description    Collection         Archive Subjects
+
+There is **no Catalog ID field** — Image ID *is* the catalog ID, and the
+`catalog_id` manifest column is derived from it by `pull_manifest.py` (which
+blanks it for the `NEEDS-ID-nn` stubs and strips a disambiguating `-n` tail).
+`Sequence` is provisional, derived from the current draft script — regenerate
+it when the script locks. `Category` is stable and is what the editor groups by
+in the meantime; `manifest/editor_manifest.csv` is the git-side mirror.
+
+Both scripts address fields by **field id, not name**, so renaming a field in
+the Airtable UI cannot silently break a pull or redirect a write. The ids are
+in `FIELDS` at the top of each script.
+
+Reloading is far cheaper by CSV import than through the API: writes cap at
+10 records per call (`push_manifest.py` batches to that), while Airtable's
 built-in importer takes the whole file and auto-detects single-select and
 checkbox fields correctly. Regenerate the CSV from the base itself, import
-to a new table, delete the old one, then rename and re-add the field
-descriptions and the Thumbnail / Editor Notes fields (the CSV cannot carry
-attachments or empty columns).
+to a new table, delete the old one, then rename it and re-add the field
+descriptions (the CSV cannot carry an empty column, so any field that is
+entirely blank at export time has to be recreated by hand). Both scripts'
+`FIELDS` maps hold field ids, so a reload into a new table means updating the
+ids in `pull_manifest.py` and `push_manifest.py`.

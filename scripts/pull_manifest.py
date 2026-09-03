@@ -153,7 +153,8 @@ def main():
 
     if a.from_json:
         records = json.load(open(a.from_json, encoding="utf-8"))
-        records = records.get("records", records)
+        if isinstance(records, dict):          # a raw API page, not a --save dump
+            records = records.get("records", records)
     else:
         token = os.environ.get("AIRTABLE_TOKEN")
         if not token:
