@@ -117,6 +117,21 @@ already `In Lightroom = Yes`:
 Do not treat the disk/Airtable/Lightroom disagreement on those 24 as fresh
 drift to reconcile -- it is this migration, half-finished.
 
+### CHS-5711 and CHS-5712 are two photographs, not one
+
+Confirmed visually on 2026-09-03, so do not re-merge them. They are adjacent
+frames of one C. C. Pierce panorama sweep over downtown Los Angeles, shot from
+the same vantage and panning: 5711 looks toward the LA Times clock tower, a
+gasometer frame and a "GENERAL ARTHUR" sign; 5712 toward the Merchants Trust
+Building, Hotel Seymour and a tall Norfolk pine. The negative numbers are
+etched into the plates themselves — `5711 PIERCE.` and `5712 PIERCE.` in the
+lower left of each — so they are the photographer's own sequential numbers.
+Consecutive numbers, one panorama and one shared caption is how they came to
+be filed under a composite `CHS-5711/CHS-5712` id in the first place.
+
+`CHS-5712` is in Lightroom. `CHS-5711` is downloaded and is not, and it is a
+1200px JPEG rather than a 300 DPI TIF, so it wants re-sourcing before upload.
+
 ## Caption vs Description — the per-archive rule
 
 Archives are inconsistent: titles are short, descriptions are long, and some
