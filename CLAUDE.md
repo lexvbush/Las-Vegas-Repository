@@ -50,6 +50,13 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
   the files have already been verified.
 - Before staging anything for Lightroom, check `In Lightroom` **and** the
   compendium. Re-uploading an asset Lightroom already holds duplicates it.
+- **Empty the staging folder as soon as a batch is imported.** A `Ready to
+  Upload` folder that still holds imported files is the trap that produced 11
+  duplicate groups on 2026-09-03: the folder gets dragged in again and every
+  file in it lands twice. Move imported files to `_uploaded <date>` and leave
+  only what is still outstanding. `September 3` is now laid out that way —
+  `Ready to Upload`, `_uploaded 2026-09-03`, `_already in Lightroom` (files
+  that arrived already imported and needed no work) and `_exiftool backups`.
 - **Re-scrape the compendium before trusting it.** Re-scraped 2026-09-03:
   `manifest/lightroom_compendium_2026-09-03.json`, **792 assets** across 726
   distinct filenames, with assetId and created timestamp per asset. The
