@@ -37,6 +37,12 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 
 ## Conventions
 
+- **Always add keywords — at least 5, up to 10.** Alexa's rule, 2026-09-03.
+  Draw them from `vocabulary/keywords.csv`; where a needed term is genuinely
+  missing, add it to the vocabulary rather than writing free text, and never
+  pad to reach the count with vague parent terms. `lvtag keywords` flags
+  anything off-list. Place, county and named-railway terms are the honest way
+  to reach 5 on a sparse record.
 - Always `plan` before `apply`. Never write to TIFs without previewing.
 - Re-running `lvtag apply` on a staged upload folder leaves a second
   `*_original` beside every file, which doubles the folder and is not what
@@ -131,6 +137,16 @@ be filed under a composite `CHS-5711/CHS-5712` id in the first place.
 
 `CHS-5712` is in Lightroom. `CHS-5711` is downloaded and is not, and it is a
 1200px JPEG rather than a 300 DPI TIF, so it wants re-sourcing before upload.
+
+### Prose in the Keywords field
+
+Several Utah rows carried a caption sentence in `Keywords` instead of keyword
+terms, some of it with a Shipler negative number attached. Replaced with
+controlled terms on 2026-09-03; nothing was lost, because every one of those
+sentences was already in `Description`. One was worse than redundant: `439106`
+("Pocatello, Ida., steel car shop under construction") held *another
+photograph's* caption, the dining-car text belonging to `439958`. Dropped.
+Worth re-checking the other archives' rows for the same pattern.
 
 ## Caption vs Description — the per-archive rule
 

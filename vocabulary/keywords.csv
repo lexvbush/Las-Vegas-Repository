@@ -14,6 +14,8 @@ People & Crowds,Cooks
 People & Crowds,Firemen
 People & Crowds,Posed Group Portrait
 People & Crowds,Candid / Not Posed
+People & Crowds,Solo Portrait
+People & Crowds,Railroad Officials
 Horses & Animals,Horses
 Horses & Animals,Mules
 Horses & Animals,Dogs
@@ -22,6 +24,7 @@ Horses & Animals,Horse-Drawn Wagon
 Horses & Animals,Horse Wagons (Garbage/Freight)
 Horses & Animals,Freight Hauling
 Horses & Animals,Cattle
+Horses & Animals,Livestock
 Trains & Railroads — General,Trains
 Trains & Railroads — General,Railroads
 Trains & Railroads — General,Railroad Depot
@@ -31,6 +34,7 @@ Trains & Railroads — General,Steam Locomotive
 Trains & Railroads — General,Railroad Car
 Trains & Railroads — General,Railroad Car Interior
 Trains & Railroads — General,Railroad Car Exterior
+Trains & Railroads — General,Railroad Yard
 Trains & Railroads — Stations & Travel,Ticket Office
 Trains & Railroads — Stations & Travel,Ticket Counter
 Trains & Railroads — Stations & Travel,Waiting Room
@@ -62,6 +66,7 @@ Sanitation & Utilities,Water Supply
 Sanitation & Utilities,Water Supply Diagram
 Sanitation & Utilities,Corrugated Pipe Siphon
 Sanitation & Utilities,Concrete Reservoir
+Sanitation & Utilities,Utility Poles
 Commerce & Buildings,Banks
 Commerce & Buildings,Bank Interior
 Commerce & Buildings,Grocery Store
@@ -73,6 +78,9 @@ Commerce & Buildings,Dance Hall
 Commerce & Buildings,Union League Club
 Commerce & Buildings,Saloons
 Commerce & Buildings,Hotels
+Commerce & Buildings,Houses
+Commerce & Buildings,Sheds & Outbuildings
+Commerce & Buildings,Hotel Exterior
 Government & Politics,State Capitol Building
 Government & Politics,State Senate / Legislature
 Government & Politics,Governor
@@ -80,6 +88,7 @@ Government & Politics,Suffrage / 19th Amendment Signing
 Government & Politics,Bond Financing
 Government & Politics,Courthouse
 Government & Politics,County Commissioners
+Government & Politics,Senator
 Events & Disasters,Flood
 Events & Disasters,Washout
 Events & Disasters,Fire
@@ -97,6 +106,7 @@ Mining,Mining Town
 Mining,Miners
 Mining,Mill
 Mining,Power Plant
+Mining,Copper Mining
 Ranching & Farming,Ranch
 Ranching & Farming,Farmhouse
 Ranching & Farming,Greenhouse
@@ -175,6 +185,12 @@ Nevada,"Elko, NV"
 Nevada,"Fallon, NV"
 Nevada,"Virginia City, NV"
 Nevada,"Gold Hill, NV"
+Nevada,"Nye County, NV"
+Nevada,"Esmeralda County, NV"
+Nevada,"Churchill County, NV"
+Nevada,"Storey County, NV"
+Nevada,"Elko County, NV"
+Nevada,"Washoe County, NV"
 California,"Los Angeles, CA"
 California,"Riverside, CA"
 California,"Santa Ana River, CA"
@@ -183,6 +199,7 @@ California,"Bodie, CA"
 California,"San Francisco, CA"
 California,"San Pedro, CA"
 Utah,"Salt Lake City, UT"
+Utah,"Castle Gate, UT"
 Other States,"New York City, NY"
 Other States,"Wall Street, NY"
 Other States,"Chicago, IL (LaSalle Street)"
@@ -232,6 +249,10 @@ Other States,Architectural Plans / Blueprints
 Other States,Black & White Photograph
 Other States,Postcard
 Other States,Hand-Colored / Tinted Photograph
+Other States,Bamberger Railroad
+Other States,Western Pacific Railroad
+Other States,Los Angeles Limited (train)
+Other States,"Pocatello, ID"
 Flag - do not auto-merge,unlv (folder is non-UNLV; may be misfiled)
 Flag - do not auto-merge,company (ambiguous)
 Flag - do not auto-merge,construction (ambiguous - which kind)
