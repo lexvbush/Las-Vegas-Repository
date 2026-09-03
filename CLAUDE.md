@@ -50,16 +50,18 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
   the files have already been verified.
 - Before staging anything for Lightroom, check `In Lightroom` **and** the
   compendium. Re-uploading an asset Lightroom already holds duplicates it.
-- **The compendium under-reports — never treat "absent from it" as proof an
-  image is not in Lightroom.** `Lightroom Compendium - 2026-09-01.json` holds
-  701 assets, and 11 rows that Airtable marks `In Lightroom` cannot be found in
-  it under any of their ids. `CHS-5711` is the proven case: Alexa confirmed it
-  is in Lightroom and the compendium has no trace of it. So the compendium is
-  incomplete, not just stale. It is usable as a positive check (a hit means the
-  asset really is there) but a miss proves nothing. Re-scrape it — the
-  technique is in `Session Handoff - 2026-09-01.md` — before relying on it for
-  the next upload pass, and note the scrape needs a logged-in Adobe session, so
-  it wants the real browser rather than the in-app one.
+- **Re-scrape the compendium before trusting it.** Re-scraped 2026-09-03:
+  `manifest/lightroom_compendium_2026-09-03.json`, **792 assets** across 726
+  distinct filenames, with assetId and created timestamp per asset. The
+  2026-09-01 file held 701 and was already missing `CHS-5711`, which Alexa
+  confirmed is in Lightroom — so a stale compendium under-reports and a miss in
+  it proves nothing. The scrape needs a logged-in Adobe session: the in-app
+  browser is not signed in and redirects to Adobe auth, so use the real
+  browser. Technique is in `Session Handoff - 2026-09-01.md`, with two
+  additions — capture `asset.id` so a real duplicate can be told from a grid
+  re-render, and `get_page_text` truncates around 51 KB, so dump the list twice
+  (once reversed) and merge, and glue back any line split by a title that
+  contains a newline.
 - `apply` keeps `*_original` backups unless `--no-backup` is passed.
 - Filenames: `<catalog id>.tif` and nothing else — see "the one invariant"
   below. `lvlib.target_name` is the only place that decides this.
@@ -238,6 +240,23 @@ naming convention, and the archive's own filename goes to `archive_filename`
 in the manifest, the `Archive Filename` field in Airtable, and
 XMP-photoshop:TransmissionReference + IPTC:OriginalTransmissionReference in the
 file. It is also appended to the Caption as "archive file <name>".
+
+## Duplicates in Lightroom — 62 filenames, 66 redundant assets
+
+Measured 2026-09-03 from the fresh scrape: 792 assets for 726 distinct
+filenames. `manifest/lightroom_duplicates.csv` lists every group with each
+asset id, its created timestamp, and which copy to keep (the newest, since
+later imports carry the fuller metadata).
+
+- **11 groups are from 2026-09-03's own imports (12 assets to delete).** The
+  September 3 folder was imported more than once — batches at 16:04, 17:20,
+  18:31 and 18:45 — so the same file landed repeatedly. Import a staging folder
+  once, and re-check before importing again.
+- **51 groups predate that (54 assets to delete)**, mostly pairs from 2026-08-27
+  to 2026-09-01, a few triples (`pho023870`, `pho013444`, `pho032884`).
+
+Deleting them is UI work — there is no Lightroom API here — so it goes back to
+Alexa. Sorting the album by date added groups each pair together.
 
 ## Harvesting from an archive — the recipe that works
 
