@@ -73,7 +73,24 @@ Watch out: archives publish several ID species for one image and only one of
 them is the digital object ID. Utah, for example, offers an ark, a 6-digit
 digital ID (`455340`), a 14-digit barcode (`39222001650899`), and a zero-padded
 shelf number (`00523`). The digital ID is the one on the ark page as
-`file?id=` — see manifest/uhs_id_remap.csv for the 24 still misnamed.
+`file?id=`. All 28 arks in manifest/uhs_id_remap.csv were re-verified against
+the live pages on 2026-09-03 -- every one returns exactly one `file?id=`, and
+all 24 agreed with the Source URL already in Airtable.
+
+Those 24 files were renamed on disk that day and their XMP-dc:Title,
+IPTC:ObjectName and XMP-dc:Identifier set to the digital ID, with the old name
+and old metadata kept together in the `<old name>.tif_original` backup beside
+each file. **Two thirds of that fix are still open**, because all 24 were
+already `In Lightroom = Yes`:
+
+- Airtable still holds the shelf numbers. `manifest/uhs_id_push.csv` is staged
+  for `push_manifest.py` -- 24 cells, 3 API calls.
+- Lightroom still holds the old filenames, and it never re-reads a file it has
+  already imported, so this cannot be fixed from here at all. The 24 renamed
+  TIFs have to be re-imported and the old-named assets deleted, in the UI.
+
+Do not treat the disk/Airtable/Lightroom disagreement on those 24 as fresh
+drift to reconcile -- it is this migration, half-finished.
 
 ## Caption vs Description — the per-archive rule
 
