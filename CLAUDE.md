@@ -108,6 +108,33 @@ convention. The tick records that someone tagged the file, not that it matches
 number of images were already in Lightroom before this project began, so they
 were never downloaded as part of it. Do not "reconcile" those rows.
 
+## TIFs only — and a JPEG must be traceable
+
+**Lightroom should hold 300 DPI TIFs.** Alexa's rule, 2026-09-03: "ideally we
+don't want jpegs, we want tif files only in lightroom. if we do have the jpeg
+it definitely needs a url so we can trace it back to where we can purchase the
+tif."
+
+So a JPEG is a placeholder, not a deliverable, and it is only acceptable with a
+**Source URL** — that link is how the TIF gets bought later. A JPEG with no URL
+is a dead end: nobody can find it again.
+
+Audited 2026-09-03 against the fresh scrape. Of 792 Lightroom assets, 588 are
+TIFs and 201 are not (3 are video). `manifest/jpeg_needs_url.csv` lists every
+non-TIF lacking a URL, split three ways:
+
+-   **7 photographs** — the real problem. `chs-m958`, `sanfran-sewers`,
+    `0038 0037`, `FirstMailPlane` (`1993_5P_2_002a.jpg`), and the three Reno
+    Mill / lumber files. Each needs its archive found so a URL can be recorded
+    and a TIF ordered. Six of the seven also have a **blank Archive field**,
+    which is why they were never traceable.
+-   **84 newspaper and clipping scans** — reference material, not photographs
+    to re-source. A URL would still help but no TIF is being bought.
+-   **3 duplicates** already on the deletion list.
+
+When staging a JPEG, check it carries a Source URL before it goes up. The 18
+staged on 2026-09-03 all do.
+
 ## Naming — the one invariant
 
 **filename == Image ID == whatever name Lightroom already holds.** If the image
