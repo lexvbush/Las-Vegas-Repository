@@ -17,6 +17,7 @@ People & Crowds,Candid / Not Posed
 People & Crowds,Solo Portrait
 People & Crowds,Railroad Officials
 People & Crowds,Ranchers
+People & Crowds,Newsboys
 Horses & Animals,Horses
 Horses & Animals,Mules
 Horses & Animals,Dogs
@@ -85,6 +86,7 @@ Commerce & Buildings,Sheds & Outbuildings
 Commerce & Buildings,Hotel Exterior
 Commerce & Buildings,Boarding House
 Commerce & Buildings,Porch
+Commerce & Buildings,Newspaper Headline
 Government & Politics,State Capitol Building
 Government & Politics,State Senate / Legislature
 Government & Politics,Governor
@@ -128,6 +130,10 @@ Recreation & Leisure,Camping
 Recreation & Leisure,Picnicking
 Recreation & Leisure,Footrace
 Recreation & Leisure,Christmas
+Recreation & Leisure,Boxing
+Recreation & Leisure,Prizefight
+Recreation & Leisure,Boxing Ring
+Recreation & Leisure,Training Camp
 Landscape & Terrain,Landscape
 Landscape & Terrain,Desert
 Landscape & Terrain,Mountains
@@ -167,6 +173,8 @@ Urban & Street Scenes,Della McGriff
 Urban & Street Scenes,McGriff Family
 Urban & Street Scenes,Cahlan Family
 Urban & Street Scenes,Harmon
+Urban & Street Scenes,Jack Johnson
+Urban & Street Scenes,James J. Jeffries
 Nevada,"Reno, NV"
 Nevada,"Carson City, NV"
 Nevada,"Pioche, NV"

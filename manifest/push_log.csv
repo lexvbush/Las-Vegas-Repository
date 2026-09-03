@@ -381,3 +381,57 @@ when,record_id,image_id,field,old_value,new_value,result
 2026-09-03T15:45:16,recvgv661RpSA9L9L,Pho024864-004,Keywords,Families; Beckley Family,"Beckley Family; Families; Posed Group Portrait; People; Las Vegas, NV; Clark County, NV",ok
 2026-09-03T15:45:19,rec9VRC9gV1WeQSsq,Pho016224,Image ID,Pho016224,pho016224,ok
 2026-09-03T15:45:19,recvgv661RpSA9L9L,Pho024864-004,Image ID,Pho024864-004,pho024864-004,ok
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Image ID,(new record),ds.11840,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Caption,(new record),"San Francisco Chronicle, contestants for the world's championship, July 4, 1910 - James J. Jeffries and Jack Johnson",created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Source URL,(new record),https://hdl.loc.gov/loc.pnp/ds.11840,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Keywords,(new record),Newspaper Headline; Boxing; Prizefight; Jack Johnson; James J. Jeffries; Men; Solo Portrait,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Downloaded,(new record),True,created
+2026-09-03T15:57:32,recsanuEZN29c8dfY,ds.11840,Metadata Attached,(new record),True,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Image ID,(new record),ggbain.08565,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Caption,(new record),"Boxer and announcer in the ring, Johnson-Jeffries fight, Reno, Nevada, July 4, 1910",created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Source URL,(new record),https://hdl.loc.gov/loc.pnp/ggbain.08565,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Keywords,(new record),"Boxing; Prizefight; Boxing Ring; Crowds; Men; Reno, NV; Jack Johnson; James J. Jeffries; Candid / Not Posed",created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Downloaded,(new record),True,created
+2026-09-03T15:57:32,recrHG4BN6Wk6kteH,ggbain.08565,Metadata Attached,(new record),True,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Image ID,(new record),ggbain.08566,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Caption,(new record),"Jeffries knock-out, Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910",created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Source URL,(new record),https://hdl.loc.gov/loc.pnp/ggbain.08566,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Keywords,(new record),"Boxing; Prizefight; Boxing Ring; Jack Johnson; James J. Jeffries; Crowds; Men; Reno, NV; Candid / Not Posed",created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Downloaded,(new record),True,created
+2026-09-03T15:57:32,recKsghbVBxGhTTTA,ggbain.08566,Metadata Attached,(new record),True,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Image ID,(new record),ggbain.50113,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Caption,(new record),"Reno, Nevada, where Jeffries is training for the July 4, 1910 championship fight",created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Source URL,(new record),https://hdl.loc.gov/loc.pnp/ggbain.50113,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Keywords,(new record),"Training Camp; Boxing; Prizefight; James J. Jeffries; Reno, NV; Street Scene; Crowds; Men",created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Downloaded,(new record),True,created
+2026-09-03T15:57:32,recDcBukMf9x9Oew3,ggbain.50113,Metadata Attached,(new record),True,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Image ID,(new record),nclc.03681,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Caption,(new record),"""Jeffries-Johnson Fight Extras, 7 P.M."" - newsboys selling fight extras, New York City, July 4, 1910",created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Source URL,(new record),https://hdl.loc.gov/loc.pnp/nclc.03681,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Keywords,(new record),"Newsboys; Newspaper Headline; Prizefight; Boxing; Crowds; Children; Street Scene; New York City, NY",created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Downloaded,(new record),True,created
+2026-09-03T15:57:32,recMiuIsvqyqfg5tv,nclc.03681,Metadata Attached,(new record),True,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Image ID,(new record),nclc.03682,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Archive,(new record),Library of Congress,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Caption,(new record),"Newsboys scrambling for Johnson-Jeffries fight extras, Herald Square, New York City, July 4, 1910",created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Description,(new record),"Johnson-Jeffries world heavyweight championship, Reno, Nevada, July 4, 1910. Library of Congress Prints and Photographs Division.",created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Source URL,(new record),https://hdl.loc.gov/loc.pnp/nclc.03682,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Keywords,(new record),"Newsboys; Newspaper Headline; Prizefight; Boxing; Crowds; Children; Street Scene; New York City, NY",created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Script Page,(new record),P.33,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Downloaded,(new record),True,created
+2026-09-03T15:57:32,rec5osrPOU43w5eR6,nclc.03682,Metadata Attached,(new record),True,created
