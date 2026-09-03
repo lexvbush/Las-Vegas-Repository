@@ -57,6 +57,18 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
   only what is still outstanding. `September 3` is now laid out that way —
   `Ready to Upload`, `_uploaded 2026-09-03`, `_already in Lightroom` (files
   that arrived already imported and needed no work) and `_exiftool backups`.
+- **"In Lightroom" means the Early 1900s ALBUM, not the catalog.** The catalog
+  is Alexa's whole Lightroom library — 19,000+ assets and still paginating —
+  and only the `Early 1900s` album is this project. Established 2026-09-03 the
+  hard way: 13 files staged for upload as "not in Lightroom" were already in
+  the catalog, just outside the album, and `CHS-5711` was the same story. They
+  needed **moving into the album**, not uploading. So a file can be absent from
+  the album scrape and still be in Lightroom — check the catalog before
+  concluding anything is missing, and remember the fix for one of these is a
+  move, never an import.
+  Paginating the whole catalog does not work reliably: the cursor loops, and
+  the unique count froze at 19,349 while rows kept arriving. It is usable to
+  *confirm* a file is present, not to prove one is absent.
 - **Re-scrape the compendium before trusting it.** Re-scraped 2026-09-03:
   `manifest/lightroom_compendium_2026-09-03.json`, **792 assets** across 726
   distinct filenames, with assetId and created timestamp per asset. The
