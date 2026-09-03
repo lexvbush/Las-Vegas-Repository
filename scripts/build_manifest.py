@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-"""Rebuild the manifests from the master Google Sheet export.
+"""RETIRED 2026-09-02. Use scripts/pull_manifest.py instead.
 
-    python3 scripts/build_manifest.py path/to/sheet.xlsx
+The Google Sheet this parsed is no longer the source of truth -- Airtable is.
+Running this would overwrite the manifests with stale data: the Sheet still
+carries the pre-rename Utah catalog IDs and the pre-reconcile Downloaded ticks.
 
-Always parse the .xlsx export, never Drive's text conversion -- that silently
-truncates (it reported 248 rows for a 732-row sheet).
+Kept for one reason only: categorize() below is the heuristic that produced the
+Category values now stored in Airtable. If the 294 rows still marked
+Uncategorized ever get a bulk pass, this is the logic to lift.
+
+    python3 scripts/build_manifest.py path/to/sheet.xlsx   # do not run
 """
 import collections, csv, re, sys
 from pathlib import Path

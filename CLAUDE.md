@@ -8,8 +8,9 @@ Archival images are sourced to match the documentary script, tagged with
 provenance metadata, then uploaded to Lightroom (cloud) for the team.
 
 Working folder on disk: `Vegas Downloads Full Folder` (TIFs, 300 DPI).
-Master record: `Image_Source_Reference-1911 Production` in Google Drive,
-mirrored here as `manifest/master_manifest.csv`.
+Master record: the **Airtable base** (see below). `manifest/master_manifest.csv`
+and `manifest/editor_manifest.csv` are generated projections of it — read them,
+never hand-edit them. The Google Sheet that used to hold this is retired.
 
 ## The constraint that drives everything
 
@@ -24,8 +25,9 @@ credits and rights clearance. It is written to nine fields plus the filename.
 ## Layout
 
 ```
-manifest/master_manifest.csv   248 rows, source of truth in git
+manifest/master_manifest.csv   731 rows, generated from Airtable — do not edit
 vocabulary/                    controlled keywords + merge rules
+scripts/pull_manifest.py       Airtable -> the two manifest CSVs
 scripts/lvtag.py               CLI: audit, plan, apply, verify, rename, daily
 scripts/lvlib.py               field mapping, matching, exiftool wrapper
 daily/<date>/                  staged for Lightroom upload (gitignored)
@@ -54,19 +56,60 @@ As of 2026-09-02, read from the .xlsx export (see warning below):
 number of images were already in Lightroom before this project began, so they
 were never downloaded as part of it. Do not "reconcile" those rows.
 
-## Reading the Google Sheet — important
+## Naming — the one invariant
 
-Do NOT read the master sheet through Drive's text/markdown conversion. It
-silently truncates: it reported 248 rows when the sheet actually has 732.
-Always export the real spreadsheet and parse it:
+**filename == Image ID == the best ID that archive offers.** Always. Alexa owns
+this call: the best ID is the shortest string that is still unique and specific
+at that archive, and it must stay short enough for a human to use.
+
+It is one string in three places, so a file can never drift from its record.
+When an ID changes, all three change together. `scripts/harvest_disk.py`
+reports drift; as of 2026-09-02, 235 files match exactly, 23 differ only in
+capitalisation (UNLV writes `pho...` lowercase, the sheet had `Pho...`).
+
+Watch out: archives publish several ID species for one image and only one of
+them is the digital object ID. Utah, for example, offers an ark, a 6-digit
+digital ID (`455340`), a 14-digit barcode (`39222001650899`), and a zero-padded
+shelf number (`00523`). The digital ID is the one on the ark page as
+`file?id=` — see manifest/uhs_id_remap.csv for the 24 still misnamed.
+
+## Caption vs Description — the per-archive rule
+
+Archives are inconsistent: titles are short, descriptions are long, and some
+put the whole caption in one and a bare shelf number in the other.
+
+- **Caption** = the sentence the archive uses to describe the photo.
+- **Description** = any further paragraphs.
+- **Never** put an ID in the Caption, and never leave the ID prefix on it.
+
+In practice: if the embedded/page title actually describes the photo (UNLV),
+that is the Caption. If it is a shelf label (`... P.5`, Utah) or just the
+catalog number (LOC, SFPL, NYPL), the Caption is the first descriptive
+sentence of the archive's description and the rest becomes Description.
+
+`scripts/harvest_disk.py` reads all of this back out of the downloaded TIFs --
+archives embed their catalogue record, including the permalink -- and writes
+manifest/harvest_disk.csv for review before anything is pushed.
+
+## The Google Sheet is retired — do not rebuild from it
+
+`Image_Source_Reference-1911 Production` was the source of truth until
+2026-09-02. It is now archived and **must not be used to regenerate anything**.
+
+It went stale the moment work started happening in Airtable and on disk, and a
+rebuild from it silently reverts that work — it still carries the pre-rename
+Utah IDs (523, 573) and the pre-reconcile Downloaded ticks. `build_manifest.py`
+is retired with it.
+
+To refresh the CSVs, pull from Airtable instead:
 
 ```
-download_file_content(fileId, exportMimeType=
-  "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+export AIRTABLE_TOKEN=pat...          # data.records:read on the base
+python3 scripts/pull_manifest.py      # --dry-run to preview
 ```
 
-then decode the base64 and read it with openpyxl. Row counts from any other
-path are not trustworthy.
+Keep the generated CSVs committed: they are what lets `lvtag` run with no
+network access.
 
 ## Naming — one value, four places
 
@@ -121,12 +164,22 @@ State the exact click path, then move on to work that actually needs an agent.
 `Las Vegas Documentary — Archival Images`
 - base `appntIAZCHnEatgyi`, table `Images` `tblQdrGgTOzZSPr11`
 - workspace: Las Vegas Production (lexvbush@gmail.com account)
-- 732 records, loaded 2026-09-02 by CSV import of `manifest/airtable_import.csv`
+- 731 records. **This base is the source of truth** as of 2026-09-02.
+- Loaded by CSV import of `manifest/airtable_import.csv`, which had 732 rows —
+  one (`DPW-46`, "San Francisco sewers, 1910, being built") did not survive the
+  import and has never been re-added.
+- `Topic` carries the retired Sheet's topic column (118 rows). Free text; a
+  handful of those rows hold a script page reference rather than a topic.
+- `Description`, `Collection` and `Archive Subjects` were added 2026-09-02 to
+  give each archive's own record room rather than forcing it into Caption.
+- `Editor Notes` and `Thumbnail` were deleted 2026-09-02 -- not wanted. Do not
+  recreate them; production commentary found inside archive metadata is simply
+  left out of the base (it stays in manifest/caption_proposal.csv).
 
 Reloading is far cheaper by CSV import than through the API: the API caps at
 50 records per call and each call needs a permission prompt, while Airtable's
 built-in importer takes the whole file and auto-detects single-select and
-checkbox fields correctly. Regenerate the CSV with `build_manifest.py`, import
+checkbox fields correctly. Regenerate the CSV from the base itself, import
 to a new table, delete the old one, then rename and re-add the field
 descriptions and the Thumbnail / Editor Notes fields (the CSV cannot carry
 attachments or empty columns).
