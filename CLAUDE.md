@@ -287,45 +287,46 @@ all three places (Airtable, the TIF, and the Lightroom asset). Everything droppe
 Lightroom that cannot see it. It also confirms the shortened copyright works:
 `dc:rights` reads `Nevada Historical Society` and nothing more.
 
-## Duplicates in Lightroom — two kinds, count them separately
+## Duplicates in Lightroom — 94 groups, 102 redundant assets
 
-**Same filename twice** — `manifest/lightroom_duplicates.csv`, 62 filenames,
-66 redundant assets. Found by grouping the scrape on filename.
+Measured 2026-09-03 across every archive from the fresh scrape:
+`manifest/lightroom_duplicates_all_archives.csv`, one row per asset with its
+id, timestamp, and which copy to keep. 792 assets stand for 698 images.
 
-**Same image under different filenames** — `manifest/lightroom_utah_duplicates.csv`,
-20 Utah shelf numbers, 21 redundant assets. Missed entirely by the filename
-grouping, because the copies are named differently: the archive's own download
-name (`Rio_Grande_Western_Railroad_P_29.jpg`) beside the numbered file
-(`16322.tif`), and in places a `.jpg` and a `.tif` of the same number.
-`27871` has three. The keeper is the numbered `.tif`, since that is the 300 DPI
-master and the name Airtable now matches.
+    54  UNLV Special Collections        2  San Francisco Public Library
+    21  Utah Historical Society         1  Northwest Museum (Ferris Archives)
+    14  Nevada Historical Society       1  Library of Congress
+     5  Alamy
 
-Only Utah has been checked this way. The same pattern is likely wherever an
-archive supplies a descriptive download filename, so the other archives are
-worth the same grouping.
+**Group by the image, not the filename.** A filename grouping finds only 66 of
+these. The rest are the same photograph under two names: the archive's own
+download name beside the numbered file (`Rio_Grande_Western_Railroad_P_29.jpg`
+next to `16322.tif`), a `.jpg` and a `.tif` of the same number, or a title
+carrying a zero-padded or barcode form of the id (`00523`, `39222001650915`).
+So the match runs on filename stem, then `dc:title`, then the leading token of
+the title, then the Utah caption, with leading zeros stripped throughout — and
+every asset in a duplicate group matched exactly, none by the loose prefix
+rule, so the list is safe to delete from.
 
-### The same-filename list in detail
+Keeper is the numbered `.tif`: the 300 DPI master and the name Airtable holds.
+Where several copies tie, the newest wins, because later imports carry the
+fuller metadata — proven on `CL-00560`, whose 17:20 copy has no keywords and
+whose second 17:20 copy is a **completely empty** failed import.
 
-Measured 2026-09-03 from the fresh scrape: 792 assets for 726 distinct
-filenames. `manifest/lightroom_duplicates.csv` lists every group with each
-asset id, its created timestamp, and which copy to keep (the newest, since
-later imports carry the fuller metadata).
+Deleting is UI work; the CSV is the worklist. Two related notes:
 
-- **11 groups are from 2026-09-03's own imports (12 assets to delete).** The
-  September 3 folder went in at 16:04, 17:20, 18:31 and 18:45. Some of that was
-  deliberate — Alexa re-uploaded `CL-00560` to confirm the metadata had taken —
-  so do not treat these as simple mistakes. Reading the asset back (above) is
-  the cheaper way to answer that question.
-  `CL-00560`'s three copies show why the newest is the one to keep: the 17:20
-  copy has the full fields but **no keywords**, because it predates the keyword
-  pass, and its twin at the same second is **completely empty** — no title,
-  creator, rights or description at all, a failed import worth deleting on its
-  own merits. Only the 18:45 copy has all six keywords.
-- **51 groups predate that (54 assets to delete)**, mostly pairs from 2026-08-27
-  to 2026-09-01, a few triples (`pho023870`, `pho013444`, `pho032884`).
-
-Deleting them is UI work — there is no Lightroom API here — so it goes back to
-Alexa. Sorting the album by date added groups each pair together.
+- **`2RGMMJ1` (Alamy) is the one place the naming rule does not apply.** Airtable
+  holds `2RGMMJ1`, the real Alamy id, and Lightroom holds only
+  `interior-of-dgs-store-wash-dc-ca-1910s-2RGMMJ1.jpg`. Matching Airtable to
+  Lightroom would mean a 46-character Image ID, which fails "short enough for a
+  human to use". Left as a mismatch on purpose.
+- **4 assets are in Lightroom with no Airtable row at all** —
+  `manifest/lightroom_orphans.csv`. `2017779954.tif` (imported 2021, predating
+  this project) and `GP_0045_image_primary.tif` are unidentified.
+  `Denver_Rio_Grande_Western_Railroad_P_287.jpg` and
+  `San_Pedro_Los_Angeles_Salt_Lake_RR_P_5.jpg` are Utah copies titled with the
+  14-digit barcode rather than the shelf number, so they are really duplicates
+  of `29430` and `22582`.
 
 ## Harvesting from an archive — the recipe that works
 
