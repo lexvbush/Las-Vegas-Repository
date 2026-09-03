@@ -87,6 +87,7 @@ Commerce & Buildings,Hotel Exterior
 Commerce & Buildings,Boarding House
 Commerce & Buildings,Porch
 Commerce & Buildings,Newspaper Headline
+Commerce & Buildings,Tents
 Government & Politics,State Capitol Building
 Government & Politics,State Senate / Legislature
 Government & Politics,Governor
@@ -139,6 +140,7 @@ Landscape & Terrain,Desert
 Landscape & Terrain,Mountains
 Landscape & Terrain,Trees
 Landscape & Terrain,Road
+Landscape & Terrain,Open Land
 Agriculture,Strawberry Picking
 Agriculture,Crates of Peaches
 Agriculture,Farming
@@ -208,6 +210,7 @@ Nevada,"Elko County, NV"
 Nevada,"Washoe County, NV"
 Nevada,"Duckwater, NV"
 Nevada,"Warm Springs, NV"
+Nevada,"Eldorado Canyon, NV"
 California,"Los Angeles, CA"
 California,"Riverside, CA"
 California,"Santa Ana River, CA"
@@ -285,3 +288,10 @@ Flag - do not auto-merge,water (infrastructure or natural feature?)
 Flag - do not auto-merge,"western, western railroad (regional or specific line?)"
 Flag - do not auto-merge,album (organizational label
 Flag - do not auto-merge,cities and towns (broad parent term)
+Land & Survey,Surveyors
+Land & Survey,Survey Camp
+Land & Survey,Railroad Survey
+Land & Survey,Surveying Instruments
+Land & Survey,Land Sale
+Land & Survey,Townsite
+Land & Survey,Townsite Auction

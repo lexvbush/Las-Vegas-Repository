@@ -120,6 +120,36 @@ convention. The tick records that someone tagged the file, not that it matches
 number of images were already in Lightroom before this project began, so they
 were never downloaded as part of it. Do not "reconcile" those rows.
 
+## Land & Survey — the Peter Buol / open-land beat (script P.33)
+
+Research doc: the Google Doc "Peter Buol / 'wide open land' — image options,
+c. 1902-1906" (Drive id `1isEBCPY71MpzGeqlNvtbfWJxGBbGOGhI5oZv0hEjr-w`). The
+narration is about **land as a commodity**, so the strong frames are ground with
+a transit and a stake in it, not scenery.
+
+Its find is the **Ferron and Bracken Photograph Collection** at UNLV — a run of
+railroad survey camp and transit photographs around Las Vegas. Walter Bracken
+was the railroad's land agent, Buol's opposite number, so the collection is the
+land business's own photo album. `snv001879` (transit on a hillside, valley
+behind) is the single best frame. The dated 1902/1903 items are the ones safe
+to attach to a specific year; the `snv0018xx` run is catalogued only as
+1900-1925.
+
+20 were recorded 2026-09-03 with a new **`Land & Survey`** vocabulary category:
+
+    Surveyors  Survey Camp  Railroad Survey  Surveying Instruments
+    Land Sale  Townsite  Townsite Auction
+
+plus `Open Land` (Landscape & Terrain), `Tents` (Commerce & Buildings) and
+`Eldorado Canyon, NV`. Those are the terms to reuse for this beat rather than
+inventing near-synonyms.
+
+Still on the doc's list and not yet sourced: `pho016226`, `pho023883`,
+`snv001865`, `snv001874`, `snv001873`, `snv001894`, `snv001880`, `snv001887`,
+`pho013952`, `hln000101`, `pho015065`. The doc also flags the BLM General Land
+Office survey plats as unchased — that is the federal paperwork Buol actually
+handled, if a document insert is wanted.
+
 ## TIFs only — and a JPEG must be traceable
 
 **Lightroom should hold 300 DPI TIFs.** Alexa's rule, 2026-09-03: "ideally we
