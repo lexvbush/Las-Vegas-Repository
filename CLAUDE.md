@@ -258,8 +258,11 @@ State the exact click path, then move on to work that actually needs an agent.
 - workspace: Las Vegas Production (lexvbush@gmail.com account)
 - 731 records. **This base is the source of truth** as of 2026-09-02.
 - Loaded by CSV import of `manifest/airtable_import.csv`, which had 732 rows —
-  one (`DPW-46`, "San Francisco sewers, 1910, being built") did not survive the
-  import and has never been re-added.
+  one (`DPW-46`) did not survive the import. **It is back as of 2026-09-03**:
+  one row, Image ID `DPW-46`, San Francisco Public Library, "Vicente Street
+  sewer near 30th Ave.", digitalsf.org/record/6563, all three boxes ticked. The
+  `DPW-46-2` that the manifests used to carry is gone, so this was a rename of
+  the surviving row rather than a re-add — the record count stayed at 731.
 - `Topic` carries the retired Sheet's topic column (118 rows). Free text; a
   handful of those rows hold a script page reference rather than a topic.
 - `Description`, `Collection` and `Archive Subjects` were added 2026-09-02 to
