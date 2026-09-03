@@ -103,9 +103,17 @@ were never downloaded as part of it. Do not "reconcile" those rows.
 
 ## Naming — the one invariant
 
-**filename == Image ID == the best ID that archive offers.** Always. Alexa owns
-this call: the best ID is the shortest string that is still unique and specific
-at that archive, and it must stay short enough for a human to use.
+**filename == Image ID == whatever name Lightroom already holds.** If the image
+is not yet in Lightroom, that name is the best ID the archive offers — the
+shortest string still unique and specific at that archive, short enough for a
+human to use. Alexa owns this call.
+
+**An image already in Lightroom is never renamed to suit the archive.** Airtable
+is changed to match Lightroom instead (2026-09-03: "it is a waste of time to
+rename the files in lightroom... if there is an image in lightroom already,
+update the airtable to match what the name is"). Renaming in Lightroom means a
+re-import and a deletion per file, and it buys nothing the embedded metadata
+does not already carry.
 
 It is one string in three places, so a file can never drift from its record.
 When an ID changes, all three change together. `scripts/harvest_disk.py`
@@ -120,20 +128,17 @@ shelf number (`00523`). The digital ID is the one on the ark page as
 the live pages on 2026-09-03 -- every one returns exactly one `file?id=`, and
 all 24 agreed with the Source URL already in Airtable.
 
-Those 24 files were renamed on disk that day and their XMP-dc:Title,
-IPTC:ObjectName and XMP-dc:Identifier set to the digital ID, with the old name
-and old metadata kept together in the `<old name>.tif_original` backup beside
-each file. **Two thirds of that fix are still open**, because all 24 were
-already `In Lightroom = Yes`:
+**That migration was abandoned and reverted on 2026-09-03.** The 24 were
+renamed to the digital ID on disk and in Airtable, then put back: Lightroom
+already held all 24 as `<shelf number>.tif`, and renaming there costs a
+re-import plus a deletion for each. The shelf number is adequate, so Airtable
+and the files now carry it and match Lightroom. All 24 verified: filename ==
+XMP-dc:Title == XMP-dc:Identifier == the Airtable Image ID.
 
-- Airtable still holds the shelf numbers. `manifest/uhs_id_push.csv` is staged
-  for `push_manifest.py` -- 24 cells, 3 API calls.
-- Lightroom still holds the old filenames, and it never re-reads a file it has
-  already imported, so this cannot be fixed from here at all. The 24 renamed
-  TIFs have to be re-imported and the old-named assets deleted, in the UI.
-
-Do not treat the disk/Airtable/Lightroom disagreement on those 24 as fresh
-drift to reconcile -- it is this migration, half-finished.
+The digital ids are still recorded in `manifest/uhs_id_remap.csv` alongside the
+verified arks, so nothing learned was lost -- they are simply not the naming
+convention. The keyword, copyright and credit tagging done during the migration
+was kept; only the id fields went back.
 
 ### CHS-5711 and CHS-5712 are two photographs, not one
 
@@ -275,7 +280,24 @@ all three places (Airtable, the TIF, and the Lightroom asset). Everything droppe
 Lightroom that cannot see it. It also confirms the shortened copyright works:
 `dc:rights` reads `Nevada Historical Society` and nothing more.
 
-## Duplicates in Lightroom — 62 filenames, 66 redundant assets
+## Duplicates in Lightroom — two kinds, count them separately
+
+**Same filename twice** — `manifest/lightroom_duplicates.csv`, 62 filenames,
+66 redundant assets. Found by grouping the scrape on filename.
+
+**Same image under different filenames** — `manifest/lightroom_utah_duplicates.csv`,
+20 Utah shelf numbers, 21 redundant assets. Missed entirely by the filename
+grouping, because the copies are named differently: the archive's own download
+name (`Rio_Grande_Western_Railroad_P_29.jpg`) beside the numbered file
+(`16322.tif`), and in places a `.jpg` and a `.tif` of the same number.
+`27871` has three. The keeper is the numbered `.tif`, since that is the 300 DPI
+master and the name Airtable now matches.
+
+Only Utah has been checked this way. The same pattern is likely wherever an
+archive supplies a descriptive download filename, so the other archives are
+worth the same grouping.
+
+### The same-filename list in detail
 
 Measured 2026-09-03 from the fresh scrape: 792 assets for 726 distinct
 filenames. `manifest/lightroom_duplicates.csv` lists every group with each
