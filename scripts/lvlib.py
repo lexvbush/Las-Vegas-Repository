@@ -131,6 +131,7 @@ def build_fields(row, keywords):
     description = " - ".join(bits)
 
     credit = f"Courtesy {archive}" if archive else PRODUCTION
+    rights_holder = archive or PRODUCTION
 
     f = {
         # visible in Lightroom web
@@ -141,8 +142,15 @@ def build_fields(row, keywords):
         "EXIF:ImageDescription":     description,
         "XMP-dc:Creator":            archive,
         "IPTC:By-line":              archive,
-        "XMP-dc:Rights":             f"{credit}. {USAGE_TERMS}",
-        "IPTC:CopyrightNotice":      f"{credit}. {USAGE_TERMS}",
+        # Copyright is the rights HOLDER and nothing else -- Alexa's call. It
+        # reads in Lightroom's panel and on any download, so the licence text
+        # does not belong in it; that lives in UsageTerms, and the credit line
+        # in photoshop:Credit, both still embedded below. All three copyright
+        # tags carry the same value because Lightroom's panel reads the EXIF
+        # and IPTC ones, not XMP-dc:Rights.
+        "XMP-dc:Rights":             rights_holder,
+        "IPTC:CopyrightNotice":      rights_holder,
+        "EXIF:Copyright":            rights_holder,
         # embedded for the record (not shown in LR web)
         "XMP-photoshop:Credit":      credit,
         "XMP-photoshop:Source":      archive,

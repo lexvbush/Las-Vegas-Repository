@@ -20,7 +20,8 @@ Lightroom web only displays Title, Caption, Creator, Copyright and keywords —
 so provenance is packed into those fields, not just the IPTC ones nobody sees.
 
 **The archive source is the priority field.** It is needed for documentary
-credits and rights clearance. It is written to nine fields plus the filename.
+credits and rights clearance. It is written to eleven embedded fields (run
+`build_fields` and count them if that number is ever in doubt).
 
 ## Layout
 
@@ -40,7 +41,14 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 - `apply` keeps `*_original` backups unless `--no-backup` is passed.
 - Filenames: `<catalog id>.tif` and nothing else — see "the one invariant"
   below. `lvlib.target_name` is the only place that decides this.
-- Credit line and usage terms live in `scripts/lvlib.py` — edit there, not inline.
+- Copyright, credit line and usage terms live in `scripts/lvlib.py` — edit
+  there, not inline. They are three separate fields on purpose: **Copyright is
+  the rights holder and nothing else** (just `Nevada Historical Society`, not
+  "Courtesy ..." and not the licence text) because it is what a viewer reads at
+  a glance in Lightroom. The licence text stays in `XMP-xmpRights:UsageTerms`
+  and the credit in `XMP-photoshop:Credit`, so nothing is lost. All three
+  copyright tags (`XMP-dc:Rights`, `IPTC:CopyrightNotice`, `EXIF:Copyright`)
+  get the same value — Lightroom's panel reads the EXIF and IPTC ones.
 - Files are matched to manifest rows by catalog ID, normalized to alphanumerics.
   When a match fails it is usually because the archive's download name bears no
   relation to the catalog ID; `audit` lists those as "files not in the sheet".
