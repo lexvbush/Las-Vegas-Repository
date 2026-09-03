@@ -329,6 +329,16 @@ without uploading it twice. Read one asset with
 `GET /v2c/catalogs/<catalogId>/assets/<assetId>` from inside a logged-in tab
 and look at `payload.xmp`. Asset ids come from the album scrape.
 
+**The Source URL goes in the Caption, because that is the only place it can be
+read.** Lightroom *stores* `xmpRights:WebStatement` but never *displays* it,
+and Caption is one of the five fields its UI shows. So `build_fields` ends the
+description with `Permalink: <url>` — the same habit the archives themselves
+have. Alexa's call, 2026-09-03: "the url needs to be in the caption or else i
+cannot see it in lightroom". `WebStatement` is still written as well; the
+caption is what makes it visible. This matters because a JPEG is only allowed
+in Lightroom if its URL can be followed to buy the TIF, and a URL nobody can
+see does not satisfy that.
+
 **Of everything this toolkit writes, Lightroom keeps exactly nine fields.**
 Compared across two assets on 2026-09-03 — `CL-00560` (NHS) and `pho005494`
 (UNLV) — the surviving set is identical in both:

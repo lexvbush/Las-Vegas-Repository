@@ -128,6 +128,13 @@ def build_fields(row, keywords):
         bits.append(f"archive file {arc_file}")
     if pages:
         bits.append(f"Script {pages}")
+    # The URL goes in the Caption because that is where it can actually be READ.
+    # Lightroom stores xmpRights:WebStatement but never displays it; Caption is
+    # one of the five fields its UI shows. Alexa's call, 2026-09-03: "the url
+    # needs to be in the caption or else i cannot see it in lightroom". Matches
+    # the archives' own habit of ending a description with "Permalink: ...".
+    if url:
+        bits.append(f"Permalink: {url}")
     description = " - ".join(bits)
 
     credit = f"Courtesy {archive}" if archive else PRODUCTION
