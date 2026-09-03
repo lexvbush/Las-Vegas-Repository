@@ -68,6 +68,7 @@ Sanitation & Utilities,Water Supply Diagram
 Sanitation & Utilities,Corrugated Pipe Siphon
 Sanitation & Utilities,Concrete Reservoir
 Sanitation & Utilities,Utility Poles
+Sanitation & Utilities,Telephone & Telegraph
 Commerce & Buildings,Banks
 Commerce & Buildings,Bank Interior
 Commerce & Buildings,Grocery Store
@@ -82,6 +83,8 @@ Commerce & Buildings,Hotels
 Commerce & Buildings,Houses
 Commerce & Buildings,Sheds & Outbuildings
 Commerce & Buildings,Hotel Exterior
+Commerce & Buildings,Boarding House
+Commerce & Buildings,Porch
 Government & Politics,State Capitol Building
 Government & Politics,State Senate / Legislature
 Government & Politics,Governor
@@ -108,6 +111,7 @@ Mining,Miners
 Mining,Mill
 Mining,Power Plant
 Mining,Copper Mining
+Mining,Mine Tunnel
 Ranching & Farming,Ranch
 Ranching & Farming,Farmhouse
 Ranching & Farming,Greenhouse
@@ -258,6 +262,7 @@ Other States,Bamberger Railroad
 Other States,Western Pacific Railroad
 Other States,Los Angeles Limited (train)
 Other States,"Pocatello, ID"
+Other States,Virginia & Truckee Railroad
 Flag - do not auto-merge,unlv (folder is non-UNLV; may be misfiled)
 Flag - do not auto-merge,company (ambiguous)
 Flag - do not auto-merge,construction (ambiguous - which kind)
