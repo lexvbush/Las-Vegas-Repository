@@ -21,6 +21,7 @@ Horses & Animals,Horse & Buggy
 Horses & Animals,Horse-Drawn Wagon
 Horses & Animals,Horse Wagons (Garbage/Freight)
 Horses & Animals,Freight Hauling
+Horses & Animals,Cattle
 Trains & Railroads — General,Trains
 Trains & Railroads — General,Railroads
 Trains & Railroads — General,Railroad Depot
@@ -70,6 +71,8 @@ Commerce & Buildings,Restaurant
 Commerce & Buildings,Restaurant Kitchen
 Commerce & Buildings,Dance Hall
 Commerce & Buildings,Union League Club
+Commerce & Buildings,Saloons
+Commerce & Buildings,Hotels
 Government & Politics,State Capitol Building
 Government & Politics,State Senate / Legislature
 Government & Politics,Governor
@@ -107,6 +110,7 @@ Education,Teachers
 Recreation & Leisure,Camping
 Recreation & Leisure,Picnicking
 Recreation & Leisure,Footrace
+Recreation & Leisure,Christmas
 Landscape & Terrain,Landscape
 Landscape & Terrain,Desert
 Landscape & Terrain,Mountains
@@ -167,6 +171,10 @@ Nevada,"Las Vegas Creek, NV"
 Nevada,"Meadow Valley Wash, NV"
 Nevada,"Lincoln County, NV"
 Nevada,"Clark County, NV"
+Nevada,"Elko, NV"
+Nevada,"Fallon, NV"
+Nevada,"Virginia City, NV"
+Nevada,"Gold Hill, NV"
 California,"Los Angeles, CA"
 California,"Riverside, CA"
 California,"Santa Ana River, CA"

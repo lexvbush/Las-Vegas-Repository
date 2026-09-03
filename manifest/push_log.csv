@@ -178,3 +178,56 @@ when,record_id,image_id,field,old_value,new_value,result
 2026-09-03T13:04:26,recmTgfsnQzs357lk,ST-00406,Metadata Attached,False,True,ok
 2026-09-03T13:04:26,recusyPAsaP1Z3vf0,ST-02595,Metadata Attached,False,True,ok
 2026-09-03T13:04:26,rec62NqcQj2Hwlyhp,WA-12367,Metadata Attached,False,True,ok
+2026-09-03T13:16:44,recJJSDNVD4hGvMCz,CL-00560,Keywords,,"Fire; Ruins from Fire; Building Exterior; Las Vegas, NV; Clark County, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recJJSDNVD4hGvMCz,CL-00560,Source URL,,https://nevadahistory.pastperfectonline.com/photo/BFD05492-AA45-4117-96C0-384383052041,ok
+2026-09-03T13:16:44,reccCwX1Opz7VXFLq,ED-00039,Keywords,,Fire; Building Fire; Grammar School; Nevada Historical Society,ok
+2026-09-03T13:16:44,recHOwgrZuIWMWaWV,EF-01708,Keywords,,Fire; Building Fire; Nevada Historical Society,ok
+2026-09-03T13:16:44,rec1EIXWJJOEA4r53,EF-01925,Keywords,,"Fire; Ruins from Fire; Goldfield, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recgYvOLqtot8QyGu,ELKO-00920,Keywords,,Fire; Building Fire; Grammar School; Nevada Historical Society,ok
+2026-09-03T13:16:44,rec28if2R44Dbw25C,ESM-00999,Keywords,,"Fire; Mill; Mines; Goldfield, NV; Steam / Smoke; Nevada Historical Society",ok
+2026-09-03T13:16:44,rec28if2R44Dbw25C,ESM-00999,Source URL,,https://nevadahistory.pastperfectonline.com/photo/B5502C18-9440-4D08-8828-331058393749,ok
+2026-09-03T13:16:44,recXDT0RhYRMkt68h,ESM-01119,Keywords,,"Fire; Goldfield, NV; Steam / Smoke; Nevada Historical Society",ok
+2026-09-03T13:16:44,recXDT0RhYRMkt68h,ESM-01119,Source URL,,https://nevadahistory.pastperfectonline.com/photo/DA7218F6-B342-4E5F-A87D-195767821272,ok
+2026-09-03T13:16:44,recLKQs2QI4EgiPRH,ESM-01312,Keywords,,"Fire; Mines; Mine Buildings; Goldfield, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recLKQs2QI4EgiPRH,ESM-01312,Source URL,,https://nevadahistory.pastperfectonline.com/photo/FDF02CF0-8350-47E0-B78E-193389472056,ok
+2026-09-03T13:16:44,recJ0VEIQKyWH2Nee,ESM-01565,Keywords,,"Fire Department; Fire Wagon; Banks; Horses; Goldfield, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recqhgDPoImYJIHWI,NYE-01337,Keywords,,"Fire Department; Horses; Tonopah, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recqhgDPoImYJIHWI,NYE-01337,Source URL,,https://nevadahistory.pastperfectonline.com/photo/B41DD6A6-36DB-47AF-BE08-333656808482,ok
+2026-09-03T13:16:44,receQts4br4xC0yhm,NYE-01342,Keywords,,"Firemen; Fire Department; Posed Group Portrait; Tonopah, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,receQts4br4xC0yhm,NYE-01342,Source URL,,https://nevadahistory.pastperfectonline.com/photo/98B6E1B6-2DF3-4787-A589-391779253536,ok
+2026-09-03T13:16:44,recBsyFYBPUG9Dx4E,NYE-02123,Keywords,,"Fire Department; Street Scene; Crowds; Tonopah, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recBsyFYBPUG9Dx4E,NYE-02123,Source URL,,https://nevadahistory.pastperfectonline.com/photo/51CE4494-6574-4737-AA99-810420749052,ok
+2026-09-03T13:16:44,recmTgfsnQzs357lk,ST-00406,Keywords,,Fire; Building Fire; Crowds; Postcard; Nevada Historical Society,ok
+2026-09-03T13:16:44,recmTgfsnQzs357lk,ST-00406,Source URL,,https://nevadahistory.pastperfectonline.com/photo/8C3E07F5-EDD6-405B-81D3-524034901456,ok
+2026-09-03T13:16:44,recusyPAsaP1Z3vf0,ST-02595,Keywords,,Fire; Mines; Headframes; Nevada Historical Society,ok
+2026-09-03T13:16:44,recusyPAsaP1Z3vf0,ST-02595,Source URL,,https://nevadahistory.pastperfectonline.com/photo/F7FD07BD-5CCA-47F1-B19E-153435311958,ok
+2026-09-03T13:16:44,rec62NqcQj2Hwlyhp,WA-12367,Keywords,,"Fire; Building Fire; Street Scene; Reno, NV; Postcard; Nevada Historical Society",ok
+2026-09-03T13:16:44,recW6GmLfb5kKK60e,BIO-O-00038,Keywords,,Governor; Men; Nevada Historical Society,ok
+2026-09-03T13:16:44,recTSdzRUjlYIO1XI,BIO-O-00056,Keywords,,Governor; Men; Crowds; Posed Group Portrait; Nevada Historical Society,ok
+2026-09-03T13:16:44,recEpBxKvo7BpMQDs,CA-00138,Keywords,,"Outhouses / Privies; Building Exterior; Bodie, CA; Nevada Historical Society",ok
+2026-09-03T13:16:44,rec5OxCJpHhFOcXmz,EF-01397,Keywords,,"Courthouse; Building Exterior; Pioche, NV; Lincoln County, NV; Postcard; Nevada Historical Society",ok
+2026-09-03T13:16:44,recKnNezIOOBjWtGc,LN-00156,Keywords,,"Panorama; Courthouse; Pioche, NV; Lincoln County, NV; Nevada Historical Society",ok
+2026-09-03T13:16:44,recd4aQqFxzkn9HG4,NYE-00715,Keywords,,Ranch; Farmhouse; Governor; Nevada Historical Society,ok
+2026-09-03T13:16:44,recKDJKoxmmirOOqQ,NYE-01593,Keywords,,"Men; Building Exterior; Tonopah, NV; Governor; Nevada Historical Society",ok
+2026-09-03T13:16:44,recprlGh7ueUQsRMK,NYE-01718,Keywords,,Mines; Headframes; Men; Posed Group Portrait; Governor; Nevada Historical Society,ok
+2026-09-03T13:16:44,recXK1Z4zT9JoHZkN,NYE-01746,Keywords,,Mines; Men; Women; Governor; Nevada Historical Society,ok
+2026-09-03T13:16:44,recez8Gf3jolz6LNU,smith0128,Keywords,,"Children; Building Interior; Tonopah, NV; Nevada Historical Society",ok
+2026-09-03T13:17:07,recez8Gf3jolz6LNU,smith0128,Image ID,smith0128,SMITH-0128,ok
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Image ID,(new record),pho005494,created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Archive,(new record),UNLV Special Collections,created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Caption,(new record),"Cattle belonging to the United Cattle and Packing Company, Nevada: photographic print",created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Description,(new record),"From the Nye County, Nevada Photograph Collection (PH-00221) -- Series VII. Other areas in Nye County -- Subseries VII.H. Reed Family (Kawich Mountains, Nevada). One year, the company had one herd with 4,000 head in it. Dated 1920 to 1929 by the archive.",created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Collection,(new record),"Nye County, Nevada Photograph Collection",created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Archive Subjects,(new record),Cattle,created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Source URL,(new record),https://special.library.unlv.edu/ark:/62930/d1kh0j39m,created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Keywords,(new record),Ranch; UNLV Special Collections,created
+2026-09-03T13:18:53,recpNPF2cVn1fastD,pho005494,Downloaded,(new record),True,created
+2026-09-03T13:20:10,recpNPF2cVn1fastD,pho005494,Keywords,Ranch; UNLV Special Collections,Ranch; UNLV Special Collections; Cattle,ok
+2026-09-03T13:20:10,recKDJKoxmmirOOqQ,NYE-01593,Keywords,"Men; Building Exterior; Tonopah, NV; Governor; Nevada Historical Society","Men; Building Exterior; Tonopah, NV; Governor; Nevada Historical Society; Saloons",ok
+2026-09-03T13:20:10,recmTgfsnQzs357lk,ST-00406,Keywords,Fire; Building Fire; Crowds; Postcard; Nevada Historical Society,"Fire; Building Fire; Crowds; Postcard; Nevada Historical Society; Hotels; Virginia City, NV",ok
+2026-09-03T13:20:10,reccCwX1Opz7VXFLq,ED-00039,Keywords,Fire; Building Fire; Grammar School; Nevada Historical Society,"Fire; Building Fire; Grammar School; Nevada Historical Society; Elko, NV",ok
+2026-09-03T13:20:10,recgYvOLqtot8QyGu,ELKO-00920,Keywords,Fire; Building Fire; Grammar School; Nevada Historical Society,"Fire; Building Fire; Grammar School; Nevada Historical Society; Elko, NV",ok
+2026-09-03T13:20:10,recHOwgrZuIWMWaWV,EF-01708,Keywords,Fire; Building Fire; Nevada Historical Society,"Fire; Building Fire; Nevada Historical Society; Fallon, NV",ok
+2026-09-03T13:20:10,recusyPAsaP1Z3vf0,ST-02595,Keywords,Fire; Mines; Headframes; Nevada Historical Society,"Fire; Mines; Headframes; Nevada Historical Society; Gold Hill, NV",ok
+2026-09-03T13:20:10,recez8Gf3jolz6LNU,SMITH-0128,Keywords,"Children; Building Interior; Tonopah, NV; Nevada Historical Society","Children; Building Interior; Tonopah, NV; Nevada Historical Society; Christmas",ok
+2026-09-03T13:20:12,recpNPF2cVn1fastD,pho005494,Metadata Attached,False,True,ok
