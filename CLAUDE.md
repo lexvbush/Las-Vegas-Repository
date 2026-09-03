@@ -57,8 +57,19 @@ daily/<date>/                  staged for Lightroom upload (gitignored)
 
 As of 2026-09-02, read from the .xlsx export (see warning below):
 
-- **732 image rows** in the `NEW -Image_Source_Reference` tab, 35 archives
+- **756 rows** as of 2026-09-03 (731 + the 25 Nevada Historical Society records
+  created that day), 35 archives
 - **465 still need metadata attached**
+
+**`metadata_attached = Yes` does not mean the file carries this toolkit's
+spec.** Audited on 2026-09-03: of 303 TIFs on disk, only 10 carried
+`XMP-photoshop:Credit` and `XMP-xmpRights:UsageTerms`, 34 carried
+`XMP-dc:Identifier` and 89 `IPTC:Source`. 231 carry a short copyright that is
+the *archive's own* embedded Rights, not ours, and 225 carry no copyright at
+all. `lvtag apply` has essentially never been run over this library — the rows
+ticked `Metadata Attached` were tagged by hand under the thinner 2026-09-01
+convention. The tick records that someone tagged the file, not that it matches
+`build_fields`. Re-tagging is only useful for files not yet in Lightroom.
 - 709 rows carry a catalog ID; 707 are unique; 23 rows have none and are
   stubbed `NEEDS-ID-nn` pending a real ID
 
@@ -117,6 +128,22 @@ sentence of the archive's description and the rest becomes Description.
 `scripts/harvest_disk.py` reads all of this back out of the downloaded TIFs --
 archives embed their catalogue record, including the permalink -- and writes
 manifest/harvest_disk.csv for review before anything is pushed.
+
+## manifest/caption_proposal.csv is retired — do not push it
+
+It was overtaken by a better caption pass applied directly in Airtable. Re-run
+against the live base on 2026-09-03 it came to 51 cells, and 46 of them would
+have made the base worse: 22 injected duplicate subject terms, 10 only added a
+trailing full stop, 6 replaced a good value with a worse one, 4 appended
+`Suggested script page(s): ...` into Caption (production commentary, which this
+base deliberately excludes), and 2 truncated a caption — `Wilson and Park
+families camping near Mt. Charleston (Album 4).` became `... near Mt.`, because
+whatever generated the file split sentences on `.` and broke on the
+abbreviation. `snv001117` would have lost its archive subject terms for the
+shorthand `vegas; school; kids; teachers; outside`.
+
+The 5 salvageable cells were extracted to `manifest/caption_salvage.csv` and
+applied. Treat the proposal file as history, like the Sheet below.
 
 ## The Google Sheet is retired — do not rebuild from it
 
@@ -196,6 +223,22 @@ only about half its holdings are online -- 16 of ours return zero results
 against controls that return exactly one, so those need Sarah Patton
 (Archivist, Nevada Historical Society), not a scraper.
 
+**That route has now been used and it works.** Sarah supplied scans plus three
+PastPerfect search-result PDFs and a covering note (both in the wetransfer
+folder under `Vegas Downloads Full Folder`). The PDFs are XFRX table reports:
+`pdftotext -layout` renders them cleanly, records begin `P <catalog id>` at
+column 0 with the description at the column where the header's "Description"
+starts, and continuation lines carry the object type on the left and more
+description on the right. 241 records parsed out of the three; all 15 wanted
+IDs matched. Her note also corrects a card-catalogue typo -- the Oddie photo at
+the Mizpah Saloon is `NYE-01593`, not `NYE-01592`.
+
+Her covering note lists many more Oddie images (BIO-O-*) than were scanned, and
+several leads not yet pursued: `WA-01012` (children's playground, Sparks,
+1909), `HU-00207` (children sledding, 1911-12), `LN-00524` (children boxing,
+Caliente, c1918), `MIN-00720` (trash wagon, c1890). She found nothing at all
+for cesspools, a Pioche tax office, or Charles 'Corky' Corkhill.
+
 **Bulk Airtable writes go through scripts/push_manifest.py, not the browser.**
 Printing each record and retyping it into an update call was the expensive part
 of every session. The push script does a whole pass locally:
@@ -227,6 +270,12 @@ name Airtable fields. The review files this repo already writes work unchanged:
 where a file uses `NEW_<field>` beside `current_<field>`, only the `NEW_` side
 is read and the bare context columns are ignored. A generated manifest can be
 pushed back too, which is the route for an offline bulk edit.
+
+`--create` makes rows whose key is not already in the table into new records
+instead of reporting them as not found. It dedupes repeated keys within the
+file, omits blank cells rather than writing empties, and refuses to run at all
+without the flag — so a typo'd ID in an update file can never silently become
+a new record.
 
 Three things it will not do quietly:
 

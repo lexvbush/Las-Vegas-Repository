@@ -287,7 +287,7 @@ def map_columns(headers):
 
 
 # --- Planning ----------------------------------------------------------------
-def plan(rows, key_col, mapping, records, allow_blank):
+def plan(rows, key_col, mapping, records, allow_blank, create=False):
     by_key, dupes = {}, set()
     for rec in records:
         cells = rec.get("fields") or {}
@@ -299,14 +299,32 @@ def plan(rows, key_col, mapping, records, allow_blank):
     known = {fid: {current(r.get("fields") or {}, fid)
                    for r in records} - {""} for fid in SELECTS}
 
-    edits, missing, blanks, newchoice = {}, [], 0, {}
+    edits, missing, blanks, newchoice, creates = {}, [], 0, {}, []
+    seen_new = set()
     for row in rows:
         key = norm_key(row.get(key_col))
         if not key:
             continue
         rec = by_key.get(key)
         if not rec:
-            missing.append(row.get(key_col))
+            if create and key not in seen_new:
+                # Image ID is the primary field and the key, so it is always
+                # written; a blank cell is simply left unset on a new record
+                # rather than explicitly blanked.
+                cells = {KEY_FIELD: str(row.get(key_col)).strip()}
+                for col, fid in mapping.items():
+                    if fid == KEY_FIELD:
+                        continue
+                    v = coerce(fid, row.get(col))
+                    if v is None or v == "" or v is False:
+                        continue
+                    cells[fid] = v
+                    if fid in SELECTS and v not in known[fid]:
+                        newchoice.setdefault(fid, set()).add(v)
+                creates.append({"key": row.get(key_col), "cells": cells})
+                seen_new.add(key)
+            else:
+                missing.append(row.get(key_col))
             continue
         cells = rec.get("fields") or {}
         for col, fid in mapping.items():
@@ -323,7 +341,7 @@ def plan(rows, key_col, mapping, records, allow_blank):
                 newchoice.setdefault(fid, set()).add(new)
             edits.setdefault(rec["id"], {"key": row.get(key_col), "cells": {}})
             edits[rec["id"]]["cells"][fid] = (old, new)
-    return edits, missing, blanks, newchoice, dupes
+    return edits, missing, blanks, newchoice, dupes, creates
 
 
 def log_edits(edits, applied):
@@ -364,6 +382,40 @@ def apply(edits, token, typecast):
     return results
 
 
+def create_records(creates, token, typecast):
+    """POST new records, same batch size and throttle as the update path."""
+    items = [{"fields": c["cells"]} for c in creates]
+    done, ids = 0, []
+    for i in range(0, len(items), BATCH):
+        chunk = items[i:i + BATCH]
+        body = {"records": chunk}
+        if typecast:
+            body["typecast"] = True
+        res = request("POST", f"{BASE_ID}/{TABLE_ID}", token, body)
+        ids += [r["id"] for r in res.get("records", [])]
+        done += len(chunk)
+        print(f"    {done}/{len(items)} records")
+        if i + BATCH < len(items):
+            time.sleep(RATE)
+    return ids
+
+
+def log_creates(creates, ids):
+    path = ROOT / "manifest" / "push_log.csv"
+    new = not path.exists()
+    stamp = dt.datetime.now().isoformat(timespec="seconds")
+    with open(path, "a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["when", "record_id", "image_id", "field",
+                        "old_value", "new_value", "result"])
+        for c, rid in zip(creates, ids + [""] * len(creates)):
+            for fid, v in c["cells"].items():
+                w.writerow([stamp, rid, c["key"], FIELDS[fid],
+                            "(new record)", v, "created"])
+    return path
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -376,6 +428,9 @@ def main():
                    help="rows of the plan to print (default 40)")
     p.add_argument("--allow-blank", action="store_true",
                    help="treat an empty cell as 'clear this field'")
+    p.add_argument("--create", action="store_true",
+                   help="create records for keys not already in the table "
+                        "(instead of reporting them as not found)")
     p.add_argument("--typecast", action="store_true",
                    help="let Airtable coerce values and CREATE new select choices")
     p.add_argument("--from-json", metavar="FILE",
@@ -430,11 +485,13 @@ def main():
     for col, why in notes:
         print(f"    {c(col,'d'):<24}    {why}")
 
-    edits, missing, blanks, newchoice, dupes = plan(
-        rows, key_col, mapping, records, a.allow_blank)
+    edits, missing, blanks, newchoice, dupes, creates = plan(
+        rows, key_col, mapping, records, a.allow_blank, a.create)
     cells = sum(len(e["cells"]) for e in edits.values())
 
     print(c(f"\n  {cells} cells to change across {len(edits)} records", "b"))
+    if creates:
+        print(c(f"  {len(creates)} NEW records to create", "b"))
     if blanks:
         print(f"  {c(blanks,'d')} blank cells left alone "
               f"({c('--allow-blank','d')} to clear them instead)")
@@ -451,9 +508,20 @@ def main():
         print(c(f"    Airtable will reject these without --typecast, and "
                 f"--typecast CREATES them as new choices.", "r"))
 
-    if not edits:
+    if not edits and not creates:
         print(c("\n  nothing to do\n", "g"))
         return
+
+    if creates:
+        print(c("\n  new records", "b"))
+        for cr in creates[:a.limit]:
+            print(f"  {c(cr['key'], 'b')}")
+            for fid, v in cr["cells"].items():
+                if fid == KEY_FIELD:
+                    continue
+                print(f"    {FIELDS[fid]:<18} {c(show(v), 'g')}")
+        if len(creates) > a.limit:
+            print(f"  ... {len(creates) - a.limit} more")
 
     print()
     shown = 0
@@ -469,14 +537,22 @@ def main():
         print(f"  ... {len(edits) - shown} more records")
 
     if not a.apply:
-        calls = -(-len(edits) // BATCH)
+        calls = -(-len(edits) // BATCH) + -(-len(creates) // BATCH)
         print(c(f"\n  plan only -- add --apply to write "
                 f"({calls} API call{'s' if calls != 1 else ''})\n", "y"))
         return
 
-    print(c(f"\n  writing {len(edits)} records...", "b"))
-    results = apply(edits, token, a.typecast)
-    path = log_edits(edits, results)
+    if creates:
+        print(c(f"\n  creating {len(creates)} records...", "b"))
+        ids = create_records(creates, token, a.typecast)
+        log_creates(creates, ids)
+        print(c(f"  {len(ids)} records created", "g"))
+
+    results = {}
+    if edits:
+        print(c(f"\n  writing {len(edits)} records...", "b"))
+        results = apply(edits, token, a.typecast)
+    path = log_edits(edits, results) if edits else ROOT / "manifest" / "push_log.csv"
     print(c(f"\n  {sum(1 for v in results.values() if v == 'ok')} records updated", "g"))
     print(f"  logged to {path.relative_to(ROOT)}")
     print(c("  re-run pull_manifest.py to bring the CSVs back in step\n", "y"))

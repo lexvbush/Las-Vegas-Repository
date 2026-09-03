@@ -23,3 +23,158 @@ when,record_id,image_id,field,old_value,new_value,result
 2026-09-03T12:47:18,recrYEXoRwGdQiE4T,29905,Image ID,29905,443585,ok
 2026-09-03T12:47:18,reciWITnCuc5oU4AX,511,Image ID,511,455389,ok
 2026-09-03T12:47:18,reczEWv0MsPksoi8p,750,Image ID,750,439952,ok
+2026-09-03T13:00:15,recdPkYB22HHMtqho,D99999_539,Description,"On photograph printed 'John Nulty photography', 1930-1970. Dorothy Bell Scans, UNLV Public Lands Institute, Walking Box Ranch Photograph Collection.","Nevada State Capitol building in Carson City, Nevada: photographic print. On photograph printed 'John Nulty photography', 1930-1970. Dorothy Bell Scans, UNLV Public Lands Institute, Walking Box Ranch Photograph Collection.",ok
+2026-09-03T13:00:15,rec8kNg69WIZGX63Y,D99999_590,Description,"Copyright stamp on back: 'Photo by John Nulty', 1930-1970. Dorothy Bell Scans, UNLV Public Lands Institute, Walking Box Ranch Photograph Collection.","Aerial view of the Nevada Capitol building: photographic print. Copyright stamp on back: 'Photo by John Nulty', 1930-1970. Dorothy Bell Scans, UNLV Public Lands Institute, Walking Box Ranch Photograph Collection.",ok
+2026-09-03T13:00:15,rec5KmBVWNlvPzcm6,campphotoscollection:5367,Archive Subjects,,Reno; Nevada; Street scenes,ok
+2026-09-03T13:00:15,rec5KmBVWNlvPzcm6,campphotoscollection:5367,Collection,,"University of Nevada, Reno -- Special Collections and University Archives",ok
+2026-09-03T13:00:15,rec5KmBVWNlvPzcm6,campphotoscollection:5367,Description,,"Downtown Reno, Nevada street scene. [University of Nevada, Reno -- Special Collections and University Archives, campphotoscollection] Permalink: https://unr.dgicloud.com/node/3206 (Note: full archive description page was gated behind a human-verification / bot-check step at the time of tagging; this metadata is based on the sheet-listed caption, not the archive detail page.)",ok
+2026-09-03T13:03:30,recJJSDNVD4hGvMCz,CL-00560,Image ID,(new record),CL-00560,created
+2026-09-03T13:03:30,recJJSDNVD4hGvMCz,CL-00560,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recJJSDNVD4hGvMCz,CL-00560,Caption,(new record),"Aftermath of fire; ruins of commercial buildings, Las Vegas, Clark County, Nevada, 1907.",created
+2026-09-03T13:03:30,recJJSDNVD4hGvMCz,CL-00560,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recJJSDNVD4hGvMCz,CL-00560,Downloaded,(new record),True,created
+2026-09-03T13:03:30,reccCwX1Opz7VXFLq,ED-00039,Image ID,(new record),ED-00039,created
+2026-09-03T13:03:30,reccCwX1Opz7VXFLq,ED-00039,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,reccCwX1Opz7VXFLq,ED-00039,Caption,(new record),"A major fire at the Elko Grammar School Christmas Day 1918 Elko County, Nevada.",created
+2026-09-03T13:03:30,reccCwX1Opz7VXFLq,ED-00039,Description,(new record),"Object type: Newspaper Clipping. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,reccCwX1Opz7VXFLq,ED-00039,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recHOwgrZuIWMWaWV,EF-01708,Image ID,(new record),EF-01708,created
+2026-09-03T13:03:30,recHOwgrZuIWMWaWV,EF-01708,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recHOwgrZuIWMWaWV,EF-01708,Caption,(new record),"The fire of May 14, 1910, Fallon, Churchill County, Nevada.",created
+2026-09-03T13:03:30,recHOwgrZuIWMWaWV,EF-01708,Description,(new record),"Object type: Real Photo Postcard. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recHOwgrZuIWMWaWV,EF-01708,Downloaded,(new record),True,created
+2026-09-03T13:03:30,rec1EIXWJJOEA4r53,EF-01925,Image ID,(new record),EF-01925,created
+2026-09-03T13:03:30,rec1EIXWJJOEA4r53,EF-01925,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,rec1EIXWJJOEA4r53,EF-01925,Caption,(new record),"Damage from the Goldfield Fire of 1906, Goldfield, Esmeralda County, Nevada October 10, 1906.",created
+2026-09-03T13:03:30,rec1EIXWJJOEA4r53,EF-01925,Description,(new record),"Photo has two dates on it; October 10 and October 27, 1906 (?) Object type: Real Photo Postcard. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,rec1EIXWJJOEA4r53,EF-01925,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recgYvOLqtot8QyGu,ELKO-00920,Image ID,(new record),ELKO-00920,created
+2026-09-03T13:03:30,recgYvOLqtot8QyGu,ELKO-00920,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recgYvOLqtot8QyGu,ELKO-00920,Caption,(new record),"Fire at Elko School, Elko, Elko County, Nevada Dec. 25, 1918.",created
+2026-09-03T13:03:30,recgYvOLqtot8QyGu,ELKO-00920,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recgYvOLqtot8QyGu,ELKO-00920,Downloaded,(new record),True,created
+2026-09-03T13:03:30,rec28if2R44Dbw25C,ESM-00999,Image ID,(new record),ESM-00999,created
+2026-09-03T13:03:30,rec28if2R44Dbw25C,ESM-00999,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,rec28if2R44Dbw25C,ESM-00999,Caption,(new record),"Photograph of fire, Florence-Goldfield Mill. Goldfield, Esmeralda County, Nevada. December 2, 1911.",created
+2026-09-03T13:03:30,rec28if2R44Dbw25C,ESM-00999,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,rec28if2R44Dbw25C,ESM-00999,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recXDT0RhYRMkt68h,ESM-01119,Image ID,(new record),ESM-01119,created
+2026-09-03T13:03:30,recXDT0RhYRMkt68h,ESM-01119,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recXDT0RhYRMkt68h,ESM-01119,Caption,(new record),"Photograph of a fire scene. Goldfield, Esmeralda County, Nevada. c1906.",created
+2026-09-03T13:03:30,recXDT0RhYRMkt68h,ESM-01119,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recXDT0RhYRMkt68h,ESM-01119,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recLKQs2QI4EgiPRH,ESM-01312,Image ID,(new record),ESM-01312,created
+2026-09-03T13:03:30,recLKQs2QI4EgiPRH,ESM-01312,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recLKQs2QI4EgiPRH,ESM-01312,Caption,(new record),"Photograph of fire at the Florence Mine, Goldfield, Esmeralda County, Nevada. December 2, 1911.",created
+2026-09-03T13:03:30,recLKQs2QI4EgiPRH,ESM-01312,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recLKQs2QI4EgiPRH,ESM-01312,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recJ0VEIQKyWH2Nee,ESM-01565,Image ID,(new record),ESM-01565,created
+2026-09-03T13:03:30,recJ0VEIQKyWH2Nee,ESM-01565,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recJ0VEIQKyWH2Nee,ESM-01565,Caption,(new record),"Photograph of the Fire Wagon of the Goldfield Volunteer Fire Department in front of the Goldfield Subdivision Branch of the State Bank. Goldfield, Esmeralda County, Nevada c1908.",created
+2026-09-03T13:03:30,recJ0VEIQKyWH2Nee,ESM-01565,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recJ0VEIQKyWH2Nee,ESM-01565,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recqhgDPoImYJIHWI,NYE-01337,Image ID,(new record),NYE-01337,created
+2026-09-03T13:03:30,recqhgDPoImYJIHWI,NYE-01337,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recqhgDPoImYJIHWI,NYE-01337,Caption,(new record),"Photograph of fire department horses 'Rox' and 'Don'; Tonopah, Nye County, Nevada. c1914.",created
+2026-09-03T13:03:30,recqhgDPoImYJIHWI,NYE-01337,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recqhgDPoImYJIHWI,NYE-01337,Downloaded,(new record),True,created
+2026-09-03T13:03:30,receQts4br4xC0yhm,NYE-01342,Image ID,(new record),NYE-01342,created
+2026-09-03T13:03:30,receQts4br4xC0yhm,NYE-01342,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,receQts4br4xC0yhm,NYE-01342,Caption,(new record),"Photograph of firemen; Chief Henry 'Poke' Kelly, number 3 on left; Tonopah, Nye County, Nevada. 1915.",created
+2026-09-03T13:03:30,receQts4br4xC0yhm,NYE-01342,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,receQts4br4xC0yhm,NYE-01342,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recBsyFYBPUG9Dx4E,NYE-02123,Image ID,(new record),NYE-02123,created
+2026-09-03T13:03:30,recBsyFYBPUG9Dx4E,NYE-02123,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recBsyFYBPUG9Dx4E,NYE-02123,Caption,(new record),"A fire hose demonstration on a city street; Tonopah, Nye County, Nevada. c1912.",created
+2026-09-03T13:03:30,recBsyFYBPUG9Dx4E,NYE-02123,Description,(new record),"Object type: Real Photo Postcard. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recBsyFYBPUG9Dx4E,NYE-02123,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recmTgfsnQzs357lk,ST-00406,Image ID,(new record),ST-00406,created
+2026-09-03T13:03:30,recmTgfsnQzs357lk,ST-00406,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recmTgfsnQzs357lk,ST-00406,Caption,(new record),"Photograph of fire of October 1914; International Hotel; people in photograph are Grace Bernice, left with hat; Miss Anderson, second right of Grace Bernice; next is a little boy named Bobby; Virginia City, Storey County, Nevada. 1914.",created
+2026-09-03T13:03:30,recmTgfsnQzs357lk,ST-00406,Description,(new record),"Object type: Postcard. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recmTgfsnQzs357lk,ST-00406,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recusyPAsaP1Z3vf0,ST-02595,Image ID,(new record),ST-02595,created
+2026-09-03T13:03:30,recusyPAsaP1Z3vf0,ST-02595,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recusyPAsaP1Z3vf0,ST-02595,Caption,(new record),"A shaft fire at the Belcher Mine in Gold Hill May 25, 1916 Storey County, Nevada.",created
+2026-09-03T13:03:30,recusyPAsaP1Z3vf0,ST-02595,Description,(new record),"Object type: Print, Photographic. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,recusyPAsaP1Z3vf0,ST-02595,Downloaded,(new record),True,created
+2026-09-03T13:03:30,rec62NqcQj2Hwlyhp,WA-12367,Image ID,(new record),WA-12367,created
+2026-09-03T13:03:30,rec62NqcQj2Hwlyhp,WA-12367,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,rec62NqcQj2Hwlyhp,WA-12367,Caption,(new record),"Real photo postcard of a fire on East Fourth Street in Reno, Washoe County, Nevada in June 1912. Photo by W.E. Cann.",created
+2026-09-03T13:03:30,rec62NqcQj2Hwlyhp,WA-12367,Description,(new record),"Object type: Real Photo Postcard. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02; PastPerfect not public for this item.",created
+2026-09-03T13:03:30,rec62NqcQj2Hwlyhp,WA-12367,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Image ID,(new record),BIO-O-00038,created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Caption,(new record),Portrait of Tasker L. Oddie,created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recW6GmLfb5kKK60e,BIO-O-00038,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Image ID,(new record),BIO-O-00056,created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Caption,(new record),"Group of some 45 men gathered around a table, apparently a political or international occasion, perhaps the signing of papers; Senator Tasker L. Oddie just left of the chair on the left side, cane and hat in hand",created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recTSdzRUjlYIO1XI,BIO-O-00056,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Image ID,(new record),CA-00138,created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Caption,(new record),"Bodie buildings, with outhouses and sheds in the rear of later constructed homes, Bodie, Mono County, California, probably 1900 to 1925",created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recEpBxKvo7BpMQDs,CA-00138,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Image ID,(new record),EF-01397,created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Caption,(new record),"Lincoln County Court House, Pioche, Lincoln County, Nevada, c1908",created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Downloaded,(new record),True,created
+2026-09-03T13:03:30,rec5OxCJpHhFOcXmz,EF-01397,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Image ID,(new record),LN-00156,created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Caption,(new record),"A panoramic view of Pioche with the courthouse in the distance, Lincoln County, Nevada, 1907",created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recKnNezIOOBjWtGc,LN-00156,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Image ID,(new record),NYE-00715,created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Caption,(new record),"Ranch house owned by Tasker L. Oddie, Oddie second from left, Pine Creek, Nye County, Nevada, c1908",created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recd4aQqFxzkn9HG4,NYE-00715,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Image ID,(new record),NYE-01593,created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Caption,(new record),"The just completed Mizpah Saloon, Tonopah, Nye County, Nevada, 1901; men in photograph: Wilse Brougher, Frank Humphrey, John Humphrey, Harry Stimler, John Nay, Tasker Oddie, Jack Myles, Jim Hughes, Billy Marsh, Bob Logan. See back of photograph for Lottie Stimler Nay reminiscence; also Nevada State Journal, May 14, 1950, page 8",created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recKDJKoxmmirOOqQ,NYE-01593,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Image ID,(new record),NYE-01718,created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Caption,(new record),"From left: J. H. Jenkins, Mr. and Mrs. Jim Butler, C. W. Ingalls, Fred Pheby, ___ Thompson, Clay Peters, Louis Mau, Tom Pheby, Joe Pheby and Tasker L. Oddie at the Mizpah Shaft, Nye County, Nevada, Fall 1901",created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recprlGh7ueUQsRMK,NYE-01718,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Image ID,(new record),NYE-01746,created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Caption,(new record),"From left: Tasker L. Oddie and Mr. and Mrs. Jim Butler at the Jim Butler Mine, Nye County, Nevada, 1900",created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Description,(new record),"Source: Nevada Historical Society catalogue, via Sarah Patton note. Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recXK1Z4zT9JoHZkN,NYE-01746,Metadata Attached,(new record),True,created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Image ID,(new record),smith0128,created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Archive,(new record),Nevada Historical Society,created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Caption,(new record),"Home interior decorated for Christmas, Tonopah, Nye County, Nevada, c1910. Three children with children's toys, Christmas decorations and era furnishings; toys include train, dolls, automobiles, teddy bear and other stuffed animals, tea set, baby buggy, fire engine, toy stove and rocking horse; furnishings include piano, chair and phonograph. Mount reads ""Tonopah Studio E. W. Smith Tonopah, Nev."" Photograph by Emory Willard (E. W.) Smith",created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Description,(new record),"Source: embedded metadata (E. W. Smith). Nevada Historical Society catalogue, supplied by Sarah Patton (Archivist) 2026-09-02. Not published on the society's public PastPerfect at the time of supply.",created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Downloaded,(new record),True,created
+2026-09-03T13:03:30,recez8Gf3jolz6LNU,smith0128,Metadata Attached,(new record),True,created
+2026-09-03T13:04:26,recJJSDNVD4hGvMCz,CL-00560,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,reccCwX1Opz7VXFLq,ED-00039,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recHOwgrZuIWMWaWV,EF-01708,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,rec1EIXWJJOEA4r53,EF-01925,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recgYvOLqtot8QyGu,ELKO-00920,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,rec28if2R44Dbw25C,ESM-00999,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recXDT0RhYRMkt68h,ESM-01119,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recLKQs2QI4EgiPRH,ESM-01312,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recJ0VEIQKyWH2Nee,ESM-01565,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recqhgDPoImYJIHWI,NYE-01337,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,receQts4br4xC0yhm,NYE-01342,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recBsyFYBPUG9Dx4E,NYE-02123,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recmTgfsnQzs357lk,ST-00406,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,recusyPAsaP1Z3vf0,ST-02595,Metadata Attached,False,True,ok
+2026-09-03T13:04:26,rec62NqcQj2Hwlyhp,WA-12367,Metadata Attached,False,True,ok
