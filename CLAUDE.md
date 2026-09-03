@@ -248,22 +248,29 @@ without uploading it twice. Read one asset with
 `GET /v2c/catalogs/<catalogId>/assets/<assetId>` from inside a logged-in tab
 and look at `payload.xmp`. Asset ids come from the album scrape.
 
-**Lightroom's catalog keeps only three XMP namespaces: `dc`, `tiff` and
-`xmpRights`.** Checked on `CL-00560` 2026-09-03, its stored payload was exactly:
+**Of everything this toolkit writes, Lightroom keeps exactly nine fields.**
+Compared across two assets on 2026-09-03 — `CL-00560` (NHS) and `pho005494`
+(UNLV) — the surviving set is identical in both:
 
     dc:title  dc:creator  dc:description  dc:rights  dc:subject
-    tiff:Orientation
     xmpRights:Marked  xmpRights:UsageTerms  xmpRights:WebStatement
+    tiff:Orientation
 
-So of the eleven fields `build_fields` writes the archive into, only
-`dc:creator`, `dc:rights` and `dc:description` reach Lightroom. The whole
-`photoshop` namespace is dropped (Credit, Source, Headline,
-TransmissionReference, DateCreated, Instructions), so are the IPTC fields and
-`EXIF:Copyright`, and so is `dc:Identifier`.
+Dropped in both: the `photoshop` namespace except `DateCreated` (so Credit,
+Source, Headline, TransmissionReference and Instructions all go), every IPTC
+field, `EXIF:Copyright`, and `dc:Identifier`.
+
+Do not read the namespace *count* as the rule — it varies with the original
+file, not with our tagging. `pho005494` shows seven namespaces against
+`CL-00560`'s three, but every extra one is camera or scanner metadata carried
+in by the archive's own scan (`aux:SerialNumber`, `exif:DateTimeOriginal`,
+`tiff:Make`/`Model`, `xmp:CreateDate`). None of it is ours.
 
 This is why the fields are deliberately redundant, and it vindicates packing
 the archive into Caption/Creator/Rights rather than trusting Credit and
-IPTC:Source alone — those are invisible here. Everything dropped still lives
+IPTC:Source alone — those are invisible here. `xmpRights:WebStatement` survives
+too, so a Source URL does reach Lightroom: `pho005494` carries its UNLV ark in
+all three places (Airtable, the TIF, and the Lightroom asset). Everything dropped still lives
 **in the file**, which is the layer that matters on re-download; it is only
 Lightroom that cannot see it. It also confirms the shortened copyright works:
 `dc:rights` reads `Nevada Historical Society` and nothing more.
