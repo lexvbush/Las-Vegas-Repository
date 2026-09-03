@@ -193,11 +193,22 @@ Printing each record and retyping it into an update call was the expensive part
 of every session. The push script does a whole pass locally:
 
 ```
-export AIRTABLE_TOKEN=pat...                              # read AND write scope
 python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv
 python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv --apply
 python3 scripts/pull_manifest.py                          # bring the CSVs back in step
 ```
+
+The token comes from `.env` at the repo root (gitignored) or `AIRTABLE_TOKEN`
+in the environment — `load_token()` in both scripts checks the environment
+first, then the file:
+
+```
+AIRTABLE_TOKEN=pat...
+```
+
+Make it at https://airtable.com/create/tokens with **data.records:read** and
+**data.records:write** scoped to this base. Never put it on a command line: it
+lands in shell history. Never paste it into a chat transcript.
 
 Plan first, as everywhere else here -- it writes nothing without `--apply`, and
 the plan shows old -> new for every cell and drops the cells that already

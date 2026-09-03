@@ -149,6 +149,28 @@ def request(method, path, token, body=None, tries=4):
             raise SystemExit(f"network error: {e}")
 
 
+
+def load_token():
+    """AIRTABLE_TOKEN from the environment, else from a gitignored .env.
+
+    The token is a credential: it belongs in .env at the repo root (which
+    .gitignore covers) or in the shell environment, never in a command line
+    that lands in shell history or in a chat transcript.
+    """
+    tok = os.environ.get("AIRTABLE_TOKEN")
+    if tok:
+        return tok.strip()
+    env = ROOT / ".env"
+    if env.exists():
+        for line in env.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            if k.strip() == "AIRTABLE_TOKEN":
+                return v.strip().strip("'").strip('"')
+    return None
+
 def fetch(token):
     """Every record in the table, following Airtable's pagination."""
     out, offset = [], None
@@ -386,14 +408,16 @@ def main():
         if isinstance(records, dict):          # a raw API page, not a --save dump
             records = records.get("records", records)
     else:
-        token = os.environ.get("AIRTABLE_TOKEN")
+        token = load_token()
         if not token:
             raise SystemExit(
                 "AIRTABLE_TOKEN is not set. Create a personal access token at\n"
                 "https://airtable.com/create/tokens with data.records:read AND\n"
                 "data.records:write on the 'Las Vegas Documentary -- Archival\n"
                 "Images' base, then:\n"
-                "    export AIRTABLE_TOKEN=pat...")
+                "    export AIRTABLE_TOKEN=pat...\n"
+                "or put it in .env at the repo root, which .gitignore covers:\n"
+                "    AIRTABLE_TOKEN=pat...")
         records = fetch(token)
         if a.save:
             json.dump(records, open(a.save, "w", encoding="utf-8"), indent=1)

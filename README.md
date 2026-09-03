@@ -55,8 +55,15 @@ python3 scripts/lvtag.py rename --folder "$F" --apply      # filename provenance
 
 To refresh the manifests from Airtable, or push reviewed corrections back:
 
+Put the Airtable token in `.env` at the repo root (gitignored) — make it at
+https://airtable.com/create/tokens with `data.records:read` and
+`data.records:write` on this base:
+
+```
+AIRTABLE_TOKEN=pat...
+```
+
 ```bash
-export AIRTABLE_TOKEN=pat...                     # read, plus write for the push
 python3 scripts/pull_manifest.py                 # Airtable -> the two CSVs
 python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv
 python3 scripts/push_manifest.py --csv manifest/caption_proposal.csv --apply

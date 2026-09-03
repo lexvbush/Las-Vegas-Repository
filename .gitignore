@@ -15,3 +15,6 @@ manifest/audit_report.csv
 
 # manifest/push_log.csv is NOT ignored on purpose -- it is the old-value trail
 # that makes a bad push revertible, so it belongs in git.
+
+# Airtable personal access token -- a credential, never committed
+.env
